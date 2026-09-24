@@ -1,0 +1,24 @@
+{
+  "execution": {
+    "initial_cash": 10000.0,
+    "monthly_contribution": 100.0,
+    "commission_bps": 1.0,
+    "half_spread_bps": 2.0,
+    "slippage_bps": 2.0,
+    "stop_fraction": null,
+    "take_profit_fraction": null,
+    "time_stop_bars": null,
+    "max_gap_days": 7.0
+  },
+  "policy": {
+    "model": "tipp",
+    "static_weight": 0.3,
+    "protected_fraction": 0.8,
+    "multiplier": 3.0,
+    "risky_cap": 1.0,
+    "invested_risky_share": 0.75,
+    "emergency_floor_distance": 0.02,
+    "emergency_excess": 0.05,
+    "rebalance_band": 0.01
+  }
+}

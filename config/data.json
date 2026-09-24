@@ -1,0 +1,12 @@
+{
+  "instruments": [
+    {"instrument_id":"global_equity_example","provider":"yfinance","symbol":"VWCE.DE","currency":"EUR","timezone":"Europe/Berlin","basis":"adjusted_close","unit":"EUR_per_share"},
+    {"instrument_id":"defensive_example","provider":"yfinance","symbol":"XEON.DE","currency":"EUR","timezone":"Europe/Berlin","basis":"adjusted_close","unit":"EUR_per_share"},
+    {"instrument_id":"eurusd_reference","provider":"ecb","symbol":"D.USD.EUR.SP00.A","currency":"USD","timezone":"Europe/Brussels","basis":"reference_rate","unit":"USD_per_EUR"}
+  ],
+  "max_gap_days":7,
+  "max_age_days":7,
+  "volatility_window":20,
+  "volatility_min_observations":5,
+  "periods_per_year":252
+}

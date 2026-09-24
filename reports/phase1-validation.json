@@ -1,0 +1,27 @@
+{
+  "code_hashes": {
+    "baseline": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "eppi_exponent_3": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "floor_90": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "high_cost": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "monthly_ratchet": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "multiplier_2": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "no_optional_emergency": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "volatility_target_10": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3",
+    "zero_cost": "2060253c256302aad5cf8658fb8808b1d98c1f77d4384c4ca4f8a7c0fd3bcaf3"
+  },
+  "profiles": [
+    "baseline",
+    "zero_cost",
+    "high_cost",
+    "floor_90",
+    "multiplier_2",
+    "volatility_target_10",
+    "eppi_exponent_3",
+    "monthly_ratchet",
+    "no_optional_emergency"
+  ],
+  "replayed_runs": 720,
+  "scope": "Synthetic phase-1 mechanics; no empirical investment validation",
+  "status": "PASS: all saved runs replayed"
+}

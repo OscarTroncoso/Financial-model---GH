@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+reports/runs/
+
+data/raw/
+data/clean/
+data/features/
+data/cache/
+data/catalog.duckdb*

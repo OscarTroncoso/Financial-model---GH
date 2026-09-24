@@ -1,0 +1,64 @@
+{
+  "decision_time": "2026-09-23T16:08:29.739974+00:00",
+  "dependencies": {
+    "curl_cffi": "0.16.3",
+    "duckdb": "1.5.5",
+    "tzdata": "2026.4",
+    "yfinance": "1.7.0"
+  },
+  "feature_id": "61e8d7f7e2625f73979c9b737327d05751eedec4779c56a327eeaad35e91d724",
+  "feature_rows": 174,
+  "future_filter_verified": true,
+  "known_source_quality_event": "Yahoo missing Close/Adj Close for 2026-09-22 rejected; explicit second request ends 2026-09-22 exclusive",
+  "network_sources_verified": [
+    "yfinance",
+    "ECB"
+  ],
+  "new_data_tests": 31,
+  "package_version": "0.4.0",
+  "phase": 2,
+  "phase1_regression_tests": 88,
+  "phase1_saved_replay": "PASS: original accepted EPPI experiment unchanged",
+  "pipeline_hash": "fb86c9a4f11abed96bf5e4f994261474f710e88cafacc3ffc2ae9ac381245d46",
+  "snapshot_replay": "same inputs/config/code -> identical features",
+  "snapshots": [
+    {
+      "basis": "adjusted_close",
+      "currency": "EUR",
+      "first_period_end": "2026-07-01T22:00:00+00:00",
+      "ingested_at": "2026-09-23T16:08:28.796939+00:00",
+      "instrument": "defensive_example",
+      "last_period_end": "2026-09-21T22:00:00+00:00",
+      "provider": "yfinance",
+      "rows": 59,
+      "snapshot_id": "261d9950df986724232757299caf32487e54a3cb51309d42604f33fe0008640c",
+      "symbol": "XEON.DE"
+    },
+    {
+      "basis": "reference_rate",
+      "currency": "USD",
+      "first_period_end": "2026-07-01T22:00:00+00:00",
+      "ingested_at": "2026-09-23T16:08:29.739974+00:00",
+      "instrument": "eurusd_reference",
+      "last_period_end": "2026-09-21T22:00:00+00:00",
+      "provider": "ecb",
+      "rows": 59,
+      "snapshot_id": "ebe22ccb311dcb3c4c50175ad2e960a36c1bc8f113d7490574467d5d1d8b01a9",
+      "symbol": "D.USD.EUR.SP00.A"
+    },
+    {
+      "basis": "adjusted_close",
+      "currency": "EUR",
+      "first_period_end": "2026-07-01T22:00:00+00:00",
+      "ingested_at": "2026-09-23T16:08:28.138875+00:00",
+      "instrument": "global_equity_example",
+      "last_period_end": "2026-09-21T22:00:00+00:00",
+      "provider": "yfinance",
+      "rows": 59,
+      "snapshot_id": "caf7ca11a1c987a8346fd410ba96c112ab897ee8152dbfec0a0e7055b556ece8",
+      "symbol": "VWCE.DE"
+    }
+  ],
+  "status": "PASS",
+  "unit_integration_tests_passed": 119
+}

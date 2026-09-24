@@ -1,0 +1,16 @@
+{
+  "cases": 45,
+  "evidence": "synthetic_only",
+  "replays": 45,
+  "source_hash": "a4d5af9d8983e16ddb520171c789978d9a81a9694d7a941887d03b783881716f",
+  "status": "passed",
+  "date": "2026-09-24",
+  "package_version": "0.5.0",
+  "tests_passed": 147,
+  "phase3_tests": 28,
+  "installed_sources_match": true,
+  "pip_check": "passed",
+  "phase1_saved_replay": "passed",
+  "local_bundle_directory": "reports/runs/phase3-final-20260924",
+  "remote_ci": "not_run"
+}
