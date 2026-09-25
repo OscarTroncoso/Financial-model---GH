@@ -1,0 +1,86 @@
+name: Research validation (phases 0-9)
+
+on:
+  push:
+    branches: [codex/verify-phases-0-9]
+    paths:
+      - .github/workflows/research-validation.yml
+      - scripts/validate_research.py
+  workflow_dispatch:
+    inputs:
+      live_data:
+        description: Check current Yahoo and FRED data (network failures remain visible)
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: research-validation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  research:
+    name: Validate ${{ matrix.suite }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        suite: [unit, insurance, backtest, equity, views, fx, risk, regimes, econometrics]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-data.lock
+      - name: Install pinned environment
+        run: |
+          python -m pip install -r requirements-data.lock
+          python -m pip install .
+          python -m pip check
+      - name: Run and replay research evidence
+        run: python scripts/validate_research.py --suite "${{ matrix.suite }}" --output "reports/runs/ci-${{ matrix.suite }}"
+      - name: Save reports, inputs, logs and source snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-${{ matrix.suite }}-${{ github.run_id }}
+          path: reports/runs/ci-${{ matrix.suite }}/
+          if-no-files-found: error
+          retention-days: 30
+
+  live-data:
+    name: Current Yahoo and FRED diagnostics
+    if: github.event_name == 'push' || inputs.live_data
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-data.lock
+      - name: Install pinned environment
+        run: |
+          python -m pip install -r requirements-data.lock
+          python -m pip install .
+          python -m pip check
+      - name: Capture public data and replay research proposals
+        run: python scripts/validate_research.py --suite live --output reports/runs/ci-live
+      - name: Save current snapshots and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-live-${{ github.run_id }}
+          path: reports/runs/ci-live/
+          if-no-files-found: error
+          retention-days: 30
