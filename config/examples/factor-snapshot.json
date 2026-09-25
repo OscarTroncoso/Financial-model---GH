@@ -1,0 +1,92 @@
+{
+  "universe": {
+    "asset_ids": [
+      "SYNTH_A",
+      "SYNTH_B",
+      "SYNTH_C"
+    ],
+    "currency": "EUR",
+    "benchmark_weights": [
+      0.4,
+      0.35,
+      0.25
+    ],
+    "available_at": "2026-09-24T16:00:00+00:00",
+    "source": "synthetic descriptor example"
+  },
+  "features": [
+    {
+      "asset_id": "SYNTH_A",
+      "factor_id": "momentum",
+      "value": 0.1,
+      "unit": "simple_return",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    },
+    {
+      "asset_id": "SYNTH_A",
+      "factor_id": "volatility",
+      "value": 0.18,
+      "unit": "annual_simple_return_std",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    },
+    {
+      "asset_id": "SYNTH_B",
+      "factor_id": "momentum",
+      "value": 0.04,
+      "unit": "simple_return",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    },
+    {
+      "asset_id": "SYNTH_B",
+      "factor_id": "volatility",
+      "value": 0.12,
+      "unit": "annual_simple_return_std",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    },
+    {
+      "asset_id": "SYNTH_C",
+      "factor_id": "momentum",
+      "value": -0.02,
+      "unit": "simple_return",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    },
+    {
+      "asset_id": "SYNTH_C",
+      "factor_id": "volatility",
+      "value": 0.24,
+      "unit": "annual_simple_return_std",
+      "observation_time": "2026-09-24T16:00:00+00:00",
+      "published_at": "2026-09-24T16:00:00+00:00",
+      "ingested_at": "2026-09-24T16:00:00+00:00",
+      "available_at": "2026-09-24T16:00:00+00:00",
+      "source_id": "synthetic-example",
+      "revision_id": "v1"
+    }
+  ],
+  "decision_time": "2026-09-24T16:00:00+00:00"
+}

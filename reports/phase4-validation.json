@@ -1,0 +1,43 @@
+{
+  "allocation_cases": 12,
+  "date": "2026-09-24",
+  "evidence": "synthetic_and_published_numeric_example",
+  "exact_replays": 15,
+  "installed_sources_match": true,
+  "local_bundle_directory": "reports/runs/phase4-accepted-20260924",
+  "monthly_cases": 3,
+  "new_phase4_tests": 37,
+  "package_version": "0.6.0",
+  "pip_check": "passed",
+  "prior_phase1_and_phase3_replays": "passed",
+  "published_example": {
+    "actual_mean": [
+      0.0006364856816444127,
+      0.004980710522701787,
+      0.06494620166439835,
+      0.04321055992664163,
+      0.07589057841526407,
+      0.03935487310957923,
+      0.049334775089261686,
+      0.06844058524847976
+    ],
+    "max_absolute_difference": 6.351431835558731e-05,
+    "note": "Rounded published inputs; original unconstrained weights are not production targets.",
+    "published_mean": [
+      0.0007,
+      0.005,
+      0.065,
+      0.0432,
+      0.0759,
+      0.0394,
+      0.0493,
+      0.0684
+    ],
+    "source": "https://www.cis.upenn.edu/~mkearns/finread/idzorek.pdf",
+    "tolerance": 0.0001
+  },
+  "remote_ci": "not_run",
+  "source_hash": "c39e6c0f2ba0fb1482fb4da31883bf231b38bd1b60322415740db410c18fe46f",
+  "status": "passed",
+  "tests_passed": 184
+}

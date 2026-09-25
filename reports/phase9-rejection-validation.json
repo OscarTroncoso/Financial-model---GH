@@ -1,0 +1,38 @@
+[
+  {
+    "case": "explosive-ar",
+    "reason": "unstable_autoregressive_root",
+    "replay": "verified",
+    "status": "REJECTED"
+  },
+  {
+    "case": "missing-macro",
+    "reason": "missing_policy_rate_EUR",
+    "replay": "verified",
+    "status": "UNAVAILABLE"
+  },
+  {
+    "case": "constant-macro",
+    "reason": "degenerate_training_feature",
+    "replay": "verified",
+    "status": "REJECTED"
+  },
+  {
+    "case": "nonconverged-markov",
+    "reason": "hmm_not_converged",
+    "replay": "verified",
+    "status": "REJECTED"
+  },
+  {
+    "case": "excessive-forecast",
+    "reason": "excessive_forecast",
+    "replay": "verified",
+    "status": "REJECTED"
+  },
+  {
+    "case": "vecm-disabled",
+    "reason": "cointegration_and_economic_rationale_not_established",
+    "replay": "verified",
+    "status": "DISABLED"
+  }
+]

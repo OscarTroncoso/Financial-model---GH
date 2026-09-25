@@ -1,0 +1,21 @@
+{
+  "cases": 15,
+  "chronological_folds": 3,
+  "economic_promotion": false,
+  "evidence": "synthetic_only",
+  "exact_replays": 15,
+  "risk_limits_unchanged": true,
+  "source_hash": "fdb582c22a5d82bab139a8db5023ecb472cbcad194d53e057a307f5dc346e139",
+  "status": "passed",
+  "tests_passed": 292,
+  "new_phase8_tests": 23,
+  "installed_version": "0.10.0",
+  "installed_source_files_verified": 72,
+  "dependency_check": "passed",
+  "prior_phase7_replay": "verified",
+  "installed_inference_replay": "verified",
+  "three_state_smoke": "passed",
+  "decisions_per_method_across_cases": 360,
+  "source_snapshot_sha256": "123980705a1d52ac00a4da5efc678107dcb15be4adf008784029b0ab60bd14de",
+  "installed_evaluation_replay": "verified"
+}

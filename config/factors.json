@@ -1,0 +1,20 @@
+{
+  "clip_z": 3.0,
+  "factors": [
+    {
+      "direction": 1,
+      "factor_id": "momentum",
+      "max_age_days": 7,
+      "unit": "simple_return",
+      "weight": 0.6
+    },
+    {
+      "direction": -1,
+      "factor_id": "volatility",
+      "max_age_days": 7,
+      "unit": "annual_simple_return_std",
+      "weight": 0.4
+    }
+  ],
+  "minimum_assets": 2
+}

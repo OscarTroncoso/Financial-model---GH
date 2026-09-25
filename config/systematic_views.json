@@ -1,0 +1,69 @@
+{
+  "equity": {
+    "commission_bps": 1,
+    "covariance_method": "ledoit_wolf",
+    "equity_share": 0.75,
+    "ewma_decay": 0.94,
+    "floor_policy": "tipp",
+    "half_spread_bps": 2,
+    "lookback": 252,
+    "max_age_days": 7,
+    "max_asset_weight": 0.6,
+    "max_gap_days": 7,
+    "max_view_age_days": 90,
+    "minimum_observations": 20,
+    "multiplier": 3,
+    "optimizer_iterations": 20000,
+    "optimizer_tolerance": 1e-10,
+    "periods_per_year": 252,
+    "protected_fraction": 0.8,
+    "rebalance_band": 0.01,
+    "risk_aversion": 2.5,
+    "risky_cap": 1,
+    "slippage_bps": 2,
+    "tau": 0.05
+  },
+  "learning": {
+    "annual_mean_se_floor": 0.001,
+    "embargo_days": 1,
+    "horizon_sessions": 21,
+    "long_asset": "SYNTH_A",
+    "max_abs_annual_view": 0.2,
+    "max_confidence": 0.75,
+    "max_gap_days": 7,
+    "maximum_recent_label_age_days": 90,
+    "maximum_training": 120,
+    "maximum_training_age_days": 3650,
+    "minimum_training": 20,
+    "periods_per_year": 252,
+    "short_asset": "SYNTH_B"
+  },
+  "normalization": {
+    "clip_z": 3.0,
+    "factors": [
+      {
+        "direction": 1,
+        "factor_id": "momentum",
+        "max_age_days": 7,
+        "unit": "simple_return",
+        "weight": 0.6
+      },
+      {
+        "direction": -1,
+        "factor_id": "volatility",
+        "max_age_days": 7,
+        "unit": "annual_simple_return_std",
+        "weight": 0.4
+      }
+    ],
+    "minimum_assets": 2
+  },
+  "price_factors": {
+    "max_age_days": 7,
+    "max_gap_days": 7,
+    "momentum_lookback": 252,
+    "momentum_skip": 21,
+    "periods_per_year": 252,
+    "volatility_window": 63
+  }
+}

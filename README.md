@@ -1,5 +1,8 @@
 # Quant Portfolio System â€” Codex Context Pack
 
+Latest local checkpoint: **phases 0–9 complete for activated models, package 0.11.0**. See
+[execution status](docs/STATUS.md) and [session handoff](docs/SESSION_HANDOFF.md).
+
 This repository is intended to become an adaptive portfolio-management and EUR/USD swing-trading system.
 
 Read in this order:
@@ -148,4 +151,124 @@ Settings: [config/backtest.json](config/backtest.json).
 [synthetic comparison](reports/phase3-comparison.md).
 This is a single-risky-instrument, long-only daily engine, not yet a multi-asset
 or live trading system. Today's downloaded market histories are not backdated
-to pass historical availability checks. Phase 4 has not been started.
+to pass historical availability checks. The newer phase-4 checkpoint follows below.
+
+
+## Phase 4 Black-Litterman equity baseline (0.6.0)
+
+Locally accepted: 184 tests, published numeric example, 12 covariance/view
+comparisons plus 3 monthly rebalance cases, with 15 exact replays. Includes
+point-in-time universe/return/view contracts, sample/EWMA/Ledoit-Wolf covariance,
+prior/posterior, long-only constrained weights, contribution-aware bands and
+post-cost CPPI/TIPP budget enforcement. No new dependencies or subscriptions.
+
+```powershell
+.\.venv\Scripts\python.exe -m portfolio_equity.cli --suite reports/runs/my-phase4-suite
+.\.venv\Scripts\python.exe -m portfolio_equity.cli --input config/examples/equity-synthetic-request.json --output reports/my-equity-allocation.json
+.\.venv\Scripts\python.exe -m portfolio_equity.cli --replay reports/my-equity-allocation.json
+```
+
+[Configuration](config/equity.json), [model and integration contract](docs/BLACK_LITTERMAN.md),
+[acceptance](docs/PHASE4_ACCEPTANCE.md), [comparison](reports/phase4-comparison.md).
+The included universe/opinions are synthetic fixtures; numerical correctness is
+not evidence of historical profitability. Systematic view generation remains
+phase 5. Phase-1/phase-3 financial engines are unchanged.
+
+
+## Phase 5: systematic equity views (0.7.0)
+
+Price factors -> normalized scores -> chronological fitted relative view ->
+uncertainty -> constrained Black-Litterman allocation. Every result retains
+its raw inputs, timestamps, settings and model identity. Insufficient model
+information produces NO_VIEW. This is a synthetic-tested research baseline.
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe -m portfolio_factors.systematic_cli --suite reports/runs/my-phase5-suite
+.\.venv\Scripts\python.exe -m portfolio_factors.systematic_cli --replay reports/runs/my-phase5-suite/fold-150.json
+```
+
+Use a new output directory for each suite. Configuration:
+[systematic_views.json](config/systematic_views.json). Contract and commands:
+[SYSTEMATIC_VIEWS.md](docs/SYSTEMATIC_VIEWS.md). Equations and sources:
+[MODELS.md](docs/MODELS.md). Acceptance: [PHASE5_ACCEPTANCE.md](docs/PHASE5_ACCEPTANCE.md).
+Next-session context: [SESSION_HANDOFF.md](docs/SESSION_HANDOFF.md).
+
+
+## Phase 6: EUR/USD research baseline (0.8.0)
+
+Free 30m OHLC capture, closed 1H/4H/D alignment, trend, mean-reversion,
+policy-rate differential and NO_TRADE. Signals retain inputs and timestamps;
+research backtests include signed exposure, delayed fills, costs, carry and
+safe income. Initial plans are non-executable pending phase-7 risk sizing.
+
+```powershell
+.\.venv\Scripts\python.exe -m portfolio_fx.cli --suite reports/runs/my-fx-suite
+.\.venv\Scripts\python.exe -m portfolio_fx.cli --replay reports/runs/my-fx-suite/fold-1--trend--base.json
+.\.venv\Scripts\python.exe -m portfolio_fx.cli --capture data/raw/my-fx-capture --days 30
+```
+
+Settings: [fx.json](config/fx.json). [Contract, assumptions and commands](docs/FX_BASELINE.md).
+[Acceptance and live-source limitations](docs/PHASE6_ACCEPTANCE.md).
+Yahoo and FRED acquisition were verified after the 0.8.1 transport correction.
+Missing data still disables the relevant proposal. Performance evidence remains synthetic.
+
+
+## Phase 7: FX volatility and risk (0.9.0)
+
+Historical/EWMA/GARCH variance, volatility-based stops, cost/carry-aware quantity,
+independent capacity limits, take-profit and time exits. 269 tests pass; 22
+chronological/stress cases replay exactly. The gap stress retains a budget breach,
+so a stop is not represented as a guaranteed maximum loss. Plans remain research-only.
+
+```powershell
+.\.venv\Scripts\python.exe -m portfolio_fx_risk.cli --suite reports/runs/my-risk-suite
+.\.venv\Scripts\python.exe -m portfolio_fx_risk.cli --replay reports/runs/my-risk-suite/fold-1--trend--garch--base.json
+```
+
+[Risk contract and equations](docs/FX_RISK.md), [configuration](config/fx_risk.json),
+[acceptance evidence](docs/PHASE7_ACCEPTANCE.md), [session handoff](docs/SESSION_HANDOFF.md).
+
+
+## Phase 8 — FX regimes (0.10.0)
+
+Transparent trend/volatility rules and a Gaussian HMM challenger now annotate
+FX decisions using only information available at each timestamp. Saved records
+include probabilities, training inputs and exact replay. Regime attribution
+measures the existing risk engine after costs and carry; risk limits stay intact.
+
+See [contract and commands](docs/FX_REGIMES.md),
+[acceptance](docs/PHASE8_ACCEPTANCE.md) and [comparison](reports/phase8-comparison.md).
+292 tests pass; 15 cases across three chronological synthetic holdouts replay
+exactly. This validates engineering, not market profitability.
+
+```powershell
+.\.venv\Scripts\python.exe config/examples/fx_regime_request.py
+.\.venv\Scripts\portfolio-regimes.exe --input reports/runs/regime-request.json --output reports/runs/my-regimes.json
+.\.venv\Scripts\portfolio-regimes.exe --replay reports/runs/my-regimes.json
+```
+
+Output files are create-only; choose a new name on subsequent runs.
+Phase 9 has not started.
+
+
+## Phase 9 — econometric models (0.11.0)
+
+AR(1), lagged-exogenous ARIMAX(1,0,0), VAR(1), time-varying Kalman coefficients
+and Gaussian Markov-switching means share one rolling chronological interface,
+with no-change/momentum controls and independent phase-7 risk constraints.
+Unstable fits abstain automatically. VECM remains disabled pending economic and
+cointegration evidence. All models remain research challengers.
+
+[Contract and commands](docs/ECONOMETRICS.md),
+[acceptance](docs/PHASE9_ACCEPTANCE.md), [comparison](reports/phase9-comparison.md).
+318 tests; 24 chronological cases and six rejection/disabled cases reproduce
+exactly. Evidence is synthetic, not proof of profitable market forecasts.
+
+```powershell
+.\.venv\Scripts\python.exe config/examples/econometric_request.py
+.\.venv\Scripts\portfolio-econometrics.exe --input reports/runs/econometric-request.json --kind forecast --output reports/runs/my-econometric-forecast.json
+.\.venv\Scripts\portfolio-econometrics.exe --replay reports/runs/my-econometric-forecast.json
+```
+
+Outputs are create-only. Phase 10 has not started.

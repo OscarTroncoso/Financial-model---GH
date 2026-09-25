@@ -1,0 +1,28 @@
+{
+  "model": {
+    "fast_window": 6,
+    "slow_window": 24,
+    "mean_window": 20,
+    "trend_threshold": 0.0005,
+    "reversion_z": 1.5,
+    "rate_threshold": 0.0025,
+    "max_rate_age_days": 10,
+    "max_30m_age_minutes": 60,
+    "max_1h_age_minutes": 120,
+    "max_4h_age_minutes": 300,
+    "max_daily_age_minutes": 5760,
+    "max_history_gap_hours": 76
+  },
+  "execution": {
+    "initial_usd": 10000,
+    "exposure_fraction": 0.1,
+    "commission_bps": 0.5,
+    "half_spread_bps": 0.5,
+    "slippage_bps": 0.5,
+    "safe_annual_rate": 0.02,
+    "long_carry_annual_rate": -0.025,
+    "short_carry_annual_rate": 0.005,
+    "max_execution_delay_hours": 2,
+    "max_data_gap_hours": 76
+  }
+}

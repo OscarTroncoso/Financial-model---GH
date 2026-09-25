@@ -1,0 +1,27 @@
+{
+  "chronological_folds": 3,
+  "economic_promotion": false,
+  "evidence": "synthetic_only",
+  "exact_replays": 15,
+  "models": [
+    "no_trade",
+    "trend",
+    "mean_reversion",
+    "rate_differential"
+  ],
+  "saved_cases": 15,
+  "source_hash": "6f099c3521bf8a2df3057f614ad69c3371365caca5a86030696e33b726c783bc",
+  "status": "passed",
+  "package_version": "0.8.1",
+  "tests_passed": 244,
+  "fred_series": {
+    "DFEDTARU": 44,
+    "ECBDFR": 44
+  },
+  "source_errors": {},
+  "yahoo_candles": 1044,
+  "fred_normalization_replay": "verified",
+  "macro_proposal_replay": "verified",
+  "capture": "data/raw/fx-fred-verified-20260924/normalized.json",
+  "artifacts": "reports/runs/phase6-fred-verified-20260924"
+}

@@ -1,0 +1,68 @@
+{
+  "risk": {
+    "risk_per_trade": 0.01,
+    "maximum_risk_per_trade": 0.02,
+    "maximum_portfolio_risk": 0.02,
+    "maximum_portfolio_notional": 0.1,
+    "maximum_fx_leverage": 1.0,
+    "maximum_notional_usd": 100000.0,
+    "minimum_units": 100.0,
+    "maximum_units": 100000.0,
+    "unit_step": 100.0,
+    "stop_multiplier": 2.0,
+    "stop_horizon_bars": 1,
+    "minimum_stop_pips": 5.0,
+    "maximum_stop_fraction": 0.1,
+    "reward_multiple": 2.0,
+    "maximum_holding_hours": 48.0,
+    "maximum_entry_drift_fraction": 0.005,
+    "maximum_positions": 1,
+    "kill_switch": false
+  },
+  "volatility": {
+    "model": "realized",
+    "window": 60,
+    "seed_window": 12,
+    "ewma_decay": 0.94,
+    "garch_alpha_grid": [
+      0.02,
+      0.05,
+      0.1,
+      0.15
+    ],
+    "garch_beta_grid": [
+      0.7,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "minimum_variance": 1e-12
+  },
+  "features": {
+    "fast_window": 6,
+    "slow_window": 24,
+    "mean_window": 20,
+    "trend_threshold": 0.0005,
+    "reversion_z": 1.5,
+    "rate_threshold": 0.0025,
+    "max_rate_age_days": 10,
+    "max_30m_age_minutes": 60,
+    "max_1h_age_minutes": 120,
+    "max_4h_age_minutes": 300,
+    "max_daily_age_minutes": 5760,
+    "max_history_gap_hours": 76
+  },
+  "execution": {
+    "initial_usd": 10000,
+    "exposure_fraction": 0.1,
+    "commission_bps": 0.5,
+    "half_spread_bps": 0.5,
+    "slippage_bps": 0.5,
+    "safe_annual_rate": 0.02,
+    "long_carry_annual_rate": -0.025,
+    "short_carry_annual_rate": 0.005,
+    "max_execution_delay_hours": 2,
+    "max_data_gap_hours": 76
+  },
+  "research_fx_capital_fraction": 0.1
+}

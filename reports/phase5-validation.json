@@ -1,0 +1,25 @@
+{
+  "economic_promotion": false,
+  "evidence": "synthetic_only",
+  "exact_replays": 6,
+  "generated_views": 6,
+  "metrics": {
+    "historical_mean_period_mse": 2.393467962464865e-05,
+    "ols_period_mse": 2.1751711661236627e-05,
+    "zero_period_mse": 2.282533785596717e-05
+  },
+  "source_hash": "ea2731076003cd5bc4a5946260adc6e5745cc301f53f350505523e5fa88a76da",
+  "status": "passed",
+  "walk_forward_folds": 6,
+  "date": "2026-09-24",
+  "package_version": "0.7.0",
+  "tests_passed": 211,
+  "new_phase5_tests": 27,
+  "installed_source_files_verified": 43,
+  "dependency_check": "passed",
+  "descriptor_cli_replay": "verified",
+  "phase3_saved_replay": "verified",
+  "phase4_saved_replay": "verified",
+  "remote_ci": "not_run",
+  "artifacts": "reports/runs/phase5-accepted-20260924"
+}

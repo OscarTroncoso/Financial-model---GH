@@ -173,3 +173,161 @@
   url = {https://www.investor.gov/introduction-investing/investing-basics/glossary/stop-order},
   note = {Accessed 2026-09-24}
 }
+
+@misc{idzorek_2004,
+  author = {Idzorek, Thomas M.},
+  title = {A Step-by-Step Guide to the Black-Litterman Model: Incorporating User-Specified Confidence Levels},
+  year = {2004},
+  url = {https://www.cis.upenn.edu/~mkearns/finread/idzorek.pdf},
+  note = {Accessed 2026-09-24; verification scope in references.json}
+}
+
+@misc{ledoit_wolf_well_conditioned_2004,
+  author = {Ledoit, Olivier and Wolf, Michael},
+  title = {A well-conditioned estimator for large-dimensional covariance matrices},
+  year = {2004},
+  url = {https://www.sciencedirect.com/science/article/pii/S0047259X03000964},
+  note = {Accessed 2026-09-24; verification scope in references.json}
+}
+
+@misc{sklearn_ledoit_wolf,
+  author = {scikit-learn developers},
+  title = {LedoitWolf API and original shrinkage implementation},
+  year = {2026},
+  url = {https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html},
+  note = {Accessed 2026-09-24; verification scope in references.json}
+}
+
+@misc{boyd_vandenberghe_2004,
+  author = {Boyd, Stephen and Vandenberghe, Lieven},
+  title = {Convex Optimization},
+  year = {2004},
+  url = {https://web.stanford.edu/~boyd/cvxbook/},
+  note = {Accessed 2026-09-24; verification scope in references.json}
+}
+
+@misc{nist_ols,
+  author = {NIST/SEMATECH},
+  title = {Process Modeling: Least Squares},
+  url = {https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd431.htm},
+  note = {Accessed 2026-09-24. OLS coefficients and residual variance SSE/(n-p), p=2.}
+}
+
+@misc{nist_mean_response,
+  author = {NIST/SEMATECH},
+  title = {How can I assess the uncertainty in a predicted response?},
+  url = {https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd511.htm},
+  note = {Accessed 2026-09-24. Conditional mean uncertainty differs from individual future outcome uncertainty.}
+}
+
+@misc{french_daily_momentum,
+  author = {Kenneth R. French},
+  title = {Detail for Daily Momentum Factor},
+  url = {https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_mom_factor_daily.html},
+  note = {Accessed 2026-09-24. Prior 2-12 month momentum background. Project session-count descriptor is a proxy, not the published portfolio factor.}
+}
+
+@misc{msci_quality_2022,
+  author = {MSCI},
+  title = {MSCI Quality Indexes Methodology, May 2022},
+  url = {https://www.msci.com/indexes/documents/methodology/2_MSCI_Quality_Indexes_Methodology_20220519.pdf},
+  note = {Accessed 2026-09-24. Section 2.2.2 normalization background. Project population scaling and post-score clipping do not replicate MSCI methodology.}
+}
+
+@misc{fidelity_sma,
+  author = {Fidelity},
+  title = {Simple Moving Average},
+  url = {https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma},
+  note = {Accessed 2026-09-24. SMA arithmetic mean and moving-average trend background. Windows and thresholds are project conventions.}
+}
+
+@misc{fidelity_roc,
+  author = {Fidelity},
+  title = {Rate of Change},
+  url = {https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/roc},
+  note = {Accessed 2026-09-24. Percentage price change; project reports the fractional return instead of multiplying by 100.}
+}
+
+@misc{fidelity_bands,
+  author = {Fidelity},
+  title = {Bollinger Bands},
+  url = {https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-bands},
+  note = {Accessed 2026-09-24. SMA and standard-deviation envelope background only. Population z-score and contrarian rule are explicit project choices, not a guarantee of mean reversion.}
+}
+
+@misc{gagnon_chaboud_2007,
+  author = {Gagnon, Joseph E. and Chaboud, Alain P.},
+  title = {What Can the Data Tell Us about Carry Trades in Japanese Yen?},
+  url = {https://www.federalreserve.gov/pubs/ifdp/2007/899/ifdp899.htm},
+  note = {Accessed 2026-09-24. IFDP 899, July 2007. Carry definition and exchange-rate risk. Policy differential is a research proxy, not this paper replication or UIP forecast.}
+}
+
+@misc{cme_fx_quote,
+  author = {CME Group},
+  title = {Understanding FX Quote Conventions},
+  url = {https://www.cmegroup.com/education/courses/introduction-to-fx/understanding-fx-quote-conventions},
+  note = {Accessed 2026-09-24. Base/quote convention. USD per EUR gives USD P&L for signed EUR units.}
+}
+
+@misc{yfinance_intraday,
+  author = {yfinance authors},
+  title = {yfinance.download API},
+  url = {https://ranaroussi.github.io/yfinance/reference/api/yfinance.download.html},
+  note = {Accessed 2026-09-24. Official intraday interval and lookback restrictions. Live test uses pinned Ticker.history; provider limitations may change.}
+}
+
+@misc{fred_fed_upper,
+  author = {Federal Reserve Bank of St. Louis},
+  title = {Federal Funds Target Range - Upper Limit (DFEDTARU)},
+  url = {https://fred.stlouisfed.org/series/DFEDTARU},
+  note = {Accessed 2026-09-24. Daily percent policy target upper bound. No historical release-vintage claim.}
+}
+
+@misc{fred_ecb_deposit,
+  author = {Federal Reserve Bank of St. Louis},
+  title = {ECB Deposit Facility Rate for Euro Area (ECBDFR)},
+  url = {https://fred.stlouisfed.org/series/ECBDFR},
+  note = {Accessed 2026-09-24. Policy deposit rate percent. Not a matched-maturity bond yield; live endpoint failed in this session.}
+}
+
+@misc{cme_position_sizing,
+  author = {CME Group},
+  title = {Proper Position Size},
+  url = {https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size},
+  note = {Accessed 2026-09-25. Stop-first sizing; project adds explicit costs, carry and capacity constraints.}
+}
+
+@article{rabiner_1989,
+ author={Rabiner, Lawrence R.},
+ title={A tutorial on hidden Markov models and selected applications in speech recognition},
+ journal={Proceedings of the IEEE}, year={1989}, volume={77}, number={2}, pages={257--286},
+ doi={10.1109/5.18626}, url={https://web.mit.edu/6.435/www/Rabiner89.pdf}
+}
+
+@misc{statsmodels_autoreg,
+ author={statsmodels developers},
+ title={AutoReg: autoregressive AR-X conditional OLS},
+ url={https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.AutoReg.html},
+ note={Accessed 2026-09-25; primary implementation documentation}
+}
+
+@misc{statsmodels_var,
+ author={statsmodels developers},
+ title={Vector Autoregressions},
+ url={https://www.statsmodels.org/stable/vector_ar.html},
+ note={Accessed 2026-09-25; primary implementation documentation}
+}
+
+@misc{fulton_kalman,
+ author={Fulton, Chad},
+ title={Implementing state space models for Statsmodels},
+ url={https://www.chadfulton.com/topics/implementing_state_space.html},
+ note={Accessed 2026-09-25; primary implementation documentation}
+}
+
+@misc{statsmodels_markov,
+ author={statsmodels developers},
+ title={MarkovRegression},
+ url={https://www.statsmodels.org/stable/generated/statsmodels.tsa.regime_switching.markov_regression.MarkovRegression.html},
+ note={Accessed 2026-09-25; primary implementation documentation}
+}

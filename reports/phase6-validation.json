@@ -1,0 +1,40 @@
+{
+  "chronological_folds": 3,
+  "economic_promotion": false,
+  "evidence": "synthetic_only",
+  "exact_replays": 15,
+  "models": [
+    "no_trade",
+    "trend",
+    "mean_reversion",
+    "rate_differential"
+  ],
+  "saved_cases": 15,
+  "source_hash": "f774813199533e80b676f7d691d878b4ca1a08c448f46cf79110ecfc61e4c677",
+  "status": "passed",
+  "date": "2026-09-24",
+  "package_version": "0.8.0",
+  "tests_passed": 242,
+  "new_phase6_tests": 31,
+  "additional_hand_metric_assertions": "passed",
+  "installed_source_files_verified": 53,
+  "dependency_check": "passed",
+  "phase5_saved_replay": "verified",
+  "remote_ci": "not_run",
+  "live_capture": {
+    "candles": 1044,
+    "missing_quote_rows": 396,
+    "rates": 0,
+    "source_errors": {
+      "DFEDTARU": "HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "ECBDFR": "HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "normalization_replay": "verified",
+    "proposal_replays": 2,
+    "missing_rates_state": "NO_TRADE",
+    "historical_backtest_eligible": false,
+    "path": "data/raw/fx-phase6-accepted-20260924/normalized.json",
+    "checksum": "c55b768db35520a9db6522017f8d129beb1ddc5897583fe27709c1cbe3bb1004"
+  },
+  "artifacts": "reports/runs/phase6-accepted-20260924"
+}

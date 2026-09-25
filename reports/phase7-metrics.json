@@ -1,0 +1,3812 @@
+[
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T04:00:00+00:00",
+          "forecast_variance": 1.9383546037978742e-06,
+          "label_end": "2020-01-22T08:00:00+00:00",
+          "qlike": -11.955313648818255,
+          "squared_error": 1.4783029451187339e-13,
+          "squared_return": 2.322841657561552e-06
+        },
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.8903102046933243e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.815276116482583,
+          "squared_error": 1.9960663848682956e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 1.8728703325462948e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -9.880187732139783,
+          "squared_error": 1.8682320387263737e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 1.9044927043388078e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.140758012366103,
+          "squared_error": 3.3822651482727533e-15,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 1.924080853374457e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.160866481441325,
+          "squared_error": 3.700638263514791e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 1.918205259421353e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.810448743041277,
+          "squared_error": 1.5370794950736167e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 1.9275363300598654e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -13.016523296511295,
+          "squared_error": 2.7303958612258815e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-23T08:00:00+00:00",
+          "forecast_variance": 1.9359913482339896e-06,
+          "label_end": "2020-01-23T12:00:00+00:00",
+          "qlike": -12.996870775762824,
+          "squared_error": 2.657113494135424e-12,
+          "squared_return": 3.0592586055092606e-07
+        },
+        {
+          "decision_time": "2020-01-23T12:00:00+00:00",
+          "forecast_variance": 1.9113520240652216e-06,
+          "label_end": "2020-01-23T16:00:00+00:00",
+          "qlike": -11.974278469488182,
+          "squared_error": 1.366751775568855e-13,
+          "squared_return": 2.2810480851165743e-06
+        },
+        {
+          "decision_time": "2020-01-23T16:00:00+00:00",
+          "forecast_variance": 1.8921460554285817e-06,
+          "label_end": "2020-01-23T20:00:00+00:00",
+          "qlike": -11.942559404511554,
+          "squared_error": 1.9812066173192362e-13,
+          "squared_return": 2.3372535275428157e-06
+        },
+        {
+          "decision_time": "2020-01-23T20:00:00+00:00",
+          "forecast_variance": 1.9033987092413692e-06,
+          "label_end": "2020-01-24T00:00:00+00:00",
+          "qlike": -13.056779978597687,
+          "squared_error": 2.8369928459138223e-12,
+          "squared_return": 2.1906119973983742e-07
+        },
+        {
+          "decision_time": "2020-01-24T00:00:00+00:00",
+          "forecast_variance": 1.899584129085519e-06,
+          "label_end": "2020-01-24T04:00:00+00:00",
+          "qlike": -12.615607657342945,
+          "squared_error": 7.041009813460235e-13,
+          "squared_return": 1.0604768764973748e-06
+        },
+        {
+          "decision_time": "2020-01-24T04:00:00+00:00",
+          "forecast_variance": 1.8767186162433413e-06,
+          "label_end": "2020-01-24T08:00:00+00:00",
+          "qlike": -11.047573406760423,
+          "squared_error": 4.564545025249503e-12,
+          "squared_return": 4.013198203145473e-06
+        },
+        {
+          "decision_time": "2020-01-24T08:00:00+00:00",
+          "forecast_variance": 1.8913330429411326e-06,
+          "label_end": "2020-01-24T12:00:00+00:00",
+          "qlike": -11.336000723456584,
+          "squared_error": 2.5374372412875172e-12,
+          "squared_return": 3.484266576170789e-06
+        },
+        {
+          "decision_time": "2020-01-24T12:00:00+00:00",
+          "forecast_variance": 1.934944235182465e-06,
+          "label_end": "2020-01-24T16:00:00+00:00",
+          "qlike": -12.798203297505397,
+          "squared_error": 1.5468556518546832e-12,
+          "squared_return": 6.912177170705917e-07
+        },
+        {
+          "decision_time": "2020-01-24T16:00:00+00:00",
+          "forecast_variance": 1.950091749373909e-06,
+          "label_end": "2020-01-24T20:00:00+00:00",
+          "qlike": -13.115769089477036,
+          "squared_error": 3.5643627013047558e-12,
+          "squared_return": 6.21397634100827e-08
+        },
+        {
+          "decision_time": "2020-01-24T20:00:00+00:00",
+          "forecast_variance": 1.9453754191808643e-06,
+          "label_end": "2020-01-25T00:00:00+00:00",
+          "qlike": -13.020542953018339,
+          "squared_error": 2.8676873310512223e-12,
+          "squared_return": 2.5195068478868516e-07
+        },
+        {
+          "decision_time": "2020-01-25T00:00:00+00:00",
+          "forecast_variance": 1.9477393858474586e-06,
+          "label_end": "2020-01-27T04:00:00+00:00",
+          "qlike": -13.092593196292714,
+          "squared_error": 3.378916875695672e-12,
+          "squared_return": 1.0955634934220572e-07
+        },
+        {
+          "decision_time": "2020-01-27T04:00:00+00:00",
+          "forecast_variance": 1.9263280543086215e-06,
+          "label_end": "2020-01-27T08:00:00+00:00",
+          "qlike": -11.655315218609696,
+          "squared_error": 9.447568876347457e-13,
+          "squared_return": 2.898314107518618e-06
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.8778872207663423e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.797822844664068,
+          "squared_error": 2.0102055447746453e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 1.920026588580318e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.145524802828993,
+          "squared_error": 1.1480016789545828e-15,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 1.9424349461315817e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.148159074462137,
+          "squared_error": 3.74737140603124e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -12.11468067834451,
+      "variance_mse": 4.388656824801816e-12
+    },
+    "metrics": {
+      "average_holding_hours": 20.166666666666668,
+      "average_loss_usd": -1.5281885935629587,
+      "average_win_usd": 2.5135464136797854,
+      "cagr": 0.0387124052046212,
+      "calmar": 64.66986072359096,
+      "carry": 0.04400634377522017,
+      "commission": 0.5867921341552511,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.0001760376402465753,
+      "costs": 1.760376402465753,
+      "daily_observations": 4,
+      "expectancy_usd": 0.49267891005841347,
+      "exposure_time": 0.8402777777777778,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.000598615874094488,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006245545287446586,
+      "price_pnl": 4.672443519041019,
+      "profit_factor": 1.6447881002824878,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.289471827099136,
+      "sharpe_zero_rate": 5.01046067152523,
+      "slippage": 0.5867921341552511,
+      "slippage_usd": 0.5867921341552511,
+      "sortino_zero_mar": 9.90739651049785,
+      "spread": 0.5867921341552511,
+      "turnover_initial_nav": 1.173584268310502,
+      "turnover_usd": 11735.84268310502,
+      "win_loss_ratio": 1.6447881002824876,
+      "worst_trade_usd": -2.163861664190868
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T04:00:00+00:00",
+          "forecast_variance": 1.7287312727244033e-06,
+          "label_end": "2020-01-22T08:00:00+00:00",
+          "qlike": -11.924454343882836,
+          "squared_error": 3.529671493713451e-13,
+          "squared_return": 2.322841657561552e-06
+        },
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.7555564772658063e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.631054754167712,
+          "squared_error": 2.118291054037197e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 2.0132432889928602e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -10.038552101016517,
+          "squared_error": 1.748855549522202e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 2.25731990561684e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.131872072053818,
+          "squared_error": 8.683038312133128e-14,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 2.2439767450174813e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.00709313070473,
+          "squared_error": 5.033741854551837e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 2.1103843364795207e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.747175260298194,
+          "squared_error": 2.0505357275277e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 2.026865582361764e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -12.973270808328097,
+          "squared_error": 3.0685236773126997e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-23T08:00:00+00:00",
+          "forecast_variance": 1.9334147970071322e-06,
+          "label_end": "2020-01-23T12:00:00+00:00",
+          "qlike": -12.997991946782221,
+          "squared_error": 2.6487202382873533e-12,
+          "squared_return": 3.0592586055092606e-07
+        },
+        {
+          "decision_time": "2020-01-23T12:00:00+00:00",
+          "forecast_variance": 1.845503625191332e-06,
+          "label_end": "2020-01-23T16:00:00+00:00",
+          "qlike": -11.966755313361837,
+          "squared_error": 1.8969897657157107e-13,
+          "squared_return": 2.2810480851165743e-06
+        },
+        {
+          "decision_time": "2020-01-23T16:00:00+00:00",
+          "forecast_variance": 1.8742821154264028e-06,
+          "label_end": "2020-01-23T20:00:00+00:00",
+          "qlike": -11.94027218299128,
+          "squared_error": 2.1434252843706547e-13,
+          "squared_return": 2.3372535275428157e-06
+        },
+        {
+          "decision_time": "2020-01-23T20:00:00+00:00",
+          "forecast_variance": 1.908150008830199e-06,
+          "label_end": "2020-01-24T00:00:00+00:00",
+          "qlike": -13.054573443417663,
+          "squared_error": 2.8530210049942965e-12,
+          "squared_return": 2.1906119973983742e-07
+        },
+        {
+          "decision_time": "2020-01-24T00:00:00+00:00",
+          "forecast_variance": 1.8120996805837273e-06,
+          "label_end": "2020-01-24T04:00:00+00:00",
+          "qlike": -12.63580439489446,
+          "squared_error": 5.649368396226315e-13,
+          "squared_return": 1.0604768764973748e-06
+        },
+        {
+          "decision_time": "2020-01-24T04:00:00+00:00",
+          "forecast_variance": 1.7573572296469837e-06,
+          "label_end": "2020-01-24T08:00:00+00:00",
+          "qlike": -10.968044122069147,
+          "squared_error": 5.088818497714612e-12,
+          "squared_return": 4.013198203145473e-06
+        },
+        {
+          "decision_time": "2020-01-24T08:00:00+00:00",
+          "forecast_variance": 1.8785465930228752e-06,
+          "label_end": "2020-01-24T12:00:00+00:00",
+          "qlike": -11.330244983960087,
+          "squared_error": 2.5783366642805368e-12,
+          "squared_return": 3.484266576170789e-06
+        },
+        {
+          "decision_time": "2020-01-24T12:00:00+00:00",
+          "forecast_variance": 1.9755298639002965e-06,
+          "label_end": "2020-01-24T16:00:00+00:00",
+          "qlike": -12.784784126223519,
+          "squared_error": 1.649457690494325e-12,
+          "squared_return": 6.912177170705917e-07
+        },
+        {
+          "decision_time": "2020-01-24T16:00:00+00:00",
+          "forecast_variance": 1.90818403475746e-06,
+          "label_end": "2020-01-24T20:00:00+00:00",
+          "qlike": -13.136793666162054,
+          "squared_error": 3.40787945177447e-12,
+          "squared_return": 6.21397634100827e-08
+        },
+        {
+          "decision_time": "2020-01-24T20:00:00+00:00",
+          "forecast_variance": 1.8042682255429293e-06,
+          "label_end": "2020-01-25T00:00:00+00:00",
+          "qlike": -13.08571398389508,
+          "squared_error": 2.4096897473333045e-12,
+          "squared_return": 2.5195068478868516e-07
+        },
+        {
+          "decision_time": "2020-01-25T00:00:00+00:00",
+          "forecast_variance": 1.7181737791370768e-06,
+          "label_end": "2020-01-27T04:00:00+00:00",
+          "qlike": -13.2104853345374,
+          "squared_error": 2.5876500354398572e-12,
+          "squared_return": 1.0955634934220572e-07
+        },
+        {
+          "decision_time": "2020-01-27T04:00:00+00:00",
+          "forecast_variance": 1.6242632483423956e-06,
+          "label_end": "2020-01-27T08:00:00+00:00",
+          "qlike": -11.546069302908105,
+          "squared_error": 1.62320559176767e-12,
+          "squared_return": 2.898314107518618e-06
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.984282181199257e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.924349017809671,
+          "squared_error": 1.915932500479608e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 2.2385208682797044e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.136838168733389,
+          "squared_error": 8.100405101313883e-14,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 2.225342916521586e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.012623771914573,
+          "squared_error": 4.9227220969481844e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -12.099309828641472,
+      "variance_mse": 4.511039693043363e-12
+    },
+    "metrics": {
+      "average_holding_hours": 20.083333333333332,
+      "average_loss_usd": -1.5281885935629587,
+      "average_win_usd": 2.410292457141055,
+      "cagr": 0.03675752536369956,
+      "calmar": 61.40170316492981,
+      "carry": 0.04372276925201424,
+      "commission": 0.5868076057492666,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.00017604228172477999,
+      "costs": 1.7604228172477998,
+      "daily_observations": 4,
+      "expectancy_usd": 0.44105193178904806,
+      "exposure_time": 0.8368055555555556,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0005986401592960044,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0005935691674772148,
+      "price_pnl": 4.363011638730081,
+      "profit_factor": 1.5772218607662019,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2893800840428717,
+      "sharpe_zero_rate": 4.868061916869087,
+      "slippage": 0.5868076057492666,
+      "slippage_usd": 0.5868076057492666,
+      "sortino_zero_mar": 9.415695291131154,
+      "spread": 0.5868076057492666,
+      "turnover_initial_nav": 1.1736152114985332,
+      "turnover_usd": 11736.152114985332,
+      "win_loss_ratio": 1.577221860766202,
+      "worst_trade_usd": -2.163861664190868
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "ewma"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T04:00:00+00:00",
+          "forecast_variance": 1.8467697684470236e-06,
+          "label_end": "2020-01-22T08:00:00+00:00",
+          "qlike": -11.94428624670703,
+          "squared_error": 2.2664444360507597e-13,
+          "squared_return": 2.322841657561552e-06
+        },
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.8330158051657772e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.740922075972557,
+          "squared_error": 2.0475898985310776e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 1.9331026058503827e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -9.951600786817123,
+          "squared_error": 1.8165263803636376e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 2.052201324841976e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.140234263870806,
+          "squared_error": 8.019448850994433e-15,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 2.0435548261061794e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.100635444668978,
+          "squared_error": 4.174577485682368e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 1.9652796468889396e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.794675691267827,
+          "squared_error": 1.6560202122353226e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 1.9291030858446197e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -13.0158267311144,
+          "squared_error": 2.7355761021178345e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-23T08:00:00+00:00",
+          "forecast_variance": 1.902369119053203e-06,
+          "label_end": "2020-01-23T12:00:00+00:00",
+          "qlike": -13.01159745156181,
+          "squared_error": 2.5486310776173683e-12,
+          "squared_return": 3.0592586055092606e-07
+        },
+        {
+          "decision_time": "2020-01-23T12:00:00+00:00",
+          "forecast_variance": 1.8689814531157517e-06,
+          "label_end": "2020-01-23T16:00:00+00:00",
+          "qlike": -11.969640376640077,
+          "squared_error": 1.6979890920850135e-13,
+          "squared_return": 2.2810480851165743e-06
+        },
+        {
+          "decision_time": "2020-01-23T16:00:00+00:00",
+          "forecast_variance": 1.898311991229624e-06,
+          "label_end": "2020-01-23T20:00:00+00:00",
+          "qlike": -11.943318202867758,
+          "squared_error": 1.9266967230098503e-13,
+          "squared_return": 2.3372535275428157e-06
+        },
+        {
+          "decision_time": "2020-01-23T20:00:00+00:00",
+          "forecast_variance": 1.9465423578654078e-06,
+          "label_end": "2020-01-24T00:00:00+00:00",
+          "qlike": -13.036917284461294,
+          "squared_error": 2.984191151678862e-12,
+          "squared_return": 2.1906119973983742e-07
+        },
+        {
+          "decision_time": "2020-01-24T00:00:00+00:00",
+          "forecast_variance": 1.9104255968826897e-06,
+          "label_end": "2020-01-24T04:00:00+00:00",
+          "qlike": -12.61308471002954,
+          "squared_error": 7.224128272846342e-13,
+          "squared_return": 1.0604768764973748e-06
+        },
+        {
+          "decision_time": "2020-01-24T04:00:00+00:00",
+          "forecast_variance": 1.859648085094301e-06,
+          "label_end": "2020-01-24T08:00:00+00:00",
+          "qlike": -11.037081542281,
+          "squared_error": 4.637778110958219e-12,
+          "squared_return": 4.013198203145473e-06
+        },
+        {
+          "decision_time": "2020-01-24T08:00:00+00:00",
+          "forecast_variance": 1.9013842318431379e-06,
+          "label_end": "2020-01-24T12:00:00+00:00",
+          "qlike": -11.340438927712395,
+          "squared_error": 2.505516515984201e-12,
+          "squared_return": 3.484266576170789e-06
+        },
+        {
+          "decision_time": "2020-01-24T12:00:00+00:00",
+          "forecast_variance": 1.9550702395329848e-06,
+          "label_end": "2020-01-24T16:00:00+00:00",
+          "qlike": -12.791533089815792,
+          "squared_error": 1.5973231985345536e-12,
+          "squared_return": 6.912177170705917e-07
+        },
+        {
+          "decision_time": "2020-01-24T16:00:00+00:00",
+          "forecast_variance": 1.929724192196852e-06,
+          "label_end": "2020-01-24T20:00:00+00:00",
+          "qlike": -13.125932100494612,
+          "squared_error": 3.487871598646804e-12,
+          "squared_return": 6.21397634100827e-08
+        },
+        {
+          "decision_time": "2020-01-24T20:00:00+00:00",
+          "forecast_variance": 1.8902698940861066e-06,
+          "label_end": "2020-01-25T00:00:00+00:00",
+          "qlike": -13.045502731058203,
+          "squared_error": 2.684089831552928e-12,
+          "squared_return": 2.5195068478868516e-07
+        },
+        {
+          "decision_time": "2020-01-25T00:00:00+00:00",
+          "forecast_variance": 1.871673503521488e-06,
+          "label_end": "2020-01-27T04:00:00+00:00",
+          "qlike": -13.130143705816813,
+          "squared_error": 3.105056865052893e-12,
+          "squared_return": 1.0955634934220572e-07
+        },
+        {
+          "decision_time": "2020-01-27T04:00:00+00:00",
+          "forecast_variance": 1.8276706887829958e-06,
+          "label_end": "2020-01-27T08:00:00+00:00",
+          "qlike": -11.626671571108627,
+          "squared_error": 1.1462773300819003e-12,
+          "squared_return": 2.898314107518618e-06
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.9333466795144626e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.865891703985358,
+          "squared_error": 1.9607822729663625e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 2.049927237364574e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.144546202589646,
+          "squared_error": 9.21954760194811e-15,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 2.035933849201219e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.101303343687531,
+          "squared_error": 4.118106207716111e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -12.112353826569509,
+      "variance_mse": 4.407216638878285e-12
+    },
+    "metrics": {
+      "average_holding_hours": 20.166666666666668,
+      "average_loss_usd": -1.5281885935629587,
+      "average_win_usd": 2.46919907777574,
+      "cagr": 0.03787234544994735,
+      "calmar": 63.26542147443737,
+      "carry": 0.04400634377522017,
+      "commission": 0.5867987852579712,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.0001760396355773914,
+      "costs": 1.760396355773914,
+      "daily_observations": 4,
+      "expectancy_usd": 0.4705052421063909,
+      "exposure_time": 0.8402777777777778,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0005986263043430418,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006112463939258461,
+      "price_pnl": 4.5394214646370425,
+      "profit_factor": 1.61576855643113,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2894324866173235,
+      "sharpe_zero_rate": 4.950380133199515,
+      "slippage": 0.5867987852579712,
+      "slippage_usd": 0.5867987852579712,
+      "sortino_zero_mar": 9.696207939009069,
+      "spread": 0.5867987852579712,
+      "turnover_initial_nav": 1.1735975705159425,
+      "turnover_usd": 11735.975705159424,
+      "win_loss_ratio": 1.6157685564311297,
+      "worst_trade_usd": -2.163861664190868
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "garch"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 9,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.8903102046933243e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.815276116482583,
+          "squared_error": 1.9960663848682956e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 1.8728703325462948e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -9.880187732139783,
+          "squared_error": 1.8682320387263737e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 1.9044927043388078e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.140758012366103,
+          "squared_error": 3.3822651482727533e-15,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 1.924080853374457e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.160866481441325,
+          "squared_error": 3.700638263514791e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 1.918205259421353e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.810448743041277,
+          "squared_error": 1.5370794950736167e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 1.9275363300598654e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -13.016523296511295,
+          "squared_error": 2.7303958612258815e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.8778872207663423e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.797822844664068,
+          "squared_error": 2.0102055447746453e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 1.920026588580318e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.145524802828993,
+          "squared_error": 1.1480016789545828e-15,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 1.9424349461315817e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.148159074462137,
+          "squared_error": 3.74737140603124e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -11.768396344881952,
+      "variance_mse": 7.829450552929544e-12
+    },
+    "metrics": {
+      "average_holding_hours": 7.625,
+      "average_loss_usd": -1.6149586584273246,
+      "average_win_usd": null,
+      "cagr": -0.019118743461142684,
+      "calmar": -45.46967236256121,
+      "carry": -0.05283195817810972,
+      "commission": 0.38775220975087876,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011632566292526366,
+      "costs": 1.1632566292526365,
+      "daily_observations": 4,
+      "expectancy_usd": -1.6149586584273246,
+      "exposure_time": 0.21180555555555555,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.00042047242629539294,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.00031727354894794946,
+      "price_pnl": -5.243746046278552,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.287099144238825,
+      "sharpe_zero_rate": -5.168968006626333,
+      "slippage": 0.38775220975087876,
+      "slippage_usd": 0.38775220975087876,
+      "sortino_zero_mar": -6.090977041657982,
+      "spread": 0.38775220975087876,
+      "turnover_initial_nav": 0.7755044195017575,
+      "turnover_usd": 7755.0441950175755,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.0543626733264366
+    },
+    "model": "mean_reversion",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 16,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T04:00:00+00:00",
+          "forecast_variance": 1.9383546037978742e-06,
+          "label_end": "2020-01-22T08:00:00+00:00",
+          "qlike": -11.955313648818255,
+          "squared_error": 1.4783029451187339e-13,
+          "squared_return": 2.322841657561552e-06
+        },
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.8903102046933243e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.815276116482583,
+          "squared_error": 1.9960663848682956e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 1.8728703325462948e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -9.880187732139783,
+          "squared_error": 1.8682320387263737e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 1.9044927043388078e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.140758012366103,
+          "squared_error": 3.3822651482727533e-15,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 1.924080853374457e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.160866481441325,
+          "squared_error": 3.700638263514791e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 1.918205259421353e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.810448743041277,
+          "squared_error": 1.5370794950736167e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 1.9275363300598654e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -13.016523296511295,
+          "squared_error": 2.7303958612258815e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-23T08:00:00+00:00",
+          "forecast_variance": 1.9359913482339896e-06,
+          "label_end": "2020-01-23T12:00:00+00:00",
+          "qlike": -12.996870775762824,
+          "squared_error": 2.657113494135424e-12,
+          "squared_return": 3.0592586055092606e-07
+        },
+        {
+          "decision_time": "2020-01-23T12:00:00+00:00",
+          "forecast_variance": 1.9113520240652216e-06,
+          "label_end": "2020-01-23T16:00:00+00:00",
+          "qlike": -11.974278469488182,
+          "squared_error": 1.366751775568855e-13,
+          "squared_return": 2.2810480851165743e-06
+        },
+        {
+          "decision_time": "2020-01-23T16:00:00+00:00",
+          "forecast_variance": 1.8921460554285817e-06,
+          "label_end": "2020-01-23T20:00:00+00:00",
+          "qlike": -11.942559404511554,
+          "squared_error": 1.9812066173192362e-13,
+          "squared_return": 2.3372535275428157e-06
+        },
+        {
+          "decision_time": "2020-01-23T20:00:00+00:00",
+          "forecast_variance": 1.9033987092413692e-06,
+          "label_end": "2020-01-24T00:00:00+00:00",
+          "qlike": -13.056779978597687,
+          "squared_error": 2.8369928459138223e-12,
+          "squared_return": 2.1906119973983742e-07
+        },
+        {
+          "decision_time": "2020-01-27T04:00:00+00:00",
+          "forecast_variance": 1.9263280543086215e-06,
+          "label_end": "2020-01-27T08:00:00+00:00",
+          "qlike": -11.655315218609696,
+          "squared_error": 9.447568876347457e-13,
+          "squared_return": 2.898314107518618e-06
+        },
+        {
+          "decision_time": "2020-01-27T08:00:00+00:00",
+          "forecast_variance": 1.8812973512988494e-06,
+          "label_end": "2020-01-27T12:00:00+00:00",
+          "qlike": -9.431827704768372,
+          "squared_error": 2.6799319003202363e-11,
+          "squared_return": 7.05810322009501e-06
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.8778872207663423e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.797822844664068,
+          "squared_error": 2.0102055447746453e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 1.920026588580318e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.145524802828993,
+          "squared_error": 1.1480016789545828e-15,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 1.9424349461315817e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.148159074462137,
+          "squared_error": 3.74737140603124e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -11.808032019030883,
+      "variance_mse": 6.511616458815809e-12
+    },
+    "metrics": {
+      "average_holding_hours": 11.6,
+      "average_loss_usd": -0.2704336101264446,
+      "average_win_usd": 3.6708452321914886,
+      "cagr": 0.11360490653008493,
+      "calmar": 895.0898347270627,
+      "carry": -0.020690052878890808,
+      "commission": 0.48750833708970814,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.00014625250112691246,
+      "costs": 1.4625250112691246,
+      "daily_observations": 4,
+      "expectancy_usd": 2.882589463727902,
+      "exposure_time": 0.4027777777777778,
+      "gap_stops": 0,
+      "hit_rate": 0.8,
+      "maximum_drawdown": 0.00012692011697879035,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0017703721097310776,
+      "price_pnl": 15.89616238278753,
+      "profit_factor": 54.29569542743062,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2907737786754603,
+      "sharpe_zero_rate": 21.541199160171438,
+      "slippage": 0.48750833708970814,
+      "slippage_usd": 0.48750833708970814,
+      "sortino_zero_mar": null,
+      "spread": 0.48750833708970814,
+      "turnover_initial_nav": 0.9750166741794164,
+      "turnover_usd": 9750.166741794164,
+      "win_loss_ratio": 13.573923856857656,
+      "worst_trade_usd": -0.2704336101264446
+    },
+    "model": "rate_differential",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 0,
+      "observations": [],
+      "qlike": null,
+      "variance_mse": null
+    },
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020200959613625433,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00032881504156323516,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2881504156411383,
+      "sharpe_zero_rate": 23.811317829113822,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_trade",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 1,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-22T04:00:00+00:00",
+          "forecast_variance": 1.9383546037978742e-06,
+          "label_end": "2020-01-22T08:00:00+00:00",
+          "qlike": -11.955313648818255,
+          "squared_error": 1.4783029451187339e-13,
+          "squared_return": 2.322841657561552e-06
+        },
+        {
+          "decision_time": "2020-01-22T08:00:00+00:00",
+          "forecast_variance": 1.8903102046933243e-06,
+          "label_end": "2020-01-22T12:00:00+00:00",
+          "qlike": -9.815276116482583,
+          "squared_error": 1.9960663848682956e-11,
+          "squared_return": 6.358046079684476e-06
+        },
+        {
+          "decision_time": "2020-01-22T12:00:00+00:00",
+          "forecast_variance": 1.8728703325462948e-06,
+          "label_end": "2020-01-22T16:00:00+00:00",
+          "qlike": -9.880187732139783,
+          "squared_error": 1.8682320387263737e-11,
+          "squared_return": 6.195175317998355e-06
+        },
+        {
+          "decision_time": "2020-01-22T16:00:00+00:00",
+          "forecast_variance": 1.9044927043388078e-06,
+          "label_end": "2020-01-22T20:00:00+00:00",
+          "qlike": -12.140758012366103,
+          "squared_error": 3.3822651482727533e-15,
+          "squared_return": 1.9626499493584333e-06
+        },
+        {
+          "decision_time": "2020-01-22T20:00:00+00:00",
+          "forecast_variance": 1.924080853374457e-06,
+          "label_end": "2020-01-23T00:00:00+00:00",
+          "qlike": -13.160866481441325,
+          "squared_error": 3.700638263514791e-12,
+          "squared_return": 3.765456611352045e-10
+        },
+        {
+          "decision_time": "2020-01-23T00:00:00+00:00",
+          "forecast_variance": 1.918205259421353e-06,
+          "label_end": "2020-01-23T04:00:00+00:00",
+          "qlike": -12.810448743041277,
+          "squared_error": 1.5370794950736167e-12,
+          "squared_return": 6.784151582051765e-07
+        },
+        {
+          "decision_time": "2020-01-23T04:00:00+00:00",
+          "forecast_variance": 1.9275363300598654e-06,
+          "label_end": "2020-01-23T08:00:00+00:00",
+          "qlike": -13.016523296511295,
+          "squared_error": 2.7303958612258815e-12,
+          "squared_return": 2.751453771598315e-07
+        },
+        {
+          "decision_time": "2020-01-23T08:00:00+00:00",
+          "forecast_variance": 1.9359913482339896e-06,
+          "label_end": "2020-01-23T12:00:00+00:00",
+          "qlike": -12.996870775762824,
+          "squared_error": 2.657113494135424e-12,
+          "squared_return": 3.0592586055092606e-07
+        },
+        {
+          "decision_time": "2020-01-23T12:00:00+00:00",
+          "forecast_variance": 1.9113520240652216e-06,
+          "label_end": "2020-01-23T16:00:00+00:00",
+          "qlike": -11.974278469488182,
+          "squared_error": 1.366751775568855e-13,
+          "squared_return": 2.2810480851165743e-06
+        },
+        {
+          "decision_time": "2020-01-23T16:00:00+00:00",
+          "forecast_variance": 1.8921460554285817e-06,
+          "label_end": "2020-01-23T20:00:00+00:00",
+          "qlike": -11.942559404511554,
+          "squared_error": 1.9812066173192362e-13,
+          "squared_return": 2.3372535275428157e-06
+        },
+        {
+          "decision_time": "2020-01-23T20:00:00+00:00",
+          "forecast_variance": 1.9033987092413692e-06,
+          "label_end": "2020-01-24T00:00:00+00:00",
+          "qlike": -13.056779978597687,
+          "squared_error": 2.8369928459138223e-12,
+          "squared_return": 2.1906119973983742e-07
+        },
+        {
+          "decision_time": "2020-01-24T00:00:00+00:00",
+          "forecast_variance": 1.899584129085519e-06,
+          "label_end": "2020-01-24T04:00:00+00:00",
+          "qlike": -12.615607657342945,
+          "squared_error": 7.041009813460235e-13,
+          "squared_return": 1.0604768764973748e-06
+        },
+        {
+          "decision_time": "2020-01-24T04:00:00+00:00",
+          "forecast_variance": 1.8767186162433413e-06,
+          "label_end": "2020-01-24T08:00:00+00:00",
+          "qlike": -11.047573406760423,
+          "squared_error": 4.564545025249503e-12,
+          "squared_return": 4.013198203145473e-06
+        },
+        {
+          "decision_time": "2020-01-24T08:00:00+00:00",
+          "forecast_variance": 1.8913330429411326e-06,
+          "label_end": "2020-01-24T12:00:00+00:00",
+          "qlike": -11.336000723456584,
+          "squared_error": 2.5374372412875172e-12,
+          "squared_return": 3.484266576170789e-06
+        },
+        {
+          "decision_time": "2020-01-24T12:00:00+00:00",
+          "forecast_variance": 1.934944235182465e-06,
+          "label_end": "2020-01-24T16:00:00+00:00",
+          "qlike": -12.798203297505397,
+          "squared_error": 1.5468556518546832e-12,
+          "squared_return": 6.912177170705917e-07
+        },
+        {
+          "decision_time": "2020-01-24T16:00:00+00:00",
+          "forecast_variance": 1.950091749373909e-06,
+          "label_end": "2020-01-24T20:00:00+00:00",
+          "qlike": -13.115769089477036,
+          "squared_error": 3.5643627013047558e-12,
+          "squared_return": 6.21397634100827e-08
+        },
+        {
+          "decision_time": "2020-01-24T20:00:00+00:00",
+          "forecast_variance": 1.9453754191808643e-06,
+          "label_end": "2020-01-25T00:00:00+00:00",
+          "qlike": -13.020542953018339,
+          "squared_error": 2.8676873310512223e-12,
+          "squared_return": 2.5195068478868516e-07
+        },
+        {
+          "decision_time": "2020-01-25T00:00:00+00:00",
+          "forecast_variance": 1.9477393858474586e-06,
+          "label_end": "2020-01-27T04:00:00+00:00",
+          "qlike": -13.092593196292714,
+          "squared_error": 3.378916875695672e-12,
+          "squared_return": 1.0955634934220572e-07
+        },
+        {
+          "decision_time": "2020-01-27T04:00:00+00:00",
+          "forecast_variance": 1.9263280543086215e-06,
+          "label_end": "2020-01-27T08:00:00+00:00",
+          "qlike": -11.655315218609696,
+          "squared_error": 9.447568876347457e-13,
+          "squared_return": 2.898314107518618e-06
+        },
+        {
+          "decision_time": "2020-01-27T12:00:00+00:00",
+          "forecast_variance": 1.8778872207663423e-06,
+          "label_end": "2020-01-27T16:00:00+00:00",
+          "qlike": -9.797822844664068,
+          "squared_error": 2.0102055447746453e-11,
+          "squared_return": 6.361418802872846e-06
+        },
+        {
+          "decision_time": "2020-01-27T16:00:00+00:00",
+          "forecast_variance": 1.920026588580318e-06,
+          "label_end": "2020-01-27T20:00:00+00:00",
+          "qlike": -12.145524802828993,
+          "squared_error": 1.1480016789545828e-15,
+          "squared_return": 1.9539087620488927e-06
+        },
+        {
+          "decision_time": "2020-01-27T20:00:00+00:00",
+          "forecast_variance": 1.9424349461315817e-06,
+          "label_end": "2020-01-28T00:00:00+00:00",
+          "qlike": -13.148159074462137,
+          "squared_error": 3.74737140603124e-12,
+          "squared_return": 6.622092049028439e-09
+        }
+      ],
+      "qlike": -12.11468067834451,
+      "variance_mse": 4.388656824801816e-12
+    },
+    "metrics": {
+      "average_holding_hours": 25.0,
+      "average_loss_usd": -4.068705248043232,
+      "average_win_usd": 1.4231253583100716,
+      "cagr": -0.03627710334931016,
+      "calmar": -26.60947849860729,
+      "carry": 0.03448013900166913,
+      "commission": 4.75602550127536,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.0014268076503826078,
+      "costs": 14.268076503826078,
+      "daily_observations": 4,
+      "expectancy_usd": -1.8719730055019104,
+      "exposure_time": 0.8680555555555556,
+      "gap_stops": 0,
+      "hit_rate": 0.4,
+      "maximum_drawdown": 0.001363315081549188,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0006072371015525269,
+      "price_pnl": 4.87373133731486,
+      "profit_factor": 0.23318234697135287,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.287494011980306,
+      "sharpe_zero_rate": -4.567198482496256,
+      "slippage": 4.75602550127536,
+      "slippage_usd": 4.75602550127536,
+      "sortino_zero_mar": -5.526873516921591,
+      "spread": 4.75602550127536,
+      "turnover_initial_nav": 0.9512051002550718,
+      "turnover_usd": 9512.051002550717,
+      "win_loss_ratio": 0.34977352045702925,
+      "worst_trade_usd": -4.845464201910643
+    },
+    "model": "trend",
+    "profile": "high_cost",
+    "volatility": "realized"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.945504222016007e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.149988995501445,
+          "squared_error": 3.784983809784229e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.9363977739789372e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.449911352170488,
+          "squared_error": 3.268216217380316e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.896304129038649e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.939886030344212,
+          "squared_error": 5.491039122868507e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.878445037996709e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.208854258902527,
+          "squared_error": 3.3626776985071016e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 1.8978434904402529e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.873580081171278,
+          "squared_error": 1.7587793883442428e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 1.9004004456604058e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.898376245542444,
+          "squared_error": 1.8979412585479946e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-29T04:00:00+00:00",
+          "forecast_variance": 1.8864038359842524e-06,
+          "label_end": "2020-01-29T08:00:00+00:00",
+          "qlike": -11.887243184725238,
+          "squared_error": 3.0673752938291715e-13,
+          "squared_return": 2.4402427379972088e-06
+        },
+        {
+          "decision_time": "2020-01-29T08:00:00+00:00",
+          "forecast_variance": 1.9049571776885516e-06,
+          "label_end": "2020-01-29T12:00:00+00:00",
+          "qlike": -12.311233757498792,
+          "squared_error": 7.131148088352709e-14,
+          "squared_return": 1.6379150819741734e-06
+        },
+        {
+          "decision_time": "2020-01-29T12:00:00+00:00",
+          "forecast_variance": 1.935958623152394e-06,
+          "label_end": "2020-01-29T16:00:00+00:00",
+          "qlike": -13.132473512458915,
+          "squared_error": 3.5816565397740055e-12,
+          "squared_return": 4.343212670009727e-08
+        },
+        {
+          "decision_time": "2020-01-29T16:00:00+00:00",
+          "forecast_variance": 1.93432992972186e-06,
+          "label_end": "2020-01-29T20:00:00+00:00",
+          "qlike": -12.864717750462152,
+          "squared_error": 1.8806785772112105e-12,
+          "squared_return": 5.629515803188916e-07
+        },
+        {
+          "decision_time": "2020-01-29T20:00:00+00:00",
+          "forecast_variance": 1.92561772579533e-06,
+          "label_end": "2020-01-30T00:00:00+00:00",
+          "qlike": -12.842193798609522,
+          "squared_error": 1.7243277266595358e-12,
+          "squared_return": 6.12481127166103e-07
+        },
+        {
+          "decision_time": "2020-01-30T00:00:00+00:00",
+          "forecast_variance": 1.930308545205043e-06,
+          "label_end": "2020-01-30T04:00:00+00:00",
+          "qlike": -13.126937490876596,
+          "squared_error": 3.4994254043930786e-12,
+          "squared_return": 5.963342525687878e-08
+        },
+        {
+          "decision_time": "2020-01-30T04:00:00+00:00",
+          "forecast_variance": 1.9102713455876718e-06,
+          "label_end": "2020-01-30T08:00:00+00:00",
+          "qlike": -11.68524522981678,
+          "squared_error": 8.513740415299203e-13,
+          "squared_return": 2.832970669056547e-06
+        },
+        {
+          "decision_time": "2020-01-30T08:00:00+00:00",
+          "forecast_variance": 1.8744156530860585e-06,
+          "label_end": "2020-01-30T12:00:00+00:00",
+          "qlike": -9.651604086968383,
+          "squared_error": 2.2588976274097905e-11,
+          "squared_return": 6.627201812182416e-06
+        },
+        {
+          "decision_time": "2020-01-30T12:00:00+00:00",
+          "forecast_variance": 1.8861336156641262e-06,
+          "label_end": "2020-01-30T16:00:00+00:00",
+          "qlike": -10.27866541629992,
+          "squared_error": 1.2873904528023611e-11,
+          "squared_return": 5.4741559857203125e-06
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 1.934083768147702e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.409742092627459,
+          "squared_error": 2.4107770839793996e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.9527262293542433e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.088678100522376,
+          "squared_error": 3.386474027384276e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.9551504306140645e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.067035826253996,
+          "squared_error": 3.24948879135012e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.9325687918074675e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.755469443046216,
+          "squared_error": 6.011354281384542e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.8853343495225943e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.930110440030612,
+          "squared_error": 1.8015302147792963e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 1.8755658349789027e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.564132246994467,
+          "squared_error": 9.260125282933615e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 1.9049597330728975e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.665270309092222,
+          "squared_error": 8.863664842177254e-13,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.035515893178001,
+      "variance_mse": 4.52911840327095e-12
+    },
+    "metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -2.7643227897045235,
+      "average_win_usd": 3.472678721872994,
+      "cagr": 0.040171992420571866,
+      "calmar": 53.2115863719854,
+      "carry": -0.12529009605516156,
+      "commission": 0.5550580795140401,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.00016651742385421201,
+      "costs": 1.6651742385421202,
+      "daily_observations": 4,
+      "expectancy_usd": 0.35417796608423535,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0007549482201064661,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00043172140385761004,
+      "price_pnl": 3.9155321311026947,
+      "profit_factor": 1.2562493551066758,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1921462420802706,
+      "sharpe_zero_rate": 2.9633369076551532,
+      "slippage": 0.5550580795140401,
+      "slippage_usd": 0.5550580795140401,
+      "sortino_zero_mar": 5.546472539871611,
+      "spread": 0.5550580795140401,
+      "turnover_initial_nav": 1.1101161590280801,
+      "turnover_usd": 11101.1615902808,
+      "win_loss_ratio": 1.2562493551066756,
+      "worst_trade_usd": -2.809071525461134
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.989956499242961e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.127397408728934,
+          "squared_error": 3.9599239352490495e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.880797844515472e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.45821038645885,
+          "squared_error": 2.6634188848287074e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.8519117451126197e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.909981705447482,
+          "squared_error": 5.701058854428006e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.990195141065718e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.262030834870785,
+          "squared_error": 2.965319926536901e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 2.096281861392449e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.80264645726189,
+          "squared_error": 2.324491062788267e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 2.0101855166853558e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.85723662099232,
+          "squared_error": 2.2124865587059463e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-29T04:00:00+00:00",
+          "forecast_variance": 1.9156287254539574e-06,
+          "label_end": "2020-01-29T08:00:00+00:00",
+          "qlike": -11.891604709702603,
+          "squared_error": 2.7521986215673073e-13,
+          "squared_return": 2.4402427379972088e-06
+        },
+        {
+          "decision_time": "2020-01-29T08:00:00+00:00",
+          "forecast_variance": 1.9417565417455114e-06,
+          "label_end": "2020-01-29T12:00:00+00:00",
+          "qlike": -12.30839518966984,
+          "squared_error": 9.231963267597758e-14,
+          "squared_return": 1.6379150819741734e-06
+        },
+        {
+          "decision_time": "2020-01-29T12:00:00+00:00",
+          "forecast_variance": 1.931718995588344e-06,
+          "label_end": "2020-01-29T16:00:00+00:00",
+          "qlike": -13.134616613136473,
+          "squared_error": 3.565627299215779e-12,
+          "squared_return": 4.343212670009727e-08
+        },
+        {
+          "decision_time": "2020-01-29T16:00:00+00:00",
+          "forecast_variance": 1.8303910760088738e-06,
+          "label_end": "2020-01-29T20:00:00+00:00",
+          "qlike": -12.903422822828425,
+          "squared_error": 1.6064028752348764e-12,
+          "squared_return": 5.629515803188916e-07
+        },
+        {
+          "decision_time": "2020-01-29T20:00:00+00:00",
+          "forecast_variance": 1.7616073640834986e-06,
+          "label_end": "2020-01-30T00:00:00+00:00",
+          "qlike": -12.9016007805223,
+          "squared_error": 1.3204911083719343e-12,
+          "squared_return": 6.12481127166103e-07
+        },
+        {
+          "decision_time": "2020-01-30T00:00:00+00:00",
+          "forecast_variance": 1.7005782028849298e-06,
+          "label_end": "2020-01-30T04:00:00+00:00",
+          "qlike": -13.249475686755199,
+          "squared_error": 2.692699763224774e-12,
+          "squared_return": 5.963342525687878e-08
+        },
+        {
+          "decision_time": "2020-01-30T04:00:00+00:00",
+          "forecast_variance": 1.6035884252848782e-06,
+          "label_end": "2020-01-30T08:00:00+00:00",
+          "qlike": -11.576622175867232,
+          "squared_error": 1.5113807013010632e-12,
+          "squared_return": 2.832970669056547e-06
+        },
+        {
+          "decision_time": "2020-01-30T08:00:00+00:00",
+          "forecast_variance": 1.6597591681296332e-06,
+          "label_end": "2020-01-30T12:00:00+00:00",
+          "qlike": -9.315968513982627,
+          "squared_error": 2.4675486421954105e-11,
+          "squared_return": 6.627201812182416e-06
+        },
+        {
+          "decision_time": "2020-01-30T12:00:00+00:00",
+          "forecast_variance": 1.935325652815206e-06,
+          "label_end": "2020-01-30T16:00:00+00:00",
+          "qlike": -10.326689801278363,
+          "squared_error": 1.2523320125089268e-11,
+          "squared_return": 5.4741559857203125e-06
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 2.1418918634992645e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.380076917777746,
+          "squared_error": 4.883280694028071e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.9828596533237336e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.074239926509286,
+          "squared_error": 3.4982873637332836e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.8770857979897415e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.10453830061789,
+          "squared_error": 2.9741389799559067e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.7794612875684041e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.717448304403561,
+          "squared_error": 8.619947853463136e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.827402119956422e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.858247844006906,
+          "squared_error": 1.85104384622495e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 2.072049273827878e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.713181784434658,
+          "squared_error": 8.10291497666355e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 2.241618248976675e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.578493861719684,
+          "squared_error": 1.6336134851339134e-12,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.020551211226048,
+      "variance_mse": 4.6255584608136734e-12
+    },
+    "metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -2.7974018811309596,
+      "average_win_usd": 3.5057658491660306,
+      "cagr": 0.04017220429761736,
+      "calmar": 52.522122757580554,
+      "carry": -0.12529009605516156,
+      "commission": 0.5550537960809301,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.000166516138824279,
+      "costs": 1.66516138824279,
+      "daily_observations": 4,
+      "expectancy_usd": 0.3541819840175354,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0007648625415053179,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0004317236370867672,
+      "price_pnl": 3.9155433884031643,
+      "profit_factor": 1.2532220961218081,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.192144466767124,
+      "sharpe_zero_rate": 2.9394181964806245,
+      "slippage": 0.5550537960809301,
+      "slippage_usd": 0.5550537960809301,
+      "sortino_zero_mar": 5.5097255908634235,
+      "spread": 0.5550537960809301,
+      "turnover_initial_nav": 1.11010759216186,
+      "turnover_usd": 11101.0759216186,
+      "win_loss_ratio": 1.2532220961218083,
+      "worst_trade_usd": -2.83062332801324
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "ewma"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.9205045937704185e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.162922213387247,
+          "squared_error": 3.688335063450317e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.8795146870367602e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.458397485470954,
+          "squared_error": 2.6501910289291107e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.8602743732001665e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.915767502525949,
+          "squared_error": 5.661194077456885e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.930882913146042e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.234990117034025,
+          "squared_error": 3.1731104173158546e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 2.0051243701746173e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.834708094090443,
+          "squared_error": 2.054838192598352e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 1.9685096386679226e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.872681380389452,
+          "squared_error": 2.0902424548121143e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-29T04:00:00+00:00",
+          "forecast_variance": 1.904366534749777e-06,
+          "label_end": "2020-01-29T08:00:00+00:00",
+          "qlike": -11.88996771704874,
+          "squared_error": 2.871633052068829e-13,
+          "squared_return": 2.4402427379972088e-06
+        },
+        {
+          "decision_time": "2020-01-29T08:00:00+00:00",
+          "forecast_variance": 1.914007869072896e-06,
+          "label_end": "2020-01-29T12:00:00+00:00",
+          "qlike": -12.310559665633589,
+          "squared_error": 7.622722708794052e-14,
+          "squared_return": 1.6379150819741734e-06
+        },
+        {
+          "decision_time": "2020-01-29T12:00:00+00:00",
+          "forecast_variance": 1.9257738157351554e-06,
+          "label_end": "2020-01-29T16:00:00+00:00",
+          "qlike": -13.13762961099317,
+          "squared_error": 3.5432102342793557e-12,
+          "squared_return": 4.343212670009727e-08
+        },
+        {
+          "decision_time": "2020-01-29T16:00:00+00:00",
+          "forecast_variance": 1.8903510008049105e-06,
+          "label_end": "2020-01-29T20:00:00+00:00",
+          "qlike": -12.880945358756735,
+          "squared_error": 1.7619892215066186e-12,
+          "squared_return": 5.629515803188916e-07
+        },
+        {
+          "decision_time": "2020-01-29T20:00:00+00:00",
+          "forecast_variance": 1.8774751805454926e-06,
+          "label_end": "2020-01-30T00:00:00+00:00",
+          "qlike": -12.859356721325321,
+          "squared_error": 1.6002099550852179e-12,
+          "squared_return": 6.12481127166103e-07
+        },
+        {
+          "decision_time": "2020-01-30T00:00:00+00:00",
+          "forecast_variance": 1.8783407740368415e-06,
+          "label_end": "2020-01-30T04:00:00+00:00",
+          "qlike": -13.153373811091626,
+          "squared_error": 3.3076964205062412e-12,
+          "squared_return": 5.963342525687878e-08
+        },
+        {
+          "decision_time": "2020-01-30T04:00:00+00:00",
+          "forecast_variance": 1.8323017394276732e-06,
+          "label_end": "2020-01-30T08:00:00+00:00",
+          "qlike": -11.663810885463478,
+          "squared_error": 1.0013383067245964e-12,
+          "squared_return": 2.832970669056547e-06
+        },
+        {
+          "decision_time": "2020-01-30T08:00:00+00:00",
+          "forecast_variance": 1.82212364317151e-06,
+          "label_end": "2020-01-30T12:00:00+00:00",
+          "qlike": -9.578432097451671,
+          "squared_error": 2.3088776210305203e-11,
+          "squared_return": 6.627201812182416e-06
+        },
+        {
+          "decision_time": "2020-01-30T12:00:00+00:00",
+          "forecast_variance": 1.9261279357413456e-06,
+          "label_end": "2020-01-30T16:00:00+00:00",
+          "qlike": -10.317946699849163,
+          "squared_error": 1.258850304343755e-11,
+          "squared_return": 5.4741559857203125e-06
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 2.02089845789755e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.397886410079371,
+          "squared_error": 3.3386594209193787e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.934590877503135e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.097468678342574,
+          "squared_error": 3.32005620955284e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.8964982108010569e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.095081315830663,
+          "squared_error": 3.041471920803202e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.8513038227302365e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.736922597139761,
+          "squared_error": 7.337536365271902e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.851917410937843e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.889326060628985,
+          "squared_error": 1.8300091467100764e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 1.959020292550627e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.632315533842878,
+          "squared_error": 8.759178523621178e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 2.0511199212340677e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.627386425984836,
+          "squared_error": 1.1829402618099544e-12,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.033994381016392,
+      "variance_mse": 4.539055054280596e-12
+    },
+    "metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -2.7853472022603505,
+      "average_win_usd": 3.4533598261045864,
+      "cagr": 0.03902422494350584,
+      "calmar": 51.26297751858298,
+      "carry": -0.12529009605516156,
+      "commission": 0.5550546217039835,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.000166516386511195,
+      "costs": 1.66516386511195,
+      "daily_observations": 4,
+      "expectancy_usd": 0.334006311922118,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0007612555265514853,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00041961708289117716,
+      "price_pnl": 3.79449183269982,
+      "profit_factor": 1.2398310068138485,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1921329573833064,
+      "sharpe_zero_rate": 2.8813142504522693,
+      "slippage": 0.5550546217039835,
+      "slippage_usd": 0.5550546217039835,
+      "sortino_zero_mar": 5.367775679919945,
+      "spread": 0.5550546217039835,
+      "turnover_initial_nav": 1.110109243407967,
+      "turnover_usd": 11101.092434079668,
+      "win_loss_ratio": 1.2398310068138485,
+      "worst_trade_usd": -2.8041658244016916
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "garch"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 14,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.945504222016007e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.149988995501445,
+          "squared_error": 3.784983809784229e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.9363977739789372e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.449911352170488,
+          "squared_error": 3.268216217380316e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.896304129038649e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.939886030344212,
+          "squared_error": 5.491039122868507e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.878445037996709e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.208854258902527,
+          "squared_error": 3.3626776985071016e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 1.8978434904402529e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.873580081171278,
+          "squared_error": 1.7587793883442428e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 1.9004004456604058e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.898376245542444,
+          "squared_error": 1.8979412585479946e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 1.934083768147702e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.409742092627459,
+          "squared_error": 2.4107770839793996e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-30T20:00:00+00:00",
+          "forecast_variance": 1.9546169024653095e-06,
+          "label_end": "2020-01-31T00:00:00+00:00",
+          "qlike": -13.145135210240506,
+          "squared_error": 3.819143326566376e-12,
+          "squared_return": 3.5404231410280007e-10
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.9527262293542433e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.088678100522376,
+          "squared_error": 3.386474027384276e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.9551504306140645e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.067035826253996,
+          "squared_error": 3.24948879135012e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.9325687918074675e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.755469443046216,
+          "squared_error": 6.011354281384542e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.8853343495225943e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.930110440030612,
+          "squared_error": 1.8015302147792963e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 1.8755658349789027e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.564132246994467,
+          "squared_error": 9.260125282933615e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 1.9049597330728975e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.665270309092222,
+          "squared_error": 8.863664842177254e-13,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.15329790231716,
+      "variance_mse": 4.005811149755112e-12
+    },
+    "metrics": {
+      "average_holding_hours": 10.0,
+      "average_loss_usd": -2.3232915667740737,
+      "average_win_usd": null,
+      "cagr": -0.08244972954269936,
+      "calmar": -86.53318309593028,
+      "carry": -0.06667950416888595,
+      "commission": 0.4766244308481736,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.0001429873292544521,
+      "costs": 1.429873292544521,
+      "daily_observations": 4,
+      "expectancy_usd": -2.3232915667740737,
+      "exposure_time": 0.5208333333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.0009528105472705883,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0009425463169487891,
+      "price_pnl": -10.119905037156961,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190994664393221,
+      "sharpe_zero_rate": -11.741290326775262,
+      "slippage": 0.4766244308481736,
+      "slippage_usd": 0.4766244308481736,
+      "sortino_zero_mar": -10.457415028615152,
+      "spread": 0.4766244308481736,
+      "turnover_initial_nav": 0.9532488616963471,
+      "turnover_usd": 9532.488616963472,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.131381526427021
+    },
+    "model": "mean_reversion",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 23,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.945504222016007e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.149988995501445,
+          "squared_error": 3.784983809784229e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.9363977739789372e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.449911352170488,
+          "squared_error": 3.268216217380316e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.896304129038649e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.939886030344212,
+          "squared_error": 5.491039122868507e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.878445037996709e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.208854258902527,
+          "squared_error": 3.3626776985071016e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 1.8978434904402529e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.873580081171278,
+          "squared_error": 1.7587793883442428e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 1.9004004456604058e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.898376245542444,
+          "squared_error": 1.8979412585479946e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-29T04:00:00+00:00",
+          "forecast_variance": 1.8864038359842524e-06,
+          "label_end": "2020-01-29T08:00:00+00:00",
+          "qlike": -11.887243184725238,
+          "squared_error": 3.0673752938291715e-13,
+          "squared_return": 2.4402427379972088e-06
+        },
+        {
+          "decision_time": "2020-01-29T08:00:00+00:00",
+          "forecast_variance": 1.9049571776885516e-06,
+          "label_end": "2020-01-29T12:00:00+00:00",
+          "qlike": -12.311233757498792,
+          "squared_error": 7.131148088352709e-14,
+          "squared_return": 1.6379150819741734e-06
+        },
+        {
+          "decision_time": "2020-01-29T12:00:00+00:00",
+          "forecast_variance": 1.935958623152394e-06,
+          "label_end": "2020-01-29T16:00:00+00:00",
+          "qlike": -13.132473512458915,
+          "squared_error": 3.5816565397740055e-12,
+          "squared_return": 4.343212670009727e-08
+        },
+        {
+          "decision_time": "2020-01-29T16:00:00+00:00",
+          "forecast_variance": 1.93432992972186e-06,
+          "label_end": "2020-01-29T20:00:00+00:00",
+          "qlike": -12.864717750462152,
+          "squared_error": 1.8806785772112105e-12,
+          "squared_return": 5.629515803188916e-07
+        },
+        {
+          "decision_time": "2020-01-29T20:00:00+00:00",
+          "forecast_variance": 1.92561772579533e-06,
+          "label_end": "2020-01-30T00:00:00+00:00",
+          "qlike": -12.842193798609522,
+          "squared_error": 1.7243277266595358e-12,
+          "squared_return": 6.12481127166103e-07
+        },
+        {
+          "decision_time": "2020-01-30T00:00:00+00:00",
+          "forecast_variance": 1.930308545205043e-06,
+          "label_end": "2020-01-30T04:00:00+00:00",
+          "qlike": -13.126937490876596,
+          "squared_error": 3.4994254043930786e-12,
+          "squared_return": 5.963342525687878e-08
+        },
+        {
+          "decision_time": "2020-01-30T04:00:00+00:00",
+          "forecast_variance": 1.9102713455876718e-06,
+          "label_end": "2020-01-30T08:00:00+00:00",
+          "qlike": -11.68524522981678,
+          "squared_error": 8.513740415299203e-13,
+          "squared_return": 2.832970669056547e-06
+        },
+        {
+          "decision_time": "2020-01-30T08:00:00+00:00",
+          "forecast_variance": 1.8744156530860585e-06,
+          "label_end": "2020-01-30T12:00:00+00:00",
+          "qlike": -9.651604086968383,
+          "squared_error": 2.2588976274097905e-11,
+          "squared_return": 6.627201812182416e-06
+        },
+        {
+          "decision_time": "2020-01-30T12:00:00+00:00",
+          "forecast_variance": 1.8861336156641262e-06,
+          "label_end": "2020-01-30T16:00:00+00:00",
+          "qlike": -10.27866541629992,
+          "squared_error": 1.2873904528023611e-11,
+          "squared_return": 5.4741559857203125e-06
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 1.934083768147702e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.409742092627459,
+          "squared_error": 2.4107770839793996e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-30T20:00:00+00:00",
+          "forecast_variance": 1.9546169024653095e-06,
+          "label_end": "2020-01-31T00:00:00+00:00",
+          "qlike": -13.145135210240506,
+          "squared_error": 3.819143326566376e-12,
+          "squared_return": 3.5404231410280007e-10
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.9527262293542433e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.088678100522376,
+          "squared_error": 3.386474027384276e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.9551504306140645e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.067035826253996,
+          "squared_error": 3.24948879135012e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.9325687918074675e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.755469443046216,
+          "squared_error": 6.011354281384542e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.8853343495225943e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.930110440030612,
+          "squared_error": 1.8015302147792963e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 1.8755658349789027e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.564132246994467,
+          "squared_error": 9.260125282933615e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 1.9049597330728975e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.665270309092222,
+          "squared_error": 8.863664842177254e-13,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.083760211311153,
+      "variance_mse": 4.498249921675099e-12
+    },
+    "metrics": {
+      "average_holding_hours": 12.916666666666666,
+      "average_loss_usd": -2.892772373278284,
+      "average_win_usd": 4.657118287985709,
+      "cagr": -0.06715093866746638,
+      "calmar": -52.22120153355805,
+      "carry": -0.2042567397217892,
+      "commission": 0.555300289946163,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.0001665900869838489,
+      "costs": 1.665900869838489,
+      "daily_observations": 4,
+      "expectancy_usd": -1.6344572630676186,
+      "exposure_time": 0.8072916666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.16666666666666666,
+      "maximum_drawdown": 0.001285894171246027,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0007614838307783423,
+      "price_pnl": -7.936585968845433,
+      "profit_factor": 0.3219830451234536,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.191905270627024,
+      "sharpe_zero_rate": -5.756997278313413,
+      "slippage": 0.555300289946163,
+      "slippage_usd": 0.555300289946163,
+      "sortino_zero_mar": -7.22120624331529,
+      "spread": 0.555300289946163,
+      "turnover_initial_nav": 1.110600579892326,
+      "turnover_usd": 11106.00579892326,
+      "win_loss_ratio": 1.609915225617268,
+      "worst_trade_usd": -3.136711377080803
+    },
+    "model": "rate_differential",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 0,
+      "observations": [],
+      "qlike": null,
+      "variance_mse": null
+    },
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020201328380628054,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00021920197833358301,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1920197833361157,
+      "sharpe_zero_rate": 1813449375606.2222,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_trade",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 2,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-01-28T04:00:00+00:00",
+          "forecast_variance": 1.945504222016007e-06,
+          "label_end": "2020-01-28T08:00:00+00:00",
+          "qlike": -13.149988995501445,
+          "squared_error": 3.784983809784229e-12,
+          "squared_return": 7.37109277620595e-13
+        },
+        {
+          "decision_time": "2020-01-28T08:00:00+00:00",
+          "forecast_variance": 1.9363977739789372e-06,
+          "label_end": "2020-01-28T12:00:00+00:00",
+          "qlike": -12.449911352170488,
+          "squared_error": 3.268216217380316e-13,
+          "squared_return": 1.3647146259519628e-06
+        },
+        {
+          "decision_time": "2020-01-28T12:00:00+00:00",
+          "forecast_variance": 1.896304129038649e-06,
+          "label_end": "2020-01-28T16:00:00+00:00",
+          "qlike": -10.939886030344212,
+          "squared_error": 5.491039122868507e-12,
+          "squared_return": 4.23960076473557e-06
+        },
+        {
+          "decision_time": "2020-01-28T16:00:00+00:00",
+          "forecast_variance": 1.878445037996709e-06,
+          "label_end": "2020-01-28T20:00:00+00:00",
+          "qlike": -11.208854258902527,
+          "squared_error": 3.3626776985071016e-12,
+          "squared_return": 3.712205572665045e-06
+        },
+        {
+          "decision_time": "2020-01-28T20:00:00+00:00",
+          "forecast_variance": 1.8978434904402529e-06,
+          "label_end": "2020-01-29T00:00:00+00:00",
+          "qlike": -12.873580081171278,
+          "squared_error": 1.7587793883442428e-12,
+          "squared_return": 5.716536894146821e-07
+        },
+        {
+          "decision_time": "2020-01-29T00:00:00+00:00",
+          "forecast_variance": 1.9004004456604058e-06,
+          "label_end": "2020-01-29T04:00:00+00:00",
+          "qlike": -12.898376245542444,
+          "squared_error": 1.8979412585479946e-12,
+          "squared_return": 5.227425568694352e-07
+        },
+        {
+          "decision_time": "2020-01-29T04:00:00+00:00",
+          "forecast_variance": 1.8864038359842524e-06,
+          "label_end": "2020-01-29T08:00:00+00:00",
+          "qlike": -11.887243184725238,
+          "squared_error": 3.0673752938291715e-13,
+          "squared_return": 2.4402427379972088e-06
+        },
+        {
+          "decision_time": "2020-01-29T08:00:00+00:00",
+          "forecast_variance": 1.9049571776885516e-06,
+          "label_end": "2020-01-29T12:00:00+00:00",
+          "qlike": -12.311233757498792,
+          "squared_error": 7.131148088352709e-14,
+          "squared_return": 1.6379150819741734e-06
+        },
+        {
+          "decision_time": "2020-01-29T12:00:00+00:00",
+          "forecast_variance": 1.935958623152394e-06,
+          "label_end": "2020-01-29T16:00:00+00:00",
+          "qlike": -13.132473512458915,
+          "squared_error": 3.5816565397740055e-12,
+          "squared_return": 4.343212670009727e-08
+        },
+        {
+          "decision_time": "2020-01-29T16:00:00+00:00",
+          "forecast_variance": 1.93432992972186e-06,
+          "label_end": "2020-01-29T20:00:00+00:00",
+          "qlike": -12.864717750462152,
+          "squared_error": 1.8806785772112105e-12,
+          "squared_return": 5.629515803188916e-07
+        },
+        {
+          "decision_time": "2020-01-29T20:00:00+00:00",
+          "forecast_variance": 1.92561772579533e-06,
+          "label_end": "2020-01-30T00:00:00+00:00",
+          "qlike": -12.842193798609522,
+          "squared_error": 1.7243277266595358e-12,
+          "squared_return": 6.12481127166103e-07
+        },
+        {
+          "decision_time": "2020-01-30T00:00:00+00:00",
+          "forecast_variance": 1.930308545205043e-06,
+          "label_end": "2020-01-30T04:00:00+00:00",
+          "qlike": -13.126937490876596,
+          "squared_error": 3.4994254043930786e-12,
+          "squared_return": 5.963342525687878e-08
+        },
+        {
+          "decision_time": "2020-01-30T04:00:00+00:00",
+          "forecast_variance": 1.9102713455876718e-06,
+          "label_end": "2020-01-30T08:00:00+00:00",
+          "qlike": -11.68524522981678,
+          "squared_error": 8.513740415299203e-13,
+          "squared_return": 2.832970669056547e-06
+        },
+        {
+          "decision_time": "2020-01-30T08:00:00+00:00",
+          "forecast_variance": 1.8744156530860585e-06,
+          "label_end": "2020-01-30T12:00:00+00:00",
+          "qlike": -9.651604086968383,
+          "squared_error": 2.2588976274097905e-11,
+          "squared_return": 6.627201812182416e-06
+        },
+        {
+          "decision_time": "2020-01-30T12:00:00+00:00",
+          "forecast_variance": 1.8861336156641262e-06,
+          "label_end": "2020-01-30T16:00:00+00:00",
+          "qlike": -10.27866541629992,
+          "squared_error": 1.2873904528023611e-11,
+          "squared_return": 5.4741559857203125e-06
+        },
+        {
+          "decision_time": "2020-01-30T16:00:00+00:00",
+          "forecast_variance": 1.934083768147702e-06,
+          "label_end": "2020-01-30T20:00:00+00:00",
+          "qlike": -12.409742092627459,
+          "squared_error": 2.4107770839793996e-13,
+          "squared_return": 1.4430871200960682e-06
+        },
+        {
+          "decision_time": "2020-01-31T00:00:00+00:00",
+          "forecast_variance": 1.9527262293542433e-06,
+          "label_end": "2020-01-31T04:00:00+00:00",
+          "qlike": -13.088678100522376,
+          "squared_error": 3.386474027384276e-12,
+          "squared_return": 1.1248873723963152e-07
+        },
+        {
+          "decision_time": "2020-01-31T04:00:00+00:00",
+          "forecast_variance": 1.9551504306140645e-06,
+          "label_end": "2020-01-31T08:00:00+00:00",
+          "qlike": -13.067035826253996,
+          "squared_error": 3.24948879135012e-12,
+          "squared_return": 1.5251658222717694e-07
+        },
+        {
+          "decision_time": "2020-01-31T08:00:00+00:00",
+          "forecast_variance": 1.9325687918074675e-06,
+          "label_end": "2020-01-31T12:00:00+00:00",
+          "qlike": -11.755469443046216,
+          "squared_error": 6.011354281384542e-13,
+          "squared_return": 2.7078980303496846e-06
+        },
+        {
+          "decision_time": "2020-01-31T12:00:00+00:00",
+          "forecast_variance": 1.8853343495225943e-06,
+          "label_end": "2020-01-31T16:00:00+00:00",
+          "qlike": -9.930110440030612,
+          "squared_error": 1.8015302147792963e-11,
+          "squared_return": 6.129778028945489e-06
+        },
+        {
+          "decision_time": "2020-01-31T16:00:00+00:00",
+          "forecast_variance": 1.8755658349789027e-06,
+          "label_end": "2020-01-31T20:00:00+00:00",
+          "qlike": -10.564132246994467,
+          "squared_error": 9.260125282933615e-12,
+          "squared_return": 4.918611231113113e-06
+        },
+        {
+          "decision_time": "2020-01-31T20:00:00+00:00",
+          "forecast_variance": 1.9049597330728975e-06,
+          "label_end": "2020-02-01T00:00:00+00:00",
+          "qlike": -12.665270309092222,
+          "squared_error": 8.863664842177254e-13,
+          "squared_return": 9.634893489302388e-07
+        }
+      ],
+      "qlike": -12.035515893178001,
+      "variance_mse": 4.52911840327095e-12
+    },
+    "metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -4.427252673609063,
+      "average_win_usd": 2.423755172031292,
+      "cagr": -0.09282721653903889,
+      "calmar": -53.97743793680669,
+      "carry": -0.12529009605516156,
+      "commission": 5.550580795140401,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.00166517423854212,
+      "costs": 16.6517423854212,
+      "daily_observations": 4,
+      "expectancy_usd": -2.143583391728945,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.3333333333333333,
+      "maximum_drawdown": 0.0017197410638073451,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.001067072432365923,
+      "price_pnl": 3.9155321311026947,
+      "profit_factor": 0.27373129011580283,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190776026713691,
+      "sharpe_zero_rate": -7.467977859331793,
+      "slippage": 5.550580795140401,
+      "slippage_usd": 5.550580795140401,
+      "sortino_zero_mar": -7.856477392449982,
+      "spread": 5.550580795140401,
+      "turnover_initial_nav": 1.1101161590280801,
+      "turnover_usd": 11101.1615902808,
+      "win_loss_ratio": 0.5474625802316057,
+      "worst_trade_usd": -5.214815531870085
+    },
+    "model": "trend",
+    "profile": "high_cost",
+    "volatility": "realized"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 1.905882310672479e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.546481845776192,
+          "squared_error": 5.133039139928577e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-03T08:00:00+00:00",
+          "forecast_variance": 1.9222248214758145e-06,
+          "label_end": "2020-02-03T12:00:00+00:00",
+          "qlike": -12.947957527552301,
+          "squared_error": 2.2823191124532366e-12,
+          "squared_return": 4.1149019472853675e-07
+        },
+        {
+          "decision_time": "2020-02-03T12:00:00+00:00",
+          "forecast_variance": 1.9343801183041523e-06,
+          "label_end": "2020-02-03T16:00:00+00:00",
+          "qlike": -13.040213945466784,
+          "squared_error": 2.9273172959854996e-12,
+          "squared_return": 2.2343964710549037e-07
+        },
+        {
+          "decision_time": "2020-02-03T16:00:00+00:00",
+          "forecast_variance": 1.9143889669203786e-06,
+          "label_end": "2020-02-03T20:00:00+00:00",
+          "qlike": -12.25983198988463,
+          "squared_error": 3.219024204482394e-14,
+          "squared_return": 1.7349725740104108e-06
+        },
+        {
+          "decision_time": "2020-02-03T20:00:00+00:00",
+          "forecast_variance": 1.9032696399070295e-06,
+          "label_end": "2020-02-04T00:00:00+00:00",
+          "qlike": -12.475756578184145,
+          "squared_error": 3.343730991045574e-13,
+          "squared_return": 1.3250196082558783e-06
+        },
+        {
+          "decision_time": "2020-02-04T00:00:00+00:00",
+          "forecast_variance": 1.9124925035960722e-06,
+          "label_end": "2020-02-04T04:00:00+00:00",
+          "qlike": -13.166579568155829,
+          "squared_error": 3.653798144879903e-12,
+          "squared_return": 1.0014246527509877e-09
+        },
+        {
+          "decision_time": "2020-02-04T04:00:00+00:00",
+          "forecast_variance": 1.8973100226331357e-06,
+          "label_end": "2020-02-04T08:00:00+00:00",
+          "qlike": -11.997100405312995,
+          "squared_error": 1.140210601087174e-13,
+          "squared_return": 2.2349800688449923e-06
+        },
+        {
+          "decision_time": "2020-02-04T08:00:00+00:00",
+          "forecast_variance": 1.8728881863285677e-06,
+          "label_end": "2020-02-04T12:00:00+00:00",
+          "qlike": -10.381877802992936,
+          "squared_error": 1.1442787349558452e-11,
+          "squared_return": 5.255607114876793e-06
+        },
+        {
+          "decision_time": "2020-02-04T12:00:00+00:00",
+          "forecast_variance": 1.8958195321559763e-06,
+          "label_end": "2020-02-04T16:00:00+00:00",
+          "qlike": -11.167175637282154,
+          "squared_error": 3.6568234778848895e-12,
+          "squared_return": 3.808101801562062e-06
+        },
+        {
+          "decision_time": "2020-02-04T16:00:00+00:00",
+          "forecast_variance": 1.941515164945731e-06,
+          "label_end": "2020-02-04T20:00:00+00:00",
+          "qlike": -12.811715319480456,
+          "squared_error": 1.640361528198234e-12,
+          "squared_return": 6.607491721905225e-07
+        },
+        {
+          "decision_time": "2020-02-04T20:00:00+00:00",
+          "forecast_variance": 1.954461700238357e-06,
+          "label_end": "2020-02-05T00:00:00+00:00",
+          "qlike": -13.121160759764427,
+          "squared_error": 3.6370126538963284e-12,
+          "squared_return": 4.7366355506917183e-08
+        },
+        {
+          "decision_time": "2020-02-05T00:00:00+00:00",
+          "forecast_variance": 1.9518729133196887e-06,
+          "label_end": "2020-02-05T04:00:00+00:00",
+          "qlike": -13.091338614351292,
+          "squared_error": 3.3994995669955646e-12,
+          "squared_return": 1.0809972580568091e-07
+        },
+        {
+          "decision_time": "2020-02-05T08:00:00+00:00",
+          "forecast_variance": 1.9228167938257003e-06,
+          "label_end": "2020-02-05T12:00:00+00:00",
+          "qlike": -11.214436943259978,
+          "squared_error": 3.3176821159491324e-12,
+          "squared_return": 3.7442673465306405e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.8775557865817178e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.29701198996896,
+          "squared_error": 2.941296377180738e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 1.8810323881272566e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.275361992564692,
+          "squared_error": 1.2885417639038327e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 1.9200572734758804e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.557366915271457,
+          "squared_error": 5.729103467347212e-13,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 1.932543197926951e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -13.133000057095177,
+          "squared_error": 3.5599872735211074e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 1.928901600721955e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.92817304379181,
+          "squared_error": 2.2037644436400175e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.939150287396008e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.152690061716203,
+          "squared_error": 3.756013687599399e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T12:00:00+00:00",
+          "forecast_variance": 1.9308616882274893e-06,
+          "label_end": "2020-02-06T16:00:00+00:00",
+          "qlike": -12.495851567505708,
+          "squared_error": 4.267025942095308e-13,
+          "squared_return": 1.2776369227680566e-06
+        },
+        {
+          "decision_time": "2020-02-06T16:00:00+00:00",
+          "forecast_variance": 1.8956374858862235e-06,
+          "label_end": "2020-02-06T20:00:00+00:00",
+          "qlike": -11.327430714632179,
+          "squared_error": 2.5872566408208124e-12,
+          "squared_return": 3.5041326337871466e-06
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.886150364555805e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.929212424474624,
+          "squared_error": 2.2548977977780358e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -12.150805713840224,
+      "variance_mse": 4.208272533554605e-12
+    },
+    "metrics": {
+      "average_holding_hours": 19.75,
+      "average_loss_usd": -1.7037006241201105,
+      "average_win_usd": 3.904189606666316,
+      "cagr": 0.06198548014299121,
+      "calmar": 130.65946648268348,
+      "carry": -0.0664767839854787,
+      "commission": 0.3878143532443064,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.0001163443059732919,
+      "costs": 1.163443059732919,
+      "daily_observations": 4,
+      "expectancy_usd": 1.1002444912731026,
+      "exposure_time": 0.8229166666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0004744048159052161,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006592884740150851,
+      "price_pnl": 5.630897808810809,
+      "profit_factor": 2.2915936939816905,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1919067750653363,
+      "sharpe_zero_rate": 6.234593416747872,
+      "slippage": 0.3878143532443064,
+      "slippage_usd": 0.3878143532443064,
+      "sortino_zero_mar": 12.425976485426458,
+      "spread": 0.3878143532443064,
+      "turnover_initial_nav": 0.7756287064886128,
+      "turnover_usd": 7756.287064886128,
+      "win_loss_ratio": 2.2915936939816905,
+      "worst_trade_usd": -3.0135424432605773
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 2.049082594862034e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.517648855115146,
+          "squared_error": 7.390025844828705e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-03T08:00:00+00:00",
+          "forecast_variance": 1.999461659660417e-06,
+          "label_end": "2020-02-03T12:00:00+00:00",
+          "qlike": -12.916832091089075,
+          "squared_error": 2.5216533734379023e-12,
+          "squared_return": 4.1149019472853675e-07
+        },
+        {
+          "decision_time": "2020-02-03T12:00:00+00:00",
+          "forecast_variance": 1.9165635752547715e-06,
+          "label_end": "2020-02-03T16:00:00+00:00",
+          "qlike": -13.048393302252855,
+          "squared_error": 2.8666686360716525e-12,
+          "squared_return": 2.2343964710549037e-07
+        },
+        {
+          "decision_time": "2020-02-03T16:00:00+00:00",
+          "forecast_variance": 1.8253794977673479e-06,
+          "label_end": "2020-02-03T20:00:00+00:00",
+          "qlike": -12.263250389984048,
+          "squared_error": 8.17341186319263e-15,
+          "squared_return": 1.7349725740104108e-06
+        },
+        {
+          "decision_time": "2020-02-03T20:00:00+00:00",
+          "forecast_variance": 1.8250034276662765e-06,
+          "label_end": "2020-02-04T00:00:00+00:00",
+          "qlike": -12.487891914871103,
+          "squared_error": 2.499838196722097e-13,
+          "squared_return": 1.3250196082558783e-06
+        },
+        {
+          "decision_time": "2020-02-04T00:00:00+00:00",
+          "forecast_variance": 1.8028900381749756e-06,
+          "label_end": "2020-02-04T04:00:00+00:00",
+          "qlike": -13.225564148655312,
+          "squared_error": 3.246802575541045e-12,
+          "squared_return": 1.0014246527509877e-09
+        },
+        {
+          "decision_time": "2020-02-04T04:00:00+00:00",
+          "forecast_variance": 1.6966945152460553e-06,
+          "label_end": "2020-02-04T08:00:00+00:00",
+          "qlike": -11.969573169211412,
+          "squared_error": 2.897513372133141e-13,
+          "squared_return": 2.2349800688449923e-06
+        },
+        {
+          "decision_time": "2020-02-04T08:00:00+00:00",
+          "forecast_variance": 1.713708236542376e-06,
+          "label_end": "2020-02-04T12:00:00+00:00",
+          "qlike": -10.210047069238211,
+          "squared_error": 1.2545047664346602e-11,
+          "squared_return": 5.255607114876793e-06
+        },
+        {
+          "decision_time": "2020-02-04T12:00:00+00:00",
+          "forecast_variance": 1.9098806598501064e-06,
+          "label_end": "2020-02-04T16:00:00+00:00",
+          "qlike": -11.174574640811052,
+          "squared_error": 3.60324350284224e-12,
+          "squared_return": 3.808101801562062e-06
+        },
+        {
+          "decision_time": "2020-02-04T16:00:00+00:00",
+          "forecast_variance": 2.024144193239129e-06,
+          "label_end": "2020-02-04T20:00:00+00:00",
+          "qlike": -12.783929722181293,
+          "squared_error": 1.8588459834201304e-12,
+          "squared_return": 6.607491721905225e-07
+        },
+        {
+          "decision_time": "2020-02-04T20:00:00+00:00",
+          "forecast_variance": 1.9503550813828746e-06,
+          "label_end": "2020-02-05T00:00:00+00:00",
+          "qlike": -13.12321309254118,
+          "squared_error": 3.6213660908109993e-12,
+          "squared_return": 4.7366355506917183e-08
+        },
+        {
+          "decision_time": "2020-02-05T00:00:00+00:00",
+          "forecast_variance": 1.841757128133272e-06,
+          "label_end": "2020-02-05T04:00:00+00:00",
+          "qlike": -13.146096680392352,
+          "squared_error": 3.005567988645251e-12,
+          "squared_return": 1.0809972580568091e-07
+        },
+        {
+          "decision_time": "2020-02-05T08:00:00+00:00",
+          "forecast_variance": 1.6630114401196553e-06,
+          "label_end": "2020-02-05T12:00:00+00:00",
+          "qlike": -11.055382228949174,
+          "squared_error": 4.331626147970612e-12,
+          "squared_return": 3.7442673465306405e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.7714647302575218e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.122296461204165,
+          "squared_error": 3.0574961611140396e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 2.0834261647433844e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.455697613200385,
+          "squared_error": 1.147334479533964e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 2.2827837669606537e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.480584012621211,
+          "squared_error": 1.2535823253938609e-12,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 2.2198581263876057e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -12.997457690981687,
+          "squared_error": 4.726744649313099e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 2.09065944533014e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.865469639976752,
+          "squared_error": 2.710191720815379e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.998047702643736e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.12278620781956,
+          "squared_error": 3.987774131510032e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T12:00:00+00:00",
+          "forecast_variance": 1.889916220957975e-06,
+          "label_end": "2020-02-06T16:00:00+00:00",
+          "qlike": -12.50294971890558,
+          "squared_error": 3.748859389919391e-13,
+          "squared_return": 1.2776369227680566e-06
+        },
+        {
+          "decision_time": "2020-02-06T16:00:00+00:00",
+          "forecast_variance": 1.8573184670633025e-06,
+          "label_end": "2020-02-06T20:00:00+00:00",
+          "qlike": -11.309714547128292,
+          "squared_error": 2.711996899722349e-12,
+          "squared_return": 3.5041326337871466e-06
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.95579666657441e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.93752814628373,
+          "squared_error": 1.641962297184278e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -12.123494606518799,
+      "variance_mse": 4.402973246284688e-12
+    },
+    "metrics": {
+      "average_holding_hours": 19.75,
+      "average_loss_usd": -1.7541357649004259,
+      "average_win_usd": 3.904189606666316,
+      "cagr": 0.06100894047926611,
+      "calmar": 125.92402773395284,
+      "carry": -0.0664767839854787,
+      "commission": 0.3878193960019708,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011634581880059125,
+      "costs": 1.1634581880059125,
+      "daily_observations": 4,
+      "expectancy_usd": 1.075026920882945,
+      "exposure_time": 0.8229166666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0004844900657733353,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006492000754969585,
+      "price_pnl": 5.530042655523171,
+      "profit_factor": 2.2257054925779585,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1918930714443303,
+      "sharpe_zero_rate": 6.0713275292141775,
+      "slippage": 0.3878193960019708,
+      "slippage_usd": 0.3878193960019708,
+      "sortino_zero_mar": 11.949926646815248,
+      "spread": 0.3878193960019708,
+      "turnover_initial_nav": 0.7756387920039415,
+      "turnover_usd": 7756.387920039415,
+      "win_loss_ratio": 2.2257054925779585,
+      "worst_trade_usd": -3.114412724821208
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "ewma"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 1.9413699549079916e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.539441072971313,
+          "squared_error": 5.654136963379565e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-03T08:00:00+00:00",
+          "forecast_variance": 1.9242263953868843e-06,
+          "label_end": "2020-02-03T12:00:00+00:00",
+          "qlike": -12.947139464138473,
+          "squared_error": 2.288370812782252e-12,
+          "squared_return": 4.1149019472853675e-07
+        },
+        {
+          "decision_time": "2020-02-03T12:00:00+00:00",
+          "forecast_variance": 1.9035861541137036e-06,
+          "label_end": "2020-02-03T16:00:00+00:00",
+          "qlike": -13.054392732545535,
+          "squared_error": 2.8228922850119e-12,
+          "squared_return": 2.2343964710549037e-07
+        },
+        {
+          "decision_time": "2020-02-03T16:00:00+00:00",
+          "forecast_variance": 1.8718915995643814e-06,
+          "label_end": "2020-02-03T20:00:00+00:00",
+          "qlike": -12.261705828439851,
+          "squared_error": 1.8746819558648843e-14,
+          "squared_return": 1.7349725740104108e-06
+        },
+        {
+          "decision_time": "2020-02-03T20:00:00+00:00",
+          "forecast_variance": 1.8946205563331517e-06,
+          "label_end": "2020-02-04T00:00:00+00:00",
+          "qlike": -12.477133147465448,
+          "squared_error": 3.244452400505287e-13,
+          "squared_return": 1.3250196082558783e-06
+        },
+        {
+          "decision_time": "2020-02-04T00:00:00+00:00",
+          "forecast_variance": 1.9165934104782115e-06,
+          "label_end": "2020-02-04T04:00:00+00:00",
+          "qlike": -13.164438710775727,
+          "squared_error": 3.669492656158732e-12,
+          "squared_return": 1.0014246527509877e-09
+        },
+        {
+          "decision_time": "2020-02-04T04:00:00+00:00",
+          "forecast_variance": 1.8662762286905603e-06,
+          "label_end": "2020-02-04T08:00:00+00:00",
+          "qlike": -11.99400419706119,
+          "squared_error": 1.3594252174462496e-13,
+          "squared_return": 2.2349800688449923e-06
+        },
+        {
+          "decision_time": "2020-02-04T08:00:00+00:00",
+          "forecast_variance": 1.8429753323499083e-06,
+          "label_end": "2020-02-04T12:00:00+00:00",
+          "qlike": -10.352432324353153,
+          "squared_error": 1.1646055683112622e-11,
+          "squared_return": 5.255607114876793e-06
+        },
+        {
+          "decision_time": "2020-02-04T12:00:00+00:00",
+          "forecast_variance": 1.9198158742674227e-06,
+          "label_end": "2020-02-04T16:00:00+00:00",
+          "qlike": -11.179704697710688,
+          "squared_error": 3.5656237432189753e-12,
+          "squared_return": 3.808101801562062e-06
+        },
+        {
+          "decision_time": "2020-02-04T16:00:00+00:00",
+          "forecast_variance": 1.9783526176324964e-06,
+          "label_end": "2020-02-04T20:00:00+00:00",
+          "qlike": -12.799256484632792,
+          "squared_error": 1.7360788394405602e-12,
+          "squared_return": 6.607491721905225e-07
+        },
+        {
+          "decision_time": "2020-02-04T20:00:00+00:00",
+          "forecast_variance": 1.9440789003391734e-06,
+          "label_end": "2020-02-05T00:00:00+00:00",
+          "qlike": -13.126357845812882,
+          "squared_error": 3.5975184777240533e-12,
+          "squared_return": 4.7366355506917183e-08
+        },
+        {
+          "decision_time": "2020-02-05T00:00:00+00:00",
+          "forecast_variance": 1.899496445738048e-06,
+          "label_end": "2020-02-05T04:00:00+00:00",
+          "qlike": -13.11701206025856,
+          "squared_error": 3.2091022081844442e-12,
+          "squared_return": 1.0809972580568091e-07
+        },
+        {
+          "decision_time": "2020-02-05T08:00:00+00:00",
+          "forecast_variance": 1.8255003000634533e-06,
+          "label_end": "2020-02-05T12:00:00+00:00",
+          "qlike": -11.16256541090599,
+          "squared_error": 3.681666978608413e-12,
+          "squared_return": 3.7442673465306405e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.841757691702135e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.240681426024562,
+          "squared_error": 2.9802538045732265e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 1.969932804246566e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.360432247794485,
+          "squared_error": 1.2255082362979963e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 2.065578618506028e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.526989740212743,
+          "squared_error": 8.143794694475596e-13,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 2.026269746447953e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -13.086735413725869,
+          "squared_error": 3.922457103358696e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 1.9839284574683355e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.906434897153922,
+          "squared_error": 2.370168033081191e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.920740593538028e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.162223636019712,
+          "squared_error": 3.684995019134188e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T12:00:00+00:00",
+          "forecast_variance": 1.8820767553306793e-06,
+          "label_end": "2020-02-06T16:00:00+00:00",
+          "qlike": -12.504290515939678,
+          "squared_error": 3.653475111883314e-13,
+          "squared_return": 1.2776369227680566e-06
+        },
+        {
+          "decision_time": "2020-02-06T16:00:00+00:00",
+          "forecast_variance": 1.8682532018212255e-06,
+          "label_end": "2020-02-06T20:00:00+00:00",
+          "qlike": -11.314886914030861,
+          "squared_error": 2.6761015159291446e-12,
+          "squared_return": 3.5041326337871466e-06
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.9321841062649435e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.934922142406016,
+          "squared_error": 1.838899371102834e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -12.14605367774452,
+      "variance_mse": 4.242559498177061e-12
+    },
+    "metrics": {
+      "average_holding_hours": 19.75,
+      "average_loss_usd": -1.7163711875518228,
+      "average_win_usd": 3.904189606666316,
+      "cagr": 0.06174006548122471,
+      "calmar": 129.45079466610017,
+      "carry": -0.0664767839854787,
+      "commission": 0.38781562011061965,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.0001163446860331859,
+      "costs": 1.163446860331859,
+      "daily_observations": 4,
+      "expectancy_usd": 1.0939092095572465,
+      "exposure_time": 0.8229166666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.00047693848184149346,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006567540170603348,
+      "price_pnl": 5.605560482546323,
+      "profit_factor": 2.274676733670371,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.191903332374457,
+      "sharpe_zero_rate": 6.193245061798241,
+      "slippage": 0.38781562011061965,
+      "slippage_usd": 0.38781562011061965,
+      "sortino_zero_mar": 12.30424943903516,
+      "spread": 0.38781562011061965,
+      "turnover_initial_nav": 0.7756312402212392,
+      "turnover_usd": 7756.312402212392,
+      "win_loss_ratio": 2.274676733670371,
+      "worst_trade_usd": -3.038883570124002
+    },
+    "model": "trend",
+    "profile": "base",
+    "volatility": "garch"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 8,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 1.905882310672479e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.546481845776192,
+          "squared_error": 5.133039139928577e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.8775557865817178e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.29701198996896,
+          "squared_error": 2.941296377180738e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 1.8810323881272566e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.275361992564692,
+          "squared_error": 1.2885417639038327e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 1.9200572734758804e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.557366915271457,
+          "squared_error": 5.729103467347212e-13,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 1.932543197926951e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -13.133000057095177,
+          "squared_error": 3.5599872735211074e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 1.928901600721955e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.92817304379181,
+          "squared_error": 2.2037644436400175e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.939150287396008e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.152690061716203,
+          "squared_error": 3.756013687599399e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.886150364555805e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.929212424474624,
+          "squared_error": 2.2548977977780358e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -11.977412291332389,
+      "variance_mse": 6.641231357013952e-12
+    },
+    "metrics": {
+      "average_holding_hours": 6.75,
+      "average_loss_usd": -1.4654758816396805,
+      "average_win_usd": 0.7752154256856498,
+      "cagr": -0.012958324680746843,
+      "calmar": -36.144141102181614,
+      "carry": 0.0006157076380876991,
+      "commission": 0.3776196971619426,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011328590914858276,
+      "costs": 1.1328590914858276,
+      "daily_observations": 4,
+      "expectancy_usd": -0.9053030548083479,
+      "exposure_time": 0.28125,
+      "gap_stops": 0,
+      "hit_rate": 0.25,
+      "maximum_drawdown": 0.0003585179861962384,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0001429269488691931,
+      "price_pnl": -2.488968835385652,
+      "profit_factor": 0.17632848491924288,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1919427305513146,
+      "sharpe_zero_rate": -2.9853408061622937,
+      "slippage": 0.3776196971619426,
+      "slippage_usd": 0.3776196971619426,
+      "sortino_zero_mar": -3.7222862673872923,
+      "spread": 0.3776196971619426,
+      "turnover_initial_nav": 0.7552393943238851,
+      "turnover_usd": 7552.393943238851,
+      "win_loss_ratio": 0.5289854547577287,
+      "worst_trade_usd": -2.6810843017535797
+    },
+    "model": "mean_reversion",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 17,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 1.905882310672479e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.546481845776192,
+          "squared_error": 5.133039139928577e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-03T08:00:00+00:00",
+          "forecast_variance": 1.9222248214758145e-06,
+          "label_end": "2020-02-03T12:00:00+00:00",
+          "qlike": -12.947957527552301,
+          "squared_error": 2.2823191124532366e-12,
+          "squared_return": 4.1149019472853675e-07
+        },
+        {
+          "decision_time": "2020-02-03T12:00:00+00:00",
+          "forecast_variance": 1.9343801183041523e-06,
+          "label_end": "2020-02-03T16:00:00+00:00",
+          "qlike": -13.040213945466784,
+          "squared_error": 2.9273172959854996e-12,
+          "squared_return": 2.2343964710549037e-07
+        },
+        {
+          "decision_time": "2020-02-03T16:00:00+00:00",
+          "forecast_variance": 1.9143889669203786e-06,
+          "label_end": "2020-02-03T20:00:00+00:00",
+          "qlike": -12.25983198988463,
+          "squared_error": 3.219024204482394e-14,
+          "squared_return": 1.7349725740104108e-06
+        },
+        {
+          "decision_time": "2020-02-03T20:00:00+00:00",
+          "forecast_variance": 1.9032696399070295e-06,
+          "label_end": "2020-02-04T00:00:00+00:00",
+          "qlike": -12.475756578184145,
+          "squared_error": 3.343730991045574e-13,
+          "squared_return": 1.3250196082558783e-06
+        },
+        {
+          "decision_time": "2020-02-05T00:00:00+00:00",
+          "forecast_variance": 1.9518729133196887e-06,
+          "label_end": "2020-02-05T04:00:00+00:00",
+          "qlike": -13.091338614351292,
+          "squared_error": 3.3994995669955646e-12,
+          "squared_return": 1.0809972580568091e-07
+        },
+        {
+          "decision_time": "2020-02-05T04:00:00+00:00",
+          "forecast_variance": 1.9524610585399e-06,
+          "label_end": "2020-02-05T08:00:00+00:00",
+          "qlike": -12.95841300606744,
+          "squared_error": 2.5134453436422927e-12,
+          "squared_return": 3.670761388304015e-07
+        },
+        {
+          "decision_time": "2020-02-05T08:00:00+00:00",
+          "forecast_variance": 1.9228167938257003e-06,
+          "label_end": "2020-02-05T12:00:00+00:00",
+          "qlike": -11.214436943259978,
+          "squared_error": 3.3176821159491324e-12,
+          "squared_return": 3.7442673465306405e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.8775557865817178e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.29701198996896,
+          "squared_error": 2.941296377180738e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 1.8810323881272566e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.275361992564692,
+          "squared_error": 1.2885417639038327e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 1.9200572734758804e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.557366915271457,
+          "squared_error": 5.729103467347212e-13,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 1.932543197926951e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -13.133000057095177,
+          "squared_error": 3.5599872735211074e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 1.928901600721955e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.92817304379181,
+          "squared_error": 2.2037644436400175e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.939150287396008e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.152690061716203,
+          "squared_error": 3.756013687599399e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T12:00:00+00:00",
+          "forecast_variance": 1.9308616882274893e-06,
+          "label_end": "2020-02-06T16:00:00+00:00",
+          "qlike": -12.495851567505708,
+          "squared_error": 4.267025942095308e-13,
+          "squared_return": 1.2776369227680566e-06
+        },
+        {
+          "decision_time": "2020-02-06T16:00:00+00:00",
+          "forecast_variance": 1.8956374858862235e-06,
+          "label_end": "2020-02-06T20:00:00+00:00",
+          "qlike": -11.327430714632179,
+          "squared_error": 2.5872566408208124e-12,
+          "squared_return": 3.5041326337871466e-06
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.886150364555805e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.929212424474624,
+          "squared_error": 2.2548977977780358e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -12.213560542209622,
+      "variance_mse": 4.173566874548062e-12
+    },
+    "metrics": {
+      "average_holding_hours": 14.75,
+      "average_loss_usd": -2.565124083655091,
+      "average_win_usd": null,
+      "cagr": -0.07101362746991015,
+      "calmar": -72.1694244215362,
+      "carry": -0.03596575002783374,
+      "commission": 0.37704250244277454,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011311275073283236,
+      "costs": 1.1311275073283236,
+      "daily_observations": 4,
+      "expectancy_usd": -2.565124083655091,
+      "exposure_time": 0.6145833333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.0009839849498469722,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.000806920393183419,
+      "price_pnl": -9.093403077264206,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1912924027765865,
+      "sharpe_zero_rate": -13.490181218255989,
+      "slippage": 0.37704250244277454,
+      "slippage_usd": 0.37704250244277454,
+      "sortino_zero_mar": -11.135871737285798,
+      "spread": 0.37704250244277454,
+      "turnover_initial_nav": 0.7540850048855491,
+      "turnover_usd": 7540.850048855491,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.0731182805944135
+    },
+    "model": "rate_differential",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 0,
+      "observations": [],
+      "qlike": null,
+      "variance_mse": null
+    },
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020201328380628054,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00021920197833358301,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1920197833361157,
+      "sharpe_zero_rate": 1813449375606.2222,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_trade",
+    "profile": "base",
+    "volatility": "realized"
+  },
+  {
+    "fold": 3,
+    "forecast_scores": {
+      "n": 22,
+      "observations": [
+        {
+          "decision_time": "2020-02-03T04:00:00+00:00",
+          "forecast_variance": 1.905882310672479e-06,
+          "label_end": "2020-02-03T08:00:00+00:00",
+          "qlike": -12.546481845776192,
+          "squared_error": 5.133039139928577e-13,
+          "squared_return": 1.1894299996336648e-06
+        },
+        {
+          "decision_time": "2020-02-03T08:00:00+00:00",
+          "forecast_variance": 1.9222248214758145e-06,
+          "label_end": "2020-02-03T12:00:00+00:00",
+          "qlike": -12.947957527552301,
+          "squared_error": 2.2823191124532366e-12,
+          "squared_return": 4.1149019472853675e-07
+        },
+        {
+          "decision_time": "2020-02-03T12:00:00+00:00",
+          "forecast_variance": 1.9343801183041523e-06,
+          "label_end": "2020-02-03T16:00:00+00:00",
+          "qlike": -13.040213945466784,
+          "squared_error": 2.9273172959854996e-12,
+          "squared_return": 2.2343964710549037e-07
+        },
+        {
+          "decision_time": "2020-02-03T16:00:00+00:00",
+          "forecast_variance": 1.9143889669203786e-06,
+          "label_end": "2020-02-03T20:00:00+00:00",
+          "qlike": -12.25983198988463,
+          "squared_error": 3.219024204482394e-14,
+          "squared_return": 1.7349725740104108e-06
+        },
+        {
+          "decision_time": "2020-02-03T20:00:00+00:00",
+          "forecast_variance": 1.9032696399070295e-06,
+          "label_end": "2020-02-04T00:00:00+00:00",
+          "qlike": -12.475756578184145,
+          "squared_error": 3.343730991045574e-13,
+          "squared_return": 1.3250196082558783e-06
+        },
+        {
+          "decision_time": "2020-02-04T00:00:00+00:00",
+          "forecast_variance": 1.9124925035960722e-06,
+          "label_end": "2020-02-04T04:00:00+00:00",
+          "qlike": -13.166579568155829,
+          "squared_error": 3.653798144879903e-12,
+          "squared_return": 1.0014246527509877e-09
+        },
+        {
+          "decision_time": "2020-02-04T04:00:00+00:00",
+          "forecast_variance": 1.8973100226331357e-06,
+          "label_end": "2020-02-04T08:00:00+00:00",
+          "qlike": -11.997100405312995,
+          "squared_error": 1.140210601087174e-13,
+          "squared_return": 2.2349800688449923e-06
+        },
+        {
+          "decision_time": "2020-02-04T08:00:00+00:00",
+          "forecast_variance": 1.8728881863285677e-06,
+          "label_end": "2020-02-04T12:00:00+00:00",
+          "qlike": -10.381877802992936,
+          "squared_error": 1.1442787349558452e-11,
+          "squared_return": 5.255607114876793e-06
+        },
+        {
+          "decision_time": "2020-02-04T12:00:00+00:00",
+          "forecast_variance": 1.8958195321559763e-06,
+          "label_end": "2020-02-04T16:00:00+00:00",
+          "qlike": -11.167175637282154,
+          "squared_error": 3.6568234778848895e-12,
+          "squared_return": 3.808101801562062e-06
+        },
+        {
+          "decision_time": "2020-02-04T16:00:00+00:00",
+          "forecast_variance": 1.941515164945731e-06,
+          "label_end": "2020-02-04T20:00:00+00:00",
+          "qlike": -12.811715319480456,
+          "squared_error": 1.640361528198234e-12,
+          "squared_return": 6.607491721905225e-07
+        },
+        {
+          "decision_time": "2020-02-04T20:00:00+00:00",
+          "forecast_variance": 1.954461700238357e-06,
+          "label_end": "2020-02-05T00:00:00+00:00",
+          "qlike": -13.121160759764427,
+          "squared_error": 3.6370126538963284e-12,
+          "squared_return": 4.7366355506917183e-08
+        },
+        {
+          "decision_time": "2020-02-05T00:00:00+00:00",
+          "forecast_variance": 1.9518729133196887e-06,
+          "label_end": "2020-02-05T04:00:00+00:00",
+          "qlike": -13.091338614351292,
+          "squared_error": 3.3994995669955646e-12,
+          "squared_return": 1.0809972580568091e-07
+        },
+        {
+          "decision_time": "2020-02-05T08:00:00+00:00",
+          "forecast_variance": 1.9228167938257003e-06,
+          "label_end": "2020-02-05T12:00:00+00:00",
+          "qlike": -11.214436943259978,
+          "squared_error": 3.3176821159491324e-12,
+          "squared_return": 3.7442673465306405e-06
+        },
+        {
+          "decision_time": "2020-02-05T12:00:00+00:00",
+          "forecast_variance": 1.8775557865817178e-06,
+          "label_end": "2020-02-05T16:00:00+00:00",
+          "qlike": -9.29701198996896,
+          "squared_error": 2.941296377180738e-11,
+          "squared_return": 7.300927779337459e-06
+        },
+        {
+          "decision_time": "2020-02-05T16:00:00+00:00",
+          "forecast_variance": 1.8810323881272566e-06,
+          "label_end": "2020-02-05T20:00:00+00:00",
+          "qlike": -10.275361992564692,
+          "squared_error": 1.2885417639038327e-11,
+          "squared_return": 5.470658780809137e-06
+        },
+        {
+          "decision_time": "2020-02-05T20:00:00+00:00",
+          "forecast_variance": 1.9200572734758804e-06,
+          "label_end": "2020-02-06T00:00:00+00:00",
+          "qlike": -12.557366915271457,
+          "squared_error": 5.729103467347212e-13,
+          "squared_return": 1.1631488597726628e-06
+        },
+        {
+          "decision_time": "2020-02-06T00:00:00+00:00",
+          "forecast_variance": 1.932543197926951e-06,
+          "label_end": "2020-02-06T04:00:00+00:00",
+          "qlike": -13.133000057095177,
+          "squared_error": 3.5599872735211074e-12,
+          "squared_return": 4.5750344028805824e-08
+        },
+        {
+          "decision_time": "2020-02-06T04:00:00+00:00",
+          "forecast_variance": 1.928901600721955e-06,
+          "label_end": "2020-02-06T08:00:00+00:00",
+          "qlike": -12.92817304379181,
+          "squared_error": 2.2037644436400175e-12,
+          "squared_return": 4.443934519938931e-07
+        },
+        {
+          "decision_time": "2020-02-06T08:00:00+00:00",
+          "forecast_variance": 1.939150287396008e-06,
+          "label_end": "2020-02-06T12:00:00+00:00",
+          "qlike": -13.152690061716203,
+          "squared_error": 3.756013687599399e-12,
+          "squared_return": 1.1065088400647494e-09
+        },
+        {
+          "decision_time": "2020-02-06T12:00:00+00:00",
+          "forecast_variance": 1.9308616882274893e-06,
+          "label_end": "2020-02-06T16:00:00+00:00",
+          "qlike": -12.495851567505708,
+          "squared_error": 4.267025942095308e-13,
+          "squared_return": 1.2776369227680566e-06
+        },
+        {
+          "decision_time": "2020-02-06T16:00:00+00:00",
+          "forecast_variance": 1.8956374858862235e-06,
+          "label_end": "2020-02-06T20:00:00+00:00",
+          "qlike": -11.327430714632179,
+          "squared_error": 2.5872566408208124e-12,
+          "squared_return": 3.5041326337871466e-06
+        },
+        {
+          "decision_time": "2020-02-06T20:00:00+00:00",
+          "forecast_variance": 1.886150364555805e-06,
+          "label_end": "2020-02-07T00:00:00+00:00",
+          "qlike": -11.929212424474624,
+          "squared_error": 2.2548977977780358e-13,
+          "squared_return": 2.361008006147265e-06
+        }
+      ],
+      "qlike": -12.150805713840224,
+      "variance_mse": 4.208272533554605e-12
+    },
+    "metrics": {
+      "average_holding_hours": 19.625,
+      "average_loss_usd": -4.385762458118335,
+      "average_win_usd": 1.443814129932246,
+      "cagr": -0.033143160335260435,
+      "calmar": -35.329372586407246,
+      "carry": -0.06484982874803163,
+      "commission": 3.8762590693993437,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.001162877720819803,
+      "costs": 11.62877720819803,
+      "daily_observations": 4,
+      "expectancy_usd": -1.4709741640930445,
+      "exposure_time": 0.8177083333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0009381191317281434,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0003692999052784529,
+      "price_pnl": 5.809730380573885,
+      "profit_factor": 0.3292048175704662,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190897603577912,
+      "sharpe_zero_rate": -3.650950660637888,
+      "slippage": 3.8762590693993437,
+      "slippage_usd": 3.8762590693993437,
+      "sortino_zero_mar": -4.248202339517532,
+      "spread": 3.8762590693993437,
+      "turnover_initial_nav": 0.7752518138798687,
+      "turnover_usd": 7752.518138798688,
+      "win_loss_ratio": 0.3292048175704662,
+      "worst_trade_usd": -5.691202489945262
+    },
+    "model": "trend",
+    "profile": "high_cost",
+    "volatility": "realized"
+  },
+  {
+    "fold": "stress",
+    "metrics": {
+      "average_holding_hours": 30.875,
+      "average_loss_usd": -10.903389081720213,
+      "average_win_usd": 7.188592833645597,
+      "cagr": -0.12669114143620397,
+      "calmar": -36.11919220826989,
+      "carry": -0.31897162733025997,
+      "commission": 0.37473914879332826,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.0001124217446379985,
+      "costs": 1.124217446379985,
+      "daily_observations": 4,
+      "expectancy_usd": -6.380393602878761,
+      "exposure_time": 0.8576388888888888,
+      "gap_stops": 1,
+      "hit_rate": 0.25,
+      "maximum_drawdown": 0.0035075851283074,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.002224360722673957,
+      "price_pnl": -24.078385337804797,
+      "profit_factor": 0.21976631240578953,
+      "risk_budget_breaches": 1,
+      "safe_income": 3.2779671847885665,
+      "sharpe_zero_rate": -4.693763662824446,
+      "slippage": 0.37473914879332826,
+      "slippage_usd": 0.37473914879332826,
+      "sortino_zero_mar": -5.338853246779755,
+      "spread": 0.37473914879332826,
+      "turnover_initial_nav": 0.7494782975866565,
+      "turnover_usd": 7494.782975866566,
+      "win_loss_ratio": 0.6592989372173685,
+      "worst_trade_usd": -30.12780524064127
+    },
+    "model": "trend",
+    "profile": "3_percent_adverse_gap",
+    "volatility": "realized"
+  }
+]

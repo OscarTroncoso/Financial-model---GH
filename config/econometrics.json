@@ -1,0 +1,23 @@
+{
+  "window": 60,
+  "max_condition": 1000000.0,
+  "maximum_root": 0.995,
+  "minimum_scale": 1e-10,
+  "maximum_standardized_coefficient": 10.0,
+  "maximum_forecast_sigma": 5.0,
+  "maximum_absolute_return": 0.1,
+  "kalman_process_variance": 0.001,
+  "kalman_observation_variance": 0.25,
+  "kalman_initial_variance": 1.0,
+  "maximum_state_covariance": 100.0,
+  "markov_states": 2,
+  "markov_iterations": 200,
+  "markov_tolerance": 1e-05,
+  "markov_minimum_state_share": 0.02,
+  "signal_buffer": 0.0001,
+  "maximum_age_minutes": 300.0,
+  "maximum_gap_hours": 76.0,
+  "maximum_rate_age_days": 10.0,
+  "minimum_forecast_coverage": 0.5,
+  "maximum_drawdown": 0.2
+}

@@ -243,3 +243,53 @@ Primary sources for market/limit/stop distinctions and gap execution risk.
 OHLC ambiguity, proportional costs, overnight accrual and time stops are
 explicit project conventions, not equations attributed to these sources.
 See BACKTESTING.md and MODELS.md for equations and hand examples.
+
+
+## Phase 4 source verification — 2026-09-24
+
+- [Idzorek original paper](https://www.cis.upenn.edu/~mkearns/finread/idzorek.pdf): equations 1/2/3/8, Figure 1, and the eight-asset example in Tables 1/2/5/6. Numerical reproduction allows one basis point for rounded source inputs/outputs.
+- [RiskMetrics original technical document](https://www.msci.com/documents/10199/5915b101-4206-4ba0-aee2-3449d5c7e95a): covariance recursion, zero-mean convention and initialization example. Lambda is configurable.
+- [Ledoit-Wolf well-conditioned estimator](https://www.sciencedirect.com/science/article/pii/S0047259X03000964): identity shrinkage target. Distinct from the previously listed constant-correlation Honey paper.
+- [Original scikit-learn estimator source](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/covariance/_shrunk_covariance.py) and [official API](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html): centered finite-sample LW computation and numeric example. Full author-paper download was unavailable, so this exact verification scope is recorded rather than claiming a full paper replication.
+- [Boyd and Vandenberghe](https://web.stanford.edu/~boyd/cvxbook/): convex optimization background; project projection and optimality certificate are derived in MODELS.md.
+
+Single-view confidence interpolation, asset caps, drift bands and contribution/
+execution rules are declared project choices. No factor-generated views or
+forecasting model is attributed to these sources. See BLACK_LITTERMAN.md.
+
+## Phase 5 primary sources
+
+- [NIST/SEMATECH: Process Modeling: Least Squares](https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd431.htm) (`nist_ols`). OLS coefficients and residual variance SSE/(n-p), p=2.
+- [NIST/SEMATECH: How can I assess the uncertainty in a predicted response?](https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd511.htm) (`nist_mean_response`). Conditional mean uncertainty differs from individual future outcome uncertainty.
+- [Kenneth R. French: Detail for Daily Momentum Factor](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_mom_factor_daily.html) (`french_daily_momentum`). Prior 2-12 month momentum background. Project session-count descriptor is a proxy, not the published portfolio factor.
+- [MSCI: MSCI Quality Indexes Methodology, May 2022](https://www.msci.com/indexes/documents/methodology/2_MSCI_Quality_Indexes_Methodology_20220519.pdf) (`msci_quality_2022`). Section 2.2.2 normalization background. Project population scaling and post-score clipping do not replicate MSCI methodology.
+
+## Phase 6 primary sources
+
+- [Fidelity: Simple Moving Average](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma) (`fidelity_sma`). SMA arithmetic mean and moving-average trend background. Windows and thresholds are project conventions.
+- [Fidelity: Rate of Change](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/roc) (`fidelity_roc`). Percentage price change; project reports the fractional return instead of multiplying by 100.
+- [Fidelity: Bollinger Bands](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-bands) (`fidelity_bands`). SMA and standard-deviation envelope background only. Population z-score and contrarian rule are explicit project choices, not a guarantee of mean reversion.
+- [Gagnon, Joseph E. and Chaboud, Alain P.: What Can the Data Tell Us about Carry Trades in Japanese Yen?](https://www.federalreserve.gov/pubs/ifdp/2007/899/ifdp899.htm) (`gagnon_chaboud_2007`). IFDP 899, July 2007. Carry definition and exchange-rate risk. Policy differential is a research proxy, not this paper replication or UIP forecast.
+- [CME Group: Understanding FX Quote Conventions](https://www.cmegroup.com/education/courses/introduction-to-fx/understanding-fx-quote-conventions) (`cme_fx_quote`). Base/quote convention. USD per EUR gives USD P&L for signed EUR units.
+- [yfinance authors: yfinance.download API](https://ranaroussi.github.io/yfinance/reference/api/yfinance.download.html) (`yfinance_intraday`). Official intraday interval and lookback restrictions. Live test uses pinned Ticker.history; provider limitations may change.
+- [Federal Reserve Bank of St. Louis: Federal Funds Target Range - Upper Limit (DFEDTARU)](https://fred.stlouisfed.org/series/DFEDTARU) (`fred_fed_upper`). Daily percent policy target upper bound. No historical release-vintage claim.
+- [Federal Reserve Bank of St. Louis: ECB Deposit Facility Rate for Euro Area (ECBDFR)](https://fred.stlouisfed.org/series/ECBDFR) (`fred_ecb_deposit`). Policy deposit rate percent. Not a matched-maturity bond yield; live endpoint failed in this session.
+
+## Phase 7 verified equations and conventions
+
+- [J.P. Morgan/Reuters, RiskMetrics 1996](https://faculty.runi.ac.il/kobi/riskmgt/rmtd.pdf), section 5.2 and scalar EWMA recurrence. Seed, 4H decay choice and risk policy are declared project conventions.
+- [Bollerslev 1986, original author PDF](https://econ.duke.edu/~boller/Published_Papers/joe_86.pdf), equations 2/8, Theorem 1 and section 5. Finite-grid variance-targeted fitting is a restricted project estimator, not full MLE.
+- [CME, Proper Position Size](https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size), risk amount divided by stop loss per unit. Costs/carry and post-cost constraints are explicit algebraic extensions.
+
+## Phase 8 primary source
+
+Rabiner (1989), [original HMM paper](https://web.mit.edu/6.435/www/Rabiner89.pdf), DOI 10.1109/5.18626. Full PDF verified 2026-09-25. Forward recursion and Gaussian EM support the HMM implementation; regime thresholds and financial interpretations are explicitly project conventions. See MODELS.md and FX_REGIMES.md.
+
+## Phase 9 primary implementation sources
+
+- [AutoReg: autoregressive AR-X conditional OLS](https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.AutoReg.html): AR and lagged-exogenous ARX.
+- [Vector Autoregressions](https://www.statsmodels.org/stable/vector_ar.html): VAR equations, fitting, one-step forecasting and stationarity assumption.
+- [Implementing state space models for Statsmodels](https://www.chadfulton.com/topics/implementing_state_space.html): Author-provided Kalman filter implementation and covariance recursion.
+- [MarkovRegression](https://www.statsmodels.org/stable/generated/statsmodels.tsa.regime_switching.markov_regression.MarkovRegression.html): Gaussian switching regression; intercept-only specialization.
+
+Sources accessed 2026-09-25. The original Kalman-1960 PDF could not be retrieved; verification instead uses the original implementation published by the statsmodels contributor. Financial policies and restricted model orders are explicit in MODELS.md. Rabiner (1989) remains the primary Gaussian-HMM estimation source.

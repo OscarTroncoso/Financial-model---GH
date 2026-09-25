@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "portfolio-insurance-lab"
-version = "0.5.0"
+version = "0.11.0"
 description = "Deterministic, auditable portfolio insurance research laboratory"
 requires-python = ">=3.12"
 dependencies = ["numpy==2.5.3", "duckdb==1.5.5", "yfinance==1.7.0", "tzdata==2026.4", "curl_cffi==0.16.3"]
@@ -13,6 +13,16 @@ dependencies = ["numpy==2.5.3", "duckdb==1.5.5", "yfinance==1.7.0", "tzdata==202
 portfolio-lab = "portfolio_lab.cli:main"
 portfolio-data = "portfolio_data.cli:main"
 portfolio-backtest = "portfolio_backtest.cli:main"
+portfolio-equity = "portfolio_equity.cli:main"
+portfolio-factors = "portfolio_factors.cli:main"
+portfolio-views = "portfolio_factors.systematic_cli:main"
+portfolio-fx = "portfolio_fx.cli:main"
+portfolio-fx-risk = "portfolio_fx_risk.cli:main"
+portfolio-regimes = "portfolio_regimes.cli:main"
+portfolio-econometrics = "portfolio_econometrics.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+portfolio_equity = ["fixtures/*.json"]

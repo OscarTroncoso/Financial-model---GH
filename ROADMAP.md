@@ -438,3 +438,98 @@ execution contract in docs/BACKTESTING.md. 147 tests (28 new), 45 synthetic case
 and 45 exact replays. Hand accounting, cost effects and monthly/emergency gates
 pass. Evidence: docs/PHASE3_ACCEPTANCE.md and reports/phase3-validation.json.
 No historical profitability claim or phase-4 implementation is implied.
+
+
+## Execution record — 2026-09-24, phase 4
+
+Phase 4, package 0.6.0: locally PASSED. 184 tests (37 new), the published
+Idzorek numeric example within rounding, 12 covariance/view comparisons and
+3 monthly ledger cases, all 15 replayed exactly. Constraints and post-cost
+CPPI/TIPP budget checks pass. Evidence: docs/PHASE4_ACCEPTANCE.md and
+reports/phase4-validation.json. Model and execution choices are explicitly
+identified in docs/BLACK_LITTERMAN.md. Phase 5 status is recorded in the newer checkpoint below.
+
+
+## Phase 5 checkpoint — 2026-09-24, package 0.7.0
+
+Locally PASSED: price-factor pipeline, normalized scores, chronological OLS
+relative view, uncertainty/confidence mapping and complete input/model audit.
+211 tests pass (27 new); six synthetic walk-forward folds and six exact replays.
+Descriptor CLI replay, installed source equality (43 files), dependency check
+and saved phase-3/phase-4 replays pass. Remote CI not run.
+Evidence: docs/PHASE5_ACCEPTANCE.md (PHASE5_ACCEPTANCE.md from docs/),
+reports/phase5-validation.json and reports/phase5-comparison.md.
+This closes the engineering phase, not market profitability or confidence
+calibration. At that checkpoint phase 6 had not started. Resume context: docs/SESSION_HANDOFF.md.
+
+
+## Execution record — 2026-09-24, phase 6
+
+Phase 6, package 0.8.0: locally PASSED under docs/FX_BASELINE.md.
+242 tests (31 new), three chronological holdouts, 15 cases and exact replays,
+with cost sensitivity, causal timestamp/proposal replay and signed accounting.
+Free Yahoo capture validated on 1,044 real candles. FRED live requests failed;
+missing rates produce NO_TRADE, while normalization/rule tests use explicit
+synthetic vintages. No real historical performance claim. Evidence:
+docs/PHASE6_ACCEPTANCE.md and reports/phase6-validation.json.
+Phase 7 has not started; research plans remain non-executable pending its
+volatility/stop/sizing implementation. Brokerage remains behind later gates.
+
+
+## FRED correction verified — package 0.8.1
+
+Supersedes earlier statements that live FRED acquisition was unverified.
+The standard Python HTTPS client without an explicit Accept: text/csv header
+successfully captured both series: 44 DFEDTARU and 44 ECBDFR observations,
+with no source errors. Original HTTP/2 failures and the Accept-header timeout
+were transport issues, not missing subscriptions. Normalization and the real
+macro proposal replay passed; ingestion timestamps remain actual capture times.
+244 tests and 15 regenerated phase-6 exact replays passed. Evidence:
+reports/fred-fix-validation.json; current bundles:
+reports/runs/phase6-fred-verified-20260924/. No API key was needed for public CSV.
+This verifies present acquisition, not historical release vintages or uptime.
+The phase-7 completion checkpoint follows.
+
+
+## Phase 7 checkpoint — 2026-09-25, package 0.9.0
+
+Locally PASSED under docs/FX_RISK.md (FX_RISK.md from docs/). Historical/EWMA/
+restricted GARCH variance, volatility stop, constrained cost/carry-aware sizing,
+TP/time exit and gap-aware signed ledger implemented. 269 tests (25 new), three
+chronological holdouts plus adverse gap stress: 22 cases and 22 exact replays.
+All normal holdouts have zero actual budget breaches; the gap stress has one,
+explicitly demonstrating the limits of stop protection. 63 installed source
+files match; pip check, prior corrected phase-6 replay and real-data proposal
+replay pass. FRED acquisition is repaired: 88 real observations, no errors.
+Evidence: docs/PHASE7_ACCEPTANCE.md and reports/phase7-validation.json.
+No market profitability or brokerage readiness claimed. Phase 8 not started.
+
+
+## Phase 8 checkpoint — 2026-09-25
+
+Locally PASSED, package 0.10.0. Transparent FX regime rules and a Gaussian HMM
+challenger infer as-of states and save their probabilities, fitted parameters,
+source identity and input lineage. Entry-decision attribution measures unchanged
+phase-7 strategies after costs/carry, with safe income separately reconciled.
+292 tests pass (23 phase-8), 15 cases / 15 exact replays across three chronological
+synthetic holdouts. The pre-weekend training-cutoff regression is covered.
+72 installed source files match; dependencies and an existing phase-7 replay
+pass. See [phase-8 acceptance](docs/PHASE8_ACCEPTANCE.md) and
+reports/phase8-validation.json. Earlier phase-8-not-started entries are historical.
+No profitability claim, risk override or broker routing. Optional clustering is
+deferred. Phase 9 has not started. FRED remains repaired as recorded in phase 7.
+
+
+## Phase 9 checkpoint — 2026-09-25
+
+Locally PASSED for activated models, package 0.11.0: AR(1), restricted
+ARIMAX(1,0,0)/ARX, VAR(1), Kalman time-varying AR and Gaussian Markov-switching
+mean/variance. Identical rolling walk-forward interface, retained no-change and
+momentum baselines, cost-inclusive risk ledger and predefined rejection rules.
+VECM remains disabled with its economic/cointegration research gate open.
+318 tests (26 new), 24 chronological cases / exact replays, six additional saved
+rejection/disabled cases / replays. 85 installed source files match; pip check,
+installed Markov evaluation and prior phase-8 replay pass. No economic promotion.
+See [acceptance](docs/PHASE9_ACCEPTANCE.md) and reports/phase9-validation.json.
+Earlier phase-9-not-started checkpoints are historical. Phase 10 not started.
+No broker execution, new dependency, commit or push. FRED repair preserved.

@@ -1,0 +1,3434 @@
+[
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.0,
+          "information_coefficient": null,
+          "mae": 0.0012148577607865192,
+          "mse_skill_vs_no_change": 0.0,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0014439824589270501
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.0,
+        "information_coefficient": null,
+        "mae": 0.0012148577607865192,
+        "mse_skill_vs_no_change": 0.0,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0014439824589270501
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_change",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.8181818181818182,
+          "information_coefficient": 0.6189840641968514,
+          "mae": 0.000820766020322801,
+          "mse_skill_vs_no_change": 0.5746362003225419,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0009417642080651656
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.8181818181818182,
+        "information_coefficient": 0.6189840641968514,
+        "mae": 0.000820766020322801,
+        "mse_skill_vs_no_change": 0.5746362003225419,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0009417642080651656
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bba678b26ca0d88350b358239a26324c91108fc41472bda390dd9df0ca47d630",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -0.4640882135677137,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ec6d8c19cb12f6c6c52280801c7f274b1bdd78a01be572b03a883524006879ed",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T04:00:00+00:00",
+            "entry_time": "2020-01-23T04:30:00+00:00",
+            "net_pnl_usd": 0.10505851045171269,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "24b7c8cc7660f3d32b420bfaccc00ea27b94c6f9fdaf6e455b99a3d420e1ce9b",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T12:00:00+00:00",
+            "entry_time": "2020-01-23T12:30:00+00:00",
+            "net_pnl_usd": 3.033653910180072,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ee880d5ae0da7769ed9b23b567365e4bfcc4fe6fae6092c86f9c479b6ce5813a",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 7.125,
+            "carry_usd": 0.0025405912704635205,
+            "costs_usd": 1.1903727521887957,
+            "expectancy_usd": 1.966761350096064,
+            "gross_pnl_usd": 9.054877561302588,
+            "hit_rate": 0.75,
+            "holding_hours": 28.5,
+            "net_pnl_usd": 7.867045400384256,
+            "trades": 4,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 8.963435930911622,
+        "trade_net_pnl_usd": 7.867045400384256,
+        "unallocated_safe_income_usd": 1.0963905305273665
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 7.125,
+      "average_loss_usd": -0.4640882135677137,
+      "average_win_usd": 2.77704453798399,
+      "cagr": 0.17763646774113134,
+      "calmar": 4919.490205356857,
+      "carry": 0.0025405912704635227,
+      "commission": 0.3967909173962652,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011903727521887955,
+      "costs": 1.1903727521887955,
+      "daily_observations": 2,
+      "expectancy_usd": 1.9667613500960641,
+      "exposure_time": 0.59375,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 3.610871458747944e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0008963435930913199,
+      "price_pnl": 9.05487756130259,
+      "profit_factor": 17.95161646081408,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0963905305273665,
+      "sharpe_zero_rate": 49.1474880325603,
+      "slippage": 0.3967909173962652,
+      "slippage_usd": 0.3967909173962652,
+      "sortino_zero_mar": null,
+      "spread": 0.3967909173962652,
+      "turnover_initial_nav": 0.7935818347925304,
+      "turnover_usd": 7935.818347925304,
+      "win_loss_ratio": 5.983872153604693,
+      "worst_trade_usd": -0.4640882135677137
+    },
+    "model": "momentum",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.7272727272727273,
+          "information_coefficient": 0.6124300038811568,
+          "mae": 0.0007997468356688954,
+          "mse_skill_vs_no_change": 0.6224215814214988,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.000887289820699049
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.6124300038811568,
+        "mae": 0.0007997468356688954,
+        "mse_skill_vs_no_change": 0.6224215814214988,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.000887289820699049
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bba678b26ca0d88350b358239a26324c91108fc41472bda390dd9df0ca47d630",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -0.4640882135677137,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ec6d8c19cb12f6c6c52280801c7f274b1bdd78a01be572b03a883524006879ed",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T04:00:00+00:00",
+            "entry_time": "2020-01-23T04:30:00+00:00",
+            "net_pnl_usd": 0.10505851045171269,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "24b7c8cc7660f3d32b420bfaccc00ea27b94c6f9fdaf6e455b99a3d420e1ce9b",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T12:00:00+00:00",
+            "entry_time": "2020-01-23T12:30:00+00:00",
+            "net_pnl_usd": 3.033653910180072,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ee880d5ae0da7769ed9b23b567365e4bfcc4fe6fae6092c86f9c479b6ce5813a",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 7.125,
+            "carry_usd": 0.0025405912704635205,
+            "costs_usd": 1.1903727521887957,
+            "expectancy_usd": 1.966761350096064,
+            "gross_pnl_usd": 9.054877561302588,
+            "hit_rate": 0.75,
+            "holding_hours": 28.5,
+            "net_pnl_usd": 7.867045400384256,
+            "trades": 4,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 8.963435930911622,
+        "trade_net_pnl_usd": 7.867045400384256,
+        "unallocated_safe_income_usd": 1.0963905305273665
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 7.125,
+      "average_loss_usd": -0.4640882135677137,
+      "average_win_usd": 2.77704453798399,
+      "cagr": 0.17763646774113134,
+      "calmar": 4919.490205356857,
+      "carry": 0.0025405912704635227,
+      "commission": 0.3967909173962652,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011903727521887955,
+      "costs": 1.1903727521887955,
+      "daily_observations": 2,
+      "expectancy_usd": 1.9667613500960641,
+      "exposure_time": 0.59375,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 3.610871458747944e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0008963435930913199,
+      "price_pnl": 9.05487756130259,
+      "profit_factor": 17.95161646081408,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0963905305273665,
+      "sharpe_zero_rate": 49.1474880325603,
+      "slippage": 0.3967909173962652,
+      "slippage_usd": 0.3967909173962652,
+      "sortino_zero_mar": null,
+      "spread": 0.3967909173962652,
+      "turnover_initial_nav": 0.7935818347925304,
+      "turnover_usd": 7935.818347925304,
+      "win_loss_ratio": 5.983872153604693,
+      "worst_trade_usd": -0.4640882135677137
+    },
+    "model": "ar",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.7272727272727273,
+          "information_coefficient": 0.5305081100959759,
+          "mae": 0.0008444474958575546,
+          "mse_skill_vs_no_change": 0.5685016865533565,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0009485308684123708
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.5305081100959759,
+        "mae": 0.0008444474958575546,
+        "mse_skill_vs_no_change": 0.5685016865533565,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0009485308684123708
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "33add030da346259a7d7581969b120ac362f5fc171dbb50c090893a3eb647ca1",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -1.3028150060586288,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "33bc86b6dec5544e7ed7cc3a3033862b93700582c44e55fba99520b7a665bc09",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T04:00:00+00:00",
+            "entry_time": "2020-01-23T04:30:00+00:00",
+            "net_pnl_usd": 0.10505851045171269,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "c5e88286f8e43720adf3d3470b588e073a80471415577a68846c8c4edae74244",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T12:00:00+00:00",
+            "entry_time": "2020-01-23T12:30:00+00:00",
+            "net_pnl_usd": 3.033653910180072,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "be85295e8b7042e44ef15a2d2f223199105d50d1b596712943c8e0b8cefdeff5",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 8.125,
+            "carry_usd": 0.0048044166718986476,
+            "costs_usd": 1.1904988818620286,
+            "expectancy_usd": 1.7570796519733352,
+            "gross_pnl_usd": 8.214013073083471,
+            "hit_rate": 0.75,
+            "holding_hours": 32.5,
+            "net_pnl_usd": 7.028318607893341,
+            "trades": 4,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 8.124669894033035,
+        "trade_net_pnl_usd": 7.028318607893341,
+        "unallocated_safe_income_usd": 1.0963512861396951
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 8.125,
+      "average_loss_usd": -1.3028150060586288,
+      "average_win_usd": 2.77704453798399,
+      "cagr": 0.1597622460493255,
+      "calmar": 1374.9357407738028,
+      "carry": 0.004804416671898654,
+      "commission": 0.3968329606206762,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011904988818620284,
+      "costs": 1.1904988818620283,
+      "daily_observations": 2,
+      "expectancy_usd": 1.7570796519733352,
+      "exposure_time": 0.6770833333333334,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 0.00011619615470859213,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0008124669894029601,
+      "price_pnl": 8.214013073083471,
+      "profit_factor": 6.394717266234079,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0963512861396951,
+      "sharpe_zero_rate": 31.605223183657653,
+      "slippage": 0.3968329606206762,
+      "slippage_usd": 0.3968329606206762,
+      "sortino_zero_mar": null,
+      "spread": 0.3968329606206762,
+      "turnover_initial_nav": 0.7936659212413523,
+      "turnover_usd": 7936.659212413523,
+      "win_loss_ratio": 2.1315724220780266,
+      "worst_trade_usd": -1.3028150060586288
+    },
+    "model": "arimax",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.7272727272727273,
+          "information_coefficient": 0.5305081100959761,
+          "mae": 0.0008444474958575546,
+          "mse_skill_vs_no_change": 0.5685016865533565,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0009485308684123708
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.5305081100959761,
+        "mae": 0.0008444474958575546,
+        "mse_skill_vs_no_change": 0.5685016865533565,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0009485308684123708
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "33add030da346259a7d7581969b120ac362f5fc171dbb50c090893a3eb647ca1",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -1.3028150060586288,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "33bc86b6dec5544e7ed7cc3a3033862b93700582c44e55fba99520b7a665bc09",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T04:00:00+00:00",
+            "entry_time": "2020-01-23T04:30:00+00:00",
+            "net_pnl_usd": 0.10505851045171269,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "c5e88286f8e43720adf3d3470b588e073a80471415577a68846c8c4edae74244",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T12:00:00+00:00",
+            "entry_time": "2020-01-23T12:30:00+00:00",
+            "net_pnl_usd": 3.033653910180072,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "be85295e8b7042e44ef15a2d2f223199105d50d1b596712943c8e0b8cefdeff5",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 8.125,
+            "carry_usd": 0.0048044166718986476,
+            "costs_usd": 1.1904988818620286,
+            "expectancy_usd": 1.7570796519733352,
+            "gross_pnl_usd": 8.214013073083471,
+            "hit_rate": 0.75,
+            "holding_hours": 32.5,
+            "net_pnl_usd": 7.028318607893341,
+            "trades": 4,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 8.124669894033035,
+        "trade_net_pnl_usd": 7.028318607893341,
+        "unallocated_safe_income_usd": 1.0963512861396951
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 8.125,
+      "average_loss_usd": -1.3028150060586288,
+      "average_win_usd": 2.77704453798399,
+      "cagr": 0.1597622460493255,
+      "calmar": 1374.9357407738028,
+      "carry": 0.004804416671898654,
+      "commission": 0.3968329606206762,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011904988818620284,
+      "costs": 1.1904988818620283,
+      "daily_observations": 2,
+      "expectancy_usd": 1.7570796519733352,
+      "exposure_time": 0.6770833333333334,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 0.00011619615470859213,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0008124669894029601,
+      "price_pnl": 8.214013073083471,
+      "profit_factor": 6.394717266234079,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0963512861396951,
+      "sharpe_zero_rate": 31.605223183657653,
+      "slippage": 0.3968329606206762,
+      "slippage_usd": 0.3968329606206762,
+      "sortino_zero_mar": null,
+      "spread": 0.3968329606206762,
+      "turnover_initial_nav": 0.7936659212413523,
+      "turnover_usd": 7936.659212413523,
+      "win_loss_ratio": 2.1315724220780266,
+      "worst_trade_usd": -1.3028150060586288
+    },
+    "model": "var",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.7272727272727273,
+          "information_coefficient": 0.592043774972943,
+          "mae": 0.0008093867803624126,
+          "mse_skill_vs_no_change": 0.6053861498532223,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0009070851969735312
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.592043774972943,
+        "mae": 0.0008093867803624126,
+        "mse_skill_vs_no_change": 0.6053861498532223,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0009070851969735312
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bba678b26ca0d88350b358239a26324c91108fc41472bda390dd9df0ca47d630",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -0.4640882135677137,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ec6d8c19cb12f6c6c52280801c7f274b1bdd78a01be572b03a883524006879ed",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T04:00:00+00:00",
+            "entry_time": "2020-01-23T04:30:00+00:00",
+            "net_pnl_usd": 0.10505851045171269,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "24b7c8cc7660f3d32b420bfaccc00ea27b94c6f9fdaf6e455b99a3d420e1ce9b",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T12:00:00+00:00",
+            "entry_time": "2020-01-23T12:30:00+00:00",
+            "net_pnl_usd": 3.033653910180072,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ee880d5ae0da7769ed9b23b567365e4bfcc4fe6fae6092c86f9c479b6ce5813a",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 7.125,
+            "carry_usd": 0.0025405912704635205,
+            "costs_usd": 1.1903727521887957,
+            "expectancy_usd": 1.966761350096064,
+            "gross_pnl_usd": 9.054877561302588,
+            "hit_rate": 0.75,
+            "holding_hours": 28.5,
+            "net_pnl_usd": 7.867045400384256,
+            "trades": 4,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 8.963435930911622,
+        "trade_net_pnl_usd": 7.867045400384256,
+        "unallocated_safe_income_usd": 1.0963905305273665
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 7.125,
+      "average_loss_usd": -0.4640882135677137,
+      "average_win_usd": 2.77704453798399,
+      "cagr": 0.17763646774113134,
+      "calmar": 4919.490205356857,
+      "carry": 0.0025405912704635227,
+      "commission": 0.3967909173962652,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011903727521887955,
+      "costs": 1.1903727521887955,
+      "daily_observations": 2,
+      "expectancy_usd": 1.9667613500960641,
+      "exposure_time": 0.59375,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 3.610871458747944e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0008963435930913199,
+      "price_pnl": 9.05487756130259,
+      "profit_factor": 17.95161646081408,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0963905305273665,
+      "sharpe_zero_rate": 49.1474880325603,
+      "slippage": 0.3967909173962652,
+      "slippage_usd": 0.3967909173962652,
+      "sortino_zero_mar": null,
+      "spread": 0.3967909173962652,
+      "turnover_initial_nav": 0.7935818347925304,
+      "turnover_usd": 7935.818347925304,
+      "win_loss_ratio": 5.983872153604693,
+      "worst_trade_usd": -0.4640882135677137
+    },
+    "model": "kalman",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.6363636363636364,
+          "information_coefficient": 0.14022410586565973,
+          "mae": 0.0010926519397512688,
+          "mse_skill_vs_no_change": 0.2936065317530836,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.0012136270704407128
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.6363636363636364,
+        "information_coefficient": 0.14022410586565973,
+        "mae": 0.0010926519397512688,
+        "mse_skill_vs_no_change": 0.2936065317530836,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.0012136270704407128
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": 5.192421193320185,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bba678b26ca0d88350b358239a26324c91108fc41472bda390dd9df0ca47d630",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T20:00:00+00:00",
+            "entry_time": "2020-01-22T20:30:00+00:00",
+            "net_pnl_usd": -1.3028150060586288,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ec6d8c19cb12f6c6c52280801c7f274b1bdd78a01be572b03a883524006879ed",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-23T16:00:00+00:00",
+            "entry_time": "2020-01-23T16:30:00+00:00",
+            "net_pnl_usd": 1.4708233872807766,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "6e29349fec357591621b515704b27ec33d43f825c44eea5e99d1856b4b5aacf9",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 8.166666666666666,
+            "carry_usd": 0.013869164448106222,
+            "costs_usd": 0.8925911472593457,
+            "expectancy_usd": 1.7868098581807776,
+            "gross_pnl_usd": 6.239151557353573,
+            "hit_rate": 0.6666666666666666,
+            "holding_hours": 24.5,
+            "net_pnl_usd": 5.360429574542333,
+            "trades": 3,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.456744901186748,
+        "trade_net_pnl_usd": 5.360429574542333,
+        "unallocated_safe_income_usd": 1.096315326644415
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": 8.166666666666666,
+      "average_loss_usd": -1.3028150060586288,
+      "average_win_usd": 3.331622290300481,
+      "cagr": 0.12501635023749647,
+      "calmar": 1128.2849935239979,
+      "carry": 0.013869164448106227,
+      "commission": 0.2975303824197819,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.925911472593457e-05,
+      "costs": 0.8925911472593457,
+      "daily_observations": 2,
+      "expectancy_usd": 1.7868098581807776,
+      "exposure_time": 0.5104166666666666,
+      "hit_rate": 0.6666666666666666,
+      "maximum_drawdown": 0.00011080210315217442,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.000645674490119319,
+      "price_pnl": 6.239151557353573,
+      "profit_factor": 5.114497875457466,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.096315326644415,
+      "sharpe_zero_rate": 15.920431077761032,
+      "slippage": 0.2975303824197819,
+      "slippage_usd": 0.2975303824197819,
+      "sortino_zero_mar": null,
+      "spread": 0.2975303824197819,
+      "turnover_initial_nav": 0.5950607648395637,
+      "turnover_usd": 5950.607648395638,
+      "win_loss_ratio": 2.557248937728733,
+      "worst_trade_usd": -1.3028150060586288
+    },
+    "model": "markov_switching",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.7272727272727273,
+          "information_coefficient": 0.6124300038811568,
+          "mae": 0.0007997468356688954,
+          "mse_skill_vs_no_change": 0.6224215814214988,
+          "n": 11,
+          "paired_no_change_mse": 2.0850853416890103e-06,
+          "rmse": 0.000887289820699049
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.6124300038811568,
+        "mae": 0.0007997468356688954,
+        "mse_skill_vs_no_change": 0.6224215814214988,
+        "n": 11,
+        "paired_no_change_mse": 2.0850853416890103e-06,
+        "rmse": 0.000887289820699049
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 1,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "ar",
+    "profile": "high_cost"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.0,
+          "information_coefficient": null,
+          "mae": 0.0007664563638843816,
+          "mse_skill_vs_no_change": 0.0,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0007666266064666014
+        },
+        "up_medium": {
+          "directional_accuracy": 0.0,
+          "information_coefficient": null,
+          "mae": 0.0010760261431490281,
+          "mse_skill_vs_no_change": 0.0,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0012707175529080433
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.0,
+        "information_coefficient": null,
+        "mae": 0.0010197407287372742,
+        "mse_skill_vs_no_change": 0.0,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0011949872803013598
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_change",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 0.9999999999999999,
+          "mae": 0.0004955077467321232,
+          "mse_skill_vs_no_change": 0.21717442466406922,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006782915249012078
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7213965872038814,
+          "mae": 0.0008380677769287419,
+          "mse_skill_vs_no_change": 0.45479217367628744,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.000938274837703178
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.7036346181995536,
+        "mae": 0.0007757841350748112,
+        "mse_skill_vs_no_change": 0.437011123877062,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008966298428057213
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": -0.378728545883562,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3a1d40909cc8cfdaf74f15c7b5cc41e3a84652877d1cc74ddc306d59c6c4f9d5",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "693f5948cd63fb234b0f4e1c0135257368a23beb048998eb520c63fe47f46449",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T04:00:00+00:00",
+            "entry_time": "2020-01-29T04:30:00+00:00",
+            "net_pnl_usd": 2.2621187741238433,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "fcbab499dce6e42c33c876792d6c5d4f7f7a287cf4107af3ef9ee44ebf814f21",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T20:00:00+00:00",
+            "entry_time": "2020-01-29T20:30:00+00:00",
+            "net_pnl_usd": 0.31492862519521325,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "1a5ffc23be4f57d49bf6483d7b192b998fb5a862b28f8d4718fbc4e235c2e1a0",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "sideways_medium": {
+            "average_holding_hours": 3.5,
+            "carry_usd": -0.008921998426723927,
+            "costs_usd": 0.2679680573457113,
+            "expectancy_usd": 0.31492862519521325,
+            "gross_pnl_usd": 0.5918186809676484,
+            "hit_rate": 1.0,
+            "holding_hours": 3.5,
+            "net_pnl_usd": 0.31492862519521325,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 10.666666666666666,
+            "carry_usd": -0.032684884246777235,
+            "costs_usd": 0.8030508693563242,
+            "expectancy_usd": 1.6035046824902992,
+            "gross_pnl_usd": 5.646249801073999,
+            "hit_rate": 0.6666666666666666,
+            "holding_hours": 32.0,
+            "net_pnl_usd": 4.810514047470898,
+            "trades": 3,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.221666531179514,
+        "trade_net_pnl_usd": 5.125442672666111,
+        "unallocated_safe_income_usd": 1.096223858513403
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 8.875,
+      "average_loss_usd": -0.378728545883562,
+      "average_win_usd": 1.8347237395165577,
+      "cagr": 0.1202032104520919,
+      "calmar": 1498.8060303403854,
+      "carry": -0.04160688267350117,
+      "commission": 0.35700630890067847,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00010710189267020353,
+      "costs": 1.0710189267020354,
+      "daily_observations": 2,
+      "expectancy_usd": 1.2813606681665277,
+      "exposure_time": 0.7395833333333334,
+      "hit_rate": 0.75,
+      "maximum_drawdown": 8.019931066383101e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006221666531176506,
+      "price_pnl": 6.238068482041648,
+      "profit_factor": 14.53328849482051,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.096223858513403,
+      "sharpe_zero_rate": 37.46714695123379,
+      "slippage": 0.35700630890067847,
+      "slippage_usd": 0.35700630890067847,
+      "sortino_zero_mar": null,
+      "spread": 0.35700630890067847,
+      "turnover_initial_nav": 0.7140126178013569,
+      "turnover_usd": 7140.126178013569,
+      "win_loss_ratio": 4.844429498273503,
+      "worst_trade_usd": -0.378728545883562
+    },
+    "model": "momentum",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.0005025539312640387,
+          "mse_skill_vs_no_change": 0.3571433854125049,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006146684842291887
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7219937985844147,
+          "mae": 0.0007652022287196829,
+          "mse_skill_vs_no_change": 0.5315924817703839,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0008696829534700802
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.7046624483295562,
+        "mae": 0.0007174479928186567,
+        "mse_skill_vs_no_change": 0.5185383724596782,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008291710343917533
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "693f5948cd63fb234b0f4e1c0135257368a23beb048998eb520c63fe47f46449",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T04:00:00+00:00",
+            "entry_time": "2020-01-29T04:30:00+00:00",
+            "net_pnl_usd": 2.2621187741238433,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "fcbab499dce6e42c33c876792d6c5d4f7f7a287cf4107af3ef9ee44ebf814f21",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T20:00:00+00:00",
+            "entry_time": "2020-01-29T20:30:00+00:00",
+            "net_pnl_usd": 0.31492862519521325,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "1a5ffc23be4f57d49bf6483d7b192b998fb5a862b28f8d4718fbc4e235c2e1a0",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "sideways_medium": {
+            "average_holding_hours": 3.5,
+            "carry_usd": -0.008921998426723927,
+            "costs_usd": 0.2679680573457113,
+            "expectancy_usd": 0.31492862519521325,
+            "gross_pnl_usd": 0.5918186809676484,
+            "hit_rate": 1.0,
+            "holding_hours": 3.5,
+            "net_pnl_usd": 0.31492862519521325,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 14.0,
+            "carry_usd": -0.03471725291143263,
+            "costs_usd": 0.5359720594766623,
+            "expectancy_usd": 2.59462129667723,
+            "gross_pnl_usd": 5.759931905742555,
+            "hit_rate": 1.0,
+            "holding_hours": 28.0,
+            "net_pnl_usd": 5.18924259335446,
+            "trades": 2,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.600430185546958,
+        "trade_net_pnl_usd": 5.504171218549673,
+        "unallocated_safe_income_usd": 1.0962589669972846
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 1.8347237395165577,
+      "cagr": 0.1279683731424639,
+      "calmar": 1595.6983478875077,
+      "carry": -0.04363925133815657,
+      "commission": 0.26798003894079114,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.039401168223735e-05,
+      "costs": 0.8039401168223734,
+      "daily_observations": 2,
+      "expectancy_usd": 1.8347237395165577,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 8.019584234819632e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006600430185543793,
+      "price_pnl": 6.351750586710203,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962589669972846,
+      "sharpe_zero_rate": 33.03372512879359,
+      "slippage": 0.26798003894079114,
+      "slippage_usd": 0.26798003894079114,
+      "sortino_zero_mar": null,
+      "spread": 0.26798003894079114,
+      "turnover_initial_nav": 0.5359600778815823,
+      "turnover_usd": 5359.600778815823,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.31492862519521325
+    },
+    "model": "ar",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.0005066370516729555,
+          "mse_skill_vs_no_change": 0.35050385274761175,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006178345307871467
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7118463133183103,
+          "mae": 0.0007742687234395285,
+          "mse_skill_vs_no_change": 0.515329460890244,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0008846517478847206
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.6940691013615661,
+        "mae": 0.0007256084194819698,
+        "mse_skill_vs_no_change": 0.5029954818051166,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008424486739254029
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "36882e8937f4144aa83b5e0aabdb54ee0d33c832efcf3ebee8dfc860d0bda80a",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T04:00:00+00:00",
+            "entry_time": "2020-01-29T04:30:00+00:00",
+            "net_pnl_usd": 2.2621187741238433,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "e16bce073eda3ec20e3d01d057d889bcb252923c2271fdd11bcbeda6810be692",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T20:00:00+00:00",
+            "entry_time": "2020-01-29T20:30:00+00:00",
+            "net_pnl_usd": 0.31492862519521325,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "0e6129c197b2826d953d3fcd5c68036ab25dd1075adcbcca4b89c42a2aa068c6",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "sideways_medium": {
+            "average_holding_hours": 3.5,
+            "carry_usd": -0.008921998426723927,
+            "costs_usd": 0.2679680573457113,
+            "expectancy_usd": 0.31492862519521325,
+            "gross_pnl_usd": 0.5918186809676484,
+            "hit_rate": 1.0,
+            "holding_hours": 3.5,
+            "net_pnl_usd": 0.31492862519521325,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 14.0,
+            "carry_usd": -0.03471725291143263,
+            "costs_usd": 0.5359720594766623,
+            "expectancy_usd": 2.59462129667723,
+            "gross_pnl_usd": 5.759931905742555,
+            "hit_rate": 1.0,
+            "holding_hours": 28.0,
+            "net_pnl_usd": 5.18924259335446,
+            "trades": 2,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.600430185546958,
+        "trade_net_pnl_usd": 5.504171218549673,
+        "unallocated_safe_income_usd": 1.0962589669972846
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 1.8347237395165577,
+      "cagr": 0.1279683731424639,
+      "calmar": 1595.6983478875077,
+      "carry": -0.04363925133815657,
+      "commission": 0.26798003894079114,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.039401168223735e-05,
+      "costs": 0.8039401168223734,
+      "daily_observations": 2,
+      "expectancy_usd": 1.8347237395165577,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 8.019584234819632e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006600430185543793,
+      "price_pnl": 6.351750586710203,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962589669972846,
+      "sharpe_zero_rate": 33.03372512879359,
+      "slippage": 0.26798003894079114,
+      "slippage_usd": 0.26798003894079114,
+      "sortino_zero_mar": null,
+      "spread": 0.26798003894079114,
+      "turnover_initial_nav": 0.5359600778815823,
+      "turnover_usd": 5359.600778815823,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.31492862519521325
+    },
+    "model": "arimax",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.0005066370516729555,
+          "mse_skill_vs_no_change": 0.35050385274761175,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006178345307871467
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7118463133183102,
+          "mae": 0.0007742687234395285,
+          "mse_skill_vs_no_change": 0.5153294608902441,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0008846517478847205
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.694069101361566,
+        "mae": 0.0007256084194819698,
+        "mse_skill_vs_no_change": 0.5029954818051168,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008424486739254028
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "36882e8937f4144aa83b5e0aabdb54ee0d33c832efcf3ebee8dfc860d0bda80a",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T04:00:00+00:00",
+            "entry_time": "2020-01-29T04:30:00+00:00",
+            "net_pnl_usd": 2.2621187741238433,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "e16bce073eda3ec20e3d01d057d889bcb252923c2271fdd11bcbeda6810be692",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T20:00:00+00:00",
+            "entry_time": "2020-01-29T20:30:00+00:00",
+            "net_pnl_usd": 0.31492862519521325,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "0e6129c197b2826d953d3fcd5c68036ab25dd1075adcbcca4b89c42a2aa068c6",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "sideways_medium": {
+            "average_holding_hours": 3.5,
+            "carry_usd": -0.008921998426723927,
+            "costs_usd": 0.2679680573457113,
+            "expectancy_usd": 0.31492862519521325,
+            "gross_pnl_usd": 0.5918186809676484,
+            "hit_rate": 1.0,
+            "holding_hours": 3.5,
+            "net_pnl_usd": 0.31492862519521325,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 14.0,
+            "carry_usd": -0.03471725291143263,
+            "costs_usd": 0.5359720594766623,
+            "expectancy_usd": 2.59462129667723,
+            "gross_pnl_usd": 5.759931905742555,
+            "hit_rate": 1.0,
+            "holding_hours": 28.0,
+            "net_pnl_usd": 5.18924259335446,
+            "trades": 2,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.600430185546958,
+        "trade_net_pnl_usd": 5.504171218549673,
+        "unallocated_safe_income_usd": 1.0962589669972846
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 1.8347237395165577,
+      "cagr": 0.1279683731424639,
+      "calmar": 1595.6983478875077,
+      "carry": -0.04363925133815657,
+      "commission": 0.26798003894079114,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.039401168223735e-05,
+      "costs": 0.8039401168223734,
+      "daily_observations": 2,
+      "expectancy_usd": 1.8347237395165577,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 8.019584234819632e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006600430185543793,
+      "price_pnl": 6.351750586710203,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962589669972846,
+      "sharpe_zero_rate": 33.03372512879359,
+      "slippage": 0.26798003894079114,
+      "slippage_usd": 0.26798003894079114,
+      "sortino_zero_mar": null,
+      "spread": 0.26798003894079114,
+      "turnover_initial_nav": 0.5359600778815823,
+      "turnover_usd": 5359.600778815823,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.31492862519521325
+    },
+    "model": "var",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.0004976613477780149,
+          "mse_skill_vs_no_change": 0.3675702920468855,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006096632529164251
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7012954884212084,
+          "mae": 0.0007837161303433569,
+          "mse_skill_vs_no_change": 0.4971283384406182,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0009011095870578219
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.6823737257742715,
+        "mae": 0.000731706169876931,
+        "mse_skill_vs_no_change": 0.48743344786786524,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008555362462382048
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "693f5948cd63fb234b0f4e1c0135257368a23beb048998eb520c63fe47f46449",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T04:00:00+00:00",
+            "entry_time": "2020-01-29T04:30:00+00:00",
+            "net_pnl_usd": 2.2621187741238433,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "fcbab499dce6e42c33c876792d6c5d4f7f7a287cf4107af3ef9ee44ebf814f21",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T20:00:00+00:00",
+            "entry_time": "2020-01-29T20:30:00+00:00",
+            "net_pnl_usd": 0.31492862519521325,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "1a5ffc23be4f57d49bf6483d7b192b998fb5a862b28f8d4718fbc4e235c2e1a0",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "sideways_medium": {
+            "average_holding_hours": 3.5,
+            "carry_usd": -0.008921998426723927,
+            "costs_usd": 0.2679680573457113,
+            "expectancy_usd": 0.31492862519521325,
+            "gross_pnl_usd": 0.5918186809676484,
+            "hit_rate": 1.0,
+            "holding_hours": 3.5,
+            "net_pnl_usd": 0.31492862519521325,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 14.0,
+            "carry_usd": -0.03471725291143263,
+            "costs_usd": 0.5359720594766623,
+            "expectancy_usd": 2.59462129667723,
+            "gross_pnl_usd": 5.759931905742555,
+            "hit_rate": 1.0,
+            "holding_hours": 28.0,
+            "net_pnl_usd": 5.18924259335446,
+            "trades": 2,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.600430185546958,
+        "trade_net_pnl_usd": 5.504171218549673,
+        "unallocated_safe_income_usd": 1.0962589669972846
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 1.8347237395165577,
+      "cagr": 0.1279683731424639,
+      "calmar": 1595.6983478875077,
+      "carry": -0.04363925133815657,
+      "commission": 0.26798003894079114,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.039401168223735e-05,
+      "costs": 0.8039401168223734,
+      "daily_observations": 2,
+      "expectancy_usd": 1.8347237395165577,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 8.019584234819632e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006600430185543793,
+      "price_pnl": 6.351750586710203,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962589669972846,
+      "sharpe_zero_rate": 33.03372512879359,
+      "slippage": 0.26798003894079114,
+      "slippage_usd": 0.26798003894079114,
+      "sortino_zero_mar": null,
+      "spread": 0.26798003894079114,
+      "turnover_initial_nav": 0.5359600778815823,
+      "turnover_usd": 5359.600778815823,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.31492862519521325
+    },
+    "model": "kalman",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.000818939220539484,
+          "mse_skill_vs_no_change": -0.1769525825537548,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0008316936216818717
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.44024831616474924,
+          "mae": 0.0009090556804663007,
+          "mse_skill_vs_no_change": 0.19747102280290718,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0011383593796831272
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.3239787409558358,
+        "mae": 0.0008926708695705158,
+        "mse_skill_vs_no_change": 0.1694527253460536,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0010890440869490506
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T12:00:00+00:00",
+            "entry_time": "2020-01-28T12:30:00+00:00",
+            "net_pnl_usd": 2.9271238192306166,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "693f5948cd63fb234b0f4e1c0135257368a23beb048998eb520c63fe47f46449",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T08:00:00+00:00",
+            "entry_time": "2020-01-29T08:30:00+00:00",
+            "net_pnl_usd": 0.7821450879014736,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "ff8860e3ccfc689ee2e7e1328c932c70f5021c4d206c7b14fb5d221d2903e72c",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "up_medium": {
+            "average_holding_hours": 10.0,
+            "carry_usd": -0.038795478826202004,
+            "costs_usd": 0.5357671990880792,
+            "expectancy_usd": 1.854634453566045,
+            "gross_pnl_usd": 4.2838315850463715,
+            "hit_rate": 1.0,
+            "holding_hours": 20.0,
+            "net_pnl_usd": 3.70926890713209,
+            "trades": 2,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 4.805468736203109,
+        "trade_net_pnl_usd": 3.70926890713209,
+        "unallocated_safe_income_usd": 1.0961998290710193
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": 10.0,
+      "average_loss_usd": null,
+      "average_win_usd": 1.854634453566045,
+      "cagr": 0.09163736545097523,
+      "calmar": 1102.3619537194181,
+      "carry": -0.03879547882620201,
+      "commission": 0.17858906636269306,
+      "completed_trades": 2,
+      "cost_burden_initial_nav": 5.3576719908807924e-05,
+      "costs": 0.5357671990880792,
+      "daily_observations": 2,
+      "expectancy_usd": 1.854634453566045,
+      "exposure_time": 0.4166666666666667,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 8.312820044431568e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0004805468736206464,
+      "price_pnl": 4.2838315850463715,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0961998290710193,
+      "sharpe_zero_rate": 13.362272268414126,
+      "slippage": 0.17858906636269306,
+      "slippage_usd": 0.17858906636269306,
+      "sortino_zero_mar": null,
+      "spread": 0.17858906636269306,
+      "turnover_initial_nav": 0.3571781327253861,
+      "turnover_usd": 3571.781327253861,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.7821450879014736
+    },
+    "model": "markov_switching",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "sideways_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 1.0,
+          "mae": 0.0005025539312640387,
+          "mse_skill_vs_no_change": 0.3571433854125049,
+          "n": 2,
+          "paired_no_change_mse": 5.877163537424973e-07,
+          "rmse": 0.0006146684842291887
+        },
+        "up_medium": {
+          "directional_accuracy": 0.7777777777777778,
+          "information_coefficient": 0.7219937985844147,
+          "mae": 0.0007652022287196829,
+          "mse_skill_vs_no_change": 0.5315924817703839,
+          "n": 9,
+          "paired_no_change_mse": 1.6147230992686058e-06,
+          "rmse": 0.0008696829534700802
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.7046624483295562,
+        "mae": 0.0007174479928186567,
+        "mse_skill_vs_no_change": 0.5185383724596782,
+        "n": 11,
+        "paired_no_change_mse": 1.4279946000820407e-06,
+        "rmse": 0.0008291710343917533
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 2,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "ar",
+    "profile": "high_cost"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.0,
+          "information_coefficient": null,
+          "mae": 0.0010615248581035924,
+          "mse_skill_vs_no_change": 0.0,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.001243781564027046
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.0,
+          "information_coefficient": null,
+          "mae": 0.0009939795845922655,
+          "mse_skill_vs_no_change": 0.0,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0012269497856146493
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.0,
+        "information_coefficient": null,
+        "mae": 0.0010431034198732305,
+        "mse_skill_vs_no_change": 0.0,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0012392137522480651
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "no_change",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.75,
+          "information_coefficient": 0.6786532394562644,
+          "mae": 0.0008351051085242411,
+          "mse_skill_vs_no_change": 0.4505334750925982,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0009219656373467086
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9459004473266431,
+          "mae": 0.000836716407815944,
+          "mse_skill_vs_no_change": 0.45206077646822285,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0009082240209506328
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.7272727272727273,
+        "information_coefficient": 0.6753399025776932,
+        "mae": 0.0008355445537856147,
+        "mse_skill_vs_no_change": 0.45094180805724215,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0009182383186535255
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T08:00:00+00:00",
+            "entry_time": "2020-02-03T08:30:00+00:00",
+            "net_pnl_usd": -0.4106687630959476,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "af05ca07913d398f234d2655ad6faf689f96bf81f8beed06f54dafdcca004337",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-03T16:00:00+00:00",
+            "entry_time": "2020-02-03T16:30:00+00:00",
+            "net_pnl_usd": 1.878540608630901,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "92ebb4cacf910d2527259e3d898b2e7b9bc49dfeb7630cd917f67d0a45d86d77",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T08:00:00+00:00",
+            "entry_time": "2020-02-04T08:30:00+00:00",
+            "net_pnl_usd": 4.200734003210833,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "8eeaecea4e135fc09b22567b0e70bc2a17d44b16c83272a0a61d0cfc26118c19",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 11.833333333333334,
+            "carry_usd": -0.05983910156893722,
+            "costs_usd": 0.8924252643468104,
+            "expectancy_usd": 1.8895352829152623,
+            "gross_pnl_usd": 6.620870214661534,
+            "hit_rate": 0.6666666666666666,
+            "holding_hours": 35.5,
+            "net_pnl_usd": 5.668605848745787,
+            "trades": 3,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.764764095864908,
+        "trade_net_pnl_usd": 5.668605848745787,
+        "unallocated_safe_income_usd": 1.0961582471191205
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 11.833333333333334,
+      "average_loss_usd": -0.4106687630959476,
+      "average_win_usd": 3.0396373059208672,
+      "cagr": 0.13135406811733352,
+      "calmar": 1966.8626655925118,
+      "carry": -0.05983910156893722,
+      "commission": 0.29747508811560347,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.924252643468104e-05,
+      "costs": 0.8924252643468104,
+      "daily_observations": 2,
+      "expectancy_usd": 1.8895352829152623,
+      "exposure_time": 0.7395833333333334,
+      "hit_rate": 0.6666666666666666,
+      "maximum_drawdown": 6.678354844757983e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006764764095861242,
+      "price_pnl": 6.620870214661534,
+      "profit_factor": 14.803352867676933,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0961582471191205,
+      "sharpe_zero_rate": 35.21468223004413,
+      "slippage": 0.29747508811560347,
+      "slippage_usd": 0.29747508811560347,
+      "sortino_zero_mar": null,
+      "spread": 0.29747508811560347,
+      "turnover_initial_nav": 0.5949501762312068,
+      "turnover_usd": 5949.501762312068,
+      "win_loss_ratio": 7.401676433838467,
+      "worst_trade_usd": -0.4106687630959476
+    },
+    "model": "momentum",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.625,
+          "information_coefficient": 0.6883210948294932,
+          "mae": 0.0008085474548664288,
+          "mse_skill_vs_no_change": 0.4458933761590582,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0009258503308117342
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9393487018552261,
+          "mae": 0.0005757752948298454,
+          "mse_skill_vs_no_change": 0.7206067834193645,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0006485369396827034
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.6363636363636364,
+        "information_coefficient": 0.6762763567126844,
+        "mae": 0.000745064138492815,
+        "mse_skill_vs_no_change": 0.519339613950955,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0008591428692128727
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T08:00:00+00:00",
+            "entry_time": "2020-02-03T08:30:00+00:00",
+            "net_pnl_usd": 0.20845358428321642,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "af05ca07913d398f234d2655ad6faf689f96bf81f8beed06f54dafdcca004337",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-03T16:00:00+00:00",
+            "entry_time": "2020-02-03T16:30:00+00:00",
+            "net_pnl_usd": 1.878540608630901,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "92ebb4cacf910d2527259e3d898b2e7b9bc49dfeb7630cd917f67d0a45d86d77",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T08:00:00+00:00",
+            "entry_time": "2020-02-04T08:30:00+00:00",
+            "net_pnl_usd": 4.200734003210833,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "8eeaecea4e135fc09b22567b0e70bc2a17d44b16c83272a0a61d0cfc26118c19",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.5,
+            "carry_usd": -0.04851735732244308,
+            "costs_usd": 0.8925164481148454,
+            "expectancy_usd": 2.095909398708317,
+            "gross_pnl_usd": 7.228762001562239,
+            "hit_rate": 1.0,
+            "holding_hours": 31.5,
+            "net_pnl_usd": 6.2877281961249505,
+            "trades": 3,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 7.383931256874931,
+        "trade_net_pnl_usd": 6.2877281961249505,
+        "unallocated_safe_income_usd": 1.0962030607499802
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 2.095909398708317,
+      "cagr": 0.14420150500803794,
+      "calmar": 3684.111551904938,
+      "carry": -0.04851735732244308,
+      "commission": 0.2975054827049485,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.925164481148454e-05,
+      "costs": 0.8925164481148454,
+      "daily_observations": 2,
+      "expectancy_usd": 2.095909398708317,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 3.9141460017266816e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0007383931256867982,
+      "price_pnl": 7.228762001562239,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962030607499802,
+      "sharpe_zero_rate": 53.929854708446854,
+      "slippage": 0.2975054827049485,
+      "slippage_usd": 0.2975054827049485,
+      "sortino_zero_mar": null,
+      "spread": 0.2975054827049485,
+      "turnover_initial_nav": 0.595010965409897,
+      "turnover_usd": 5950.109654098969,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.20845358428321642
+    },
+    "model": "ar",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 0.6010807227156136,
+          "mae": 0.0009189155622993414,
+          "mse_skill_vs_no_change": 0.2770694796172384,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0010575292668170214
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9392183021904894,
+          "mae": 0.000574401841313335,
+          "mse_skill_vs_no_change": 0.7238643025080336,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0006447451233473008
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.5454545454545454,
+        "information_coefficient": 0.6150870032512081,
+        "mae": 0.0008249572747577032,
+        "mse_skill_vs_no_change": 0.396522691360673,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0009626683571122297
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T08:00:00+00:00",
+            "entry_time": "2020-02-03T08:30:00+00:00",
+            "net_pnl_usd": 0.20845358428321642,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "af8aada6fff868a4c96fa050e0beaabc3a0ff26bb2e368813daeb62f63f836d1",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-03T16:00:00+00:00",
+            "entry_time": "2020-02-03T16:30:00+00:00",
+            "net_pnl_usd": 1.878540608630901,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bd26cd1aa550514a6b434b35ad34ec94f0fe00974795f1c0983776069123f9f0",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T08:00:00+00:00",
+            "entry_time": "2020-02-04T08:30:00+00:00",
+            "net_pnl_usd": 4.200734003210833,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "2c4726db29c4669184beca3f8eaef8249dfd7c0e8da6f1de038a8ebf9df55067",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.5,
+            "carry_usd": -0.04851735732244308,
+            "costs_usd": 0.8925164481148454,
+            "expectancy_usd": 2.095909398708317,
+            "gross_pnl_usd": 7.228762001562239,
+            "hit_rate": 1.0,
+            "holding_hours": 31.5,
+            "net_pnl_usd": 6.2877281961249505,
+            "trades": 3,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 7.383931256874931,
+        "trade_net_pnl_usd": 6.2877281961249505,
+        "unallocated_safe_income_usd": 1.0962030607499802
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 2.095909398708317,
+      "cagr": 0.14420150500803794,
+      "calmar": 3684.111551904938,
+      "carry": -0.04851735732244308,
+      "commission": 0.2975054827049485,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.925164481148454e-05,
+      "costs": 0.8925164481148454,
+      "daily_observations": 2,
+      "expectancy_usd": 2.095909398708317,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 3.9141460017266816e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0007383931256867982,
+      "price_pnl": 7.228762001562239,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962030607499802,
+      "sharpe_zero_rate": 53.929854708446854,
+      "slippage": 0.2975054827049485,
+      "slippage_usd": 0.2975054827049485,
+      "sortino_zero_mar": null,
+      "spread": 0.2975054827049485,
+      "turnover_initial_nav": 0.595010965409897,
+      "turnover_usd": 5950.109654098969,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.20845358428321642
+    },
+    "model": "arimax",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.5,
+          "information_coefficient": 0.6010807227156136,
+          "mae": 0.0009189155622993413,
+          "mse_skill_vs_no_change": 0.2770694796172384,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0010575292668170214
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9392183021904894,
+          "mae": 0.0005744018413133349,
+          "mse_skill_vs_no_change": 0.7238643025080338,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0006447451233473004
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.5454545454545454,
+        "information_coefficient": 0.6150870032512081,
+        "mae": 0.0008249572747577032,
+        "mse_skill_vs_no_change": 0.3965226913606731,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0009626683571122296
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T08:00:00+00:00",
+            "entry_time": "2020-02-03T08:30:00+00:00",
+            "net_pnl_usd": 0.20845358428321642,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "af8aada6fff868a4c96fa050e0beaabc3a0ff26bb2e368813daeb62f63f836d1",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-03T16:00:00+00:00",
+            "entry_time": "2020-02-03T16:30:00+00:00",
+            "net_pnl_usd": 1.878540608630901,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "bd26cd1aa550514a6b434b35ad34ec94f0fe00974795f1c0983776069123f9f0",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T08:00:00+00:00",
+            "entry_time": "2020-02-04T08:30:00+00:00",
+            "net_pnl_usd": 4.200734003210833,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "2c4726db29c4669184beca3f8eaef8249dfd7c0e8da6f1de038a8ebf9df55067",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.5,
+            "carry_usd": -0.04851735732244308,
+            "costs_usd": 0.8925164481148454,
+            "expectancy_usd": 2.095909398708317,
+            "gross_pnl_usd": 7.228762001562239,
+            "hit_rate": 1.0,
+            "holding_hours": 31.5,
+            "net_pnl_usd": 6.2877281961249505,
+            "trades": 3,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 7.383931256874931,
+        "trade_net_pnl_usd": 6.2877281961249505,
+        "unallocated_safe_income_usd": 1.0962030607499802
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 2.095909398708317,
+      "cagr": 0.14420150500803794,
+      "calmar": 3684.111551904938,
+      "carry": -0.04851735732244308,
+      "commission": 0.2975054827049485,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.925164481148454e-05,
+      "costs": 0.8925164481148454,
+      "daily_observations": 2,
+      "expectancy_usd": 2.095909398708317,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 3.9141460017266816e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0007383931256867982,
+      "price_pnl": 7.228762001562239,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962030607499802,
+      "sharpe_zero_rate": 53.929854708446854,
+      "slippage": 0.2975054827049485,
+      "slippage_usd": 0.2975054827049485,
+      "sortino_zero_mar": null,
+      "spread": 0.2975054827049485,
+      "turnover_initial_nav": 0.595010965409897,
+      "turnover_usd": 5950.109654098969,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.20845358428321642
+    },
+    "model": "var",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.625,
+          "information_coefficient": 0.6632436597198675,
+          "mae": 0.0008349043867219739,
+          "mse_skill_vs_no_change": 0.39752532521165096,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0009654138236741727
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9386236520334873,
+          "mae": 0.0005815960309123942,
+          "mse_skill_vs_no_change": 0.679876919760104,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0006942010761720622
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.6363636363636364,
+        "information_coefficient": 0.648891320461266,
+        "mae": 0.0007658202896829977,
+        "mse_skill_vs_no_change": 0.47301367709422515,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0008995926456915143
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T08:00:00+00:00",
+            "entry_time": "2020-02-03T08:30:00+00:00",
+            "net_pnl_usd": 0.20845358428321642,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "af05ca07913d398f234d2655ad6faf689f96bf81f8beed06f54dafdcca004337",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-03T16:00:00+00:00",
+            "entry_time": "2020-02-03T16:30:00+00:00",
+            "net_pnl_usd": 1.878540608630901,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "92ebb4cacf910d2527259e3d898b2e7b9bc49dfeb7630cd917f67d0a45d86d77",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T08:00:00+00:00",
+            "entry_time": "2020-02-04T08:30:00+00:00",
+            "net_pnl_usd": 4.200734003210833,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "8eeaecea4e135fc09b22567b0e70bc2a17d44b16c83272a0a61d0cfc26118c19",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.5,
+            "carry_usd": -0.04851735732244308,
+            "costs_usd": 0.8925164481148454,
+            "expectancy_usd": 2.095909398708317,
+            "gross_pnl_usd": 7.228762001562239,
+            "hit_rate": 1.0,
+            "holding_hours": 31.5,
+            "net_pnl_usd": 6.2877281961249505,
+            "trades": 3,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 7.383931256874931,
+        "trade_net_pnl_usd": 6.2877281961249505,
+        "unallocated_safe_income_usd": 1.0962030607499802
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 10.5,
+      "average_loss_usd": null,
+      "average_win_usd": 2.095909398708317,
+      "cagr": 0.14420150500803794,
+      "calmar": 3684.111551904938,
+      "carry": -0.04851735732244308,
+      "commission": 0.2975054827049485,
+      "completed_trades": 3,
+      "cost_burden_initial_nav": 8.925164481148454e-05,
+      "costs": 0.8925164481148454,
+      "daily_observations": 2,
+      "expectancy_usd": 2.095909398708317,
+      "exposure_time": 0.65625,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 3.9141460017266816e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0007383931256867982,
+      "price_pnl": 7.228762001562239,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0962030607499802,
+      "sharpe_zero_rate": 53.929854708446854,
+      "slippage": 0.2975054827049485,
+      "slippage_usd": 0.2975054827049485,
+      "sortino_zero_mar": null,
+      "spread": 0.2975054827049485,
+      "turnover_initial_nav": 0.595010965409897,
+      "turnover_usd": 5950.109654098969,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.20845358428321642
+    },
+    "model": "kalman",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.625,
+          "information_coefficient": 0.4087842793045409,
+          "mae": 0.001039502587323553,
+          "mse_skill_vs_no_change": 0.11852415908925762,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.001167748510797021
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": -0.30970031596313574,
+          "mae": 0.0008989682199101274,
+          "mse_skill_vs_no_change": 0.32380927219817823,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0010089308339001212
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.6363636363636364,
+        "information_coefficient": 0.3500602286120218,
+        "mae": 0.0010011750325744368,
+        "mse_skill_vs_no_change": 0.17340833595889082,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0011266570406025583
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T20:00:00+00:00",
+            "entry_time": "2020-02-03T20:30:00+00:00",
+            "net_pnl_usd": 0.5290056650634554,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "876d77a0add5d52e3e6e5f291ed7f00df69bed3d778ecc6b9b0c751b862f6c71",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T16:00:00+00:00",
+            "entry_time": "2020-02-04T16:30:00+00:00",
+            "net_pnl_usd": 0.10188192709710966,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "d91d0e7ca135ae5f0560f7262b3f781d886dd802bfc78c0380b8a7a479eac494",
+            "state": "sideways_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 8.0,
+            "carry_usd": 0.004516928588637887,
+            "costs_usd": 0.2968781746690329,
+            "expectancy_usd": 0.5290056650634554,
+            "gross_pnl_usd": 0.8213669111438504,
+            "hit_rate": 1.0,
+            "holding_hours": 8.0,
+            "net_pnl_usd": 0.5290056650634554,
+            "trades": 1,
+            "wins": 1
+          },
+          "sideways_medium": {
+            "average_holding_hours": 7.5,
+            "carry_usd": -0.02130605907461769,
+            "costs_usd": 0.29854389068715004,
+            "expectancy_usd": 0.10188192709710966,
+            "gross_pnl_usd": 0.42173187685887736,
+            "hit_rate": 1.0,
+            "holding_hours": 7.5,
+            "net_pnl_usd": 0.10188192709710966,
+            "trades": 1,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.7268784249035587,
+        "trade_net_pnl_usd": 0.630887592160565,
+        "unallocated_safe_income_usd": 1.0959908327429937
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": 7.75,
+      "average_loss_usd": null,
+      "average_win_usd": 0.3154437960802825,
+      "cagr": 0.03201459602362249,
+      "calmar": 817.7706515365411,
+      "carry": -0.016789130485979804,
+      "commission": 0.1984740217853943,
+      "completed_trades": 2,
+      "cost_burden_initial_nav": 5.954220653561829e-05,
+      "costs": 0.5954220653561829,
+      "daily_observations": 2,
+      "expectancy_usd": 0.3154437960802825,
+      "exposure_time": 0.3229166666666667,
+      "hit_rate": 1.0,
+      "maximum_drawdown": 3.914862432818911e-05,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00017268784248991587,
+      "price_pnl": 1.2430987880027278,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959908327429937,
+      "sharpe_zero_rate": 19.32261000604719,
+      "slippage": 0.1984740217853943,
+      "slippage_usd": 0.1984740217853943,
+      "sortino_zero_mar": null,
+      "spread": 0.1984740217853943,
+      "turnover_initial_nav": 0.39694804357078867,
+      "turnover_usd": 3969.4804357078865,
+      "win_loss_ratio": null,
+      "worst_trade_usd": 0.10188192709710966
+    },
+    "model": "markov_switching",
+    "profile": "base"
+  },
+  {
+    "evaluation": {
+      "coverage": 1.0,
+      "economic_promotion": false,
+      "errors_by_regime": {
+        "down_medium": {
+          "directional_accuracy": 0.625,
+          "information_coefficient": 0.6883210948294932,
+          "mae": 0.0008085474548664288,
+          "mse_skill_vs_no_change": 0.4458933761590582,
+          "n": 8,
+          "paired_no_change_mse": 1.5469925790135646e-06,
+          "rmse": 0.0009258503308117342
+        },
+        "sideways_medium": {
+          "directional_accuracy": 0.6666666666666666,
+          "information_coefficient": 0.9393487018552261,
+          "mae": 0.0005757752948298454,
+          "mse_skill_vs_no_change": 0.7206067834193645,
+          "n": 3,
+          "paired_no_change_mse": 1.5054057764198336e-06,
+          "rmse": 0.0006485369396827034
+        }
+      },
+      "forecast_metrics": {
+        "directional_accuracy": 0.6363636363636364,
+        "information_coefficient": 0.6762763567126844,
+        "mae": 0.000745064138492815,
+        "mse_skill_vs_no_change": 0.519339613950955,
+        "n": 11,
+        "paired_no_change_mse": 1.535650723760729e-06,
+        "rmse": 0.0008591428692128727
+      },
+      "forecast_reason_counts": {
+        "fit_passed_predefined_checks": 12
+      },
+      "forecast_status_counts": {
+        "READY": 12
+      },
+      "hyperparameter_selection_uses_holdout": false,
+      "performance_by_regime": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 1.0959498363658664,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 1.0959498363658664
+      },
+      "rejection_reasons": [],
+      "research_screen_uses_completed_holdout": true,
+      "research_status": "ELIGIBLE_FOR_FURTHER_RESEARCH"
+    },
+    "fold": 3,
+    "metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.02020132838057254,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 2,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00010959498363627418,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 1.0959498363658664,
+      "sharpe_zero_rate": 5540179355112.72,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    },
+    "model": "ar",
+    "profile": "high_cost"
+  }
+]

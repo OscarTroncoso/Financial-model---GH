@@ -1,0 +1,578 @@
+{
+  "account": {
+    "contributed_capital": 10000,
+    "equity_values": [
+      2000.0,
+      1000.0
+    ],
+    "high_water_mark": 10000,
+    "safe_value": 7000
+  },
+  "contribution": 100,
+  "decision_time": "2020-03-25T16:00:00+00:00",
+  "execution": {
+    "equity_returns": [
+      0,
+      0
+    ],
+    "safe_return": 0,
+    "time": "2020-03-26T16:00:00+00:00"
+  },
+  "previous_monthly_decision": null,
+  "returns": [
+    {
+      "available_at": "2020-01-02T16:00:00+00:00",
+      "excess_returns": [
+        0.002,
+        0.005
+      ],
+      "observation_time": "2020-01-02T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-03T16:00:00+00:00",
+      "excess_returns": [
+        0.005836475657245268,
+        0.0035356376612257125
+      ],
+      "observation_time": "2020-01-03T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-06T16:00:00+00:00",
+      "excess_returns": [
+        0.0077982077109874535,
+        0.0006825038255932974
+      ],
+      "observation_time": "2020-01-06T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-07T16:00:00+00:00",
+      "excess_returns": [
+        0.006924745215184746,
+        -0.0027026642927204013
+      ],
+      "observation_time": "2020-01-07T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-08T16:00:00+00:00",
+      "excess_returns": [
+        0.0035650743384372865,
+        -0.00555104674964068
+      ],
+      "observation_time": "2020-01-08T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-09T16:00:00+00:00",
+      "excess_returns": [
+        -0.0007847330743677547,
+        -0.006944952456210336
+      ],
+      "observation_time": "2020-01-09T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-10T16:00:00+00:00",
+      "excess_returns": [
+        -0.004182722731978228,
+        -0.006431487343427127
+      ],
+      "observation_time": "2020-01-10T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-13T16:00:00+00:00",
+      "excess_returns": [
+        -0.00515139593122493,
+        -0.004177722840001245
+      ],
+      "observation_time": "2020-01-13T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-14T16:00:00+00:00",
+      "excess_returns": [
+        -0.003369122495451091,
+        -0.0009134314439050699
+      ],
+      "observation_time": "2020-01-14T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-15T16:00:00+00:00",
+      "excess_returns": [
+        0.00018245342538928034,
+        0.0023187046192455095
+      ],
+      "observation_time": "2020-01-15T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-16T16:00:00+00:00",
+      "excess_returns": [
+        0.003684230603721685,
+        0.004518611417132096
+      ],
+      "observation_time": "2020-01-16T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-17T16:00:00+00:00",
+      "excess_returns": [
+        0.0053394906972674796,
+        0.005066654348079144
+      ],
+      "observation_time": "2020-01-17T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-20T16:00:00+00:00",
+      "excess_returns": [
+        0.004223241124247865,
+        0.00392679745925098
+      ],
+      "observation_time": "2020-01-20T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-21T16:00:00+00:00",
+      "excess_returns": [
+        0.0007214771306277932,
+        0.0016453094211811962
+      ],
+      "observation_time": "2020-01-21T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-22T16:00:00+00:00",
+      "excess_returns": [
+        -0.0036463505329166986,
+        -0.0008532917257562515
+      ],
+      "observation_time": "2020-01-22T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-23T16:00:00+00:00",
+      "excess_returns": [
+        -0.006938281630300465,
+        -0.0026005910740931905
+      ],
+      "observation_time": "2020-01-23T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-24T16:00:00+00:00",
+      "excess_returns": [
+        -0.007699943097691821,
+        -0.002931110061298953
+      ],
+      "observation_time": "2020-01-24T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-27T16:00:00+00:00",
+      "excess_returns": [
+        -0.005645857001879102,
+        -0.0017196988954805358
+      ],
+      "observation_time": "2020-01-27T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-28T16:00:00+00:00",
+      "excess_returns": [
+        -0.001791608048105273,
+        0.0005738794428352926
+      ],
+      "observation_time": "2020-01-28T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-29T16:00:00+00:00",
+      "excess_returns": [
+        0.0020252293427674446,
+        0.0030688254169347296
+      ],
+      "observation_time": "2020-01-29T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-30T16:00:00+00:00",
+      "excess_returns": [
+        0.004010047749010301,
+        0.004778100790060313
+      ],
+      "observation_time": "2020-01-30T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-01-31T16:00:00+00:00",
+      "excess_returns": [
+        0.003255223932141717,
+        0.004963545126536324
+      ],
+      "observation_time": "2020-01-31T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-03T16:00:00+00:00",
+      "excess_returns": [
+        0.00016624244519167957,
+        0.003406337061175498
+      ],
+      "observation_time": "2020-02-03T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-04T16:00:00+00:00",
+      "excess_returns": [
+        -0.0037304654249493974,
+        0.0004971948609688442
+      ],
+      "observation_time": "2020-02-04T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-05T16:00:00+00:00",
+      "excess_returns": [
+        -0.00650754907505508,
+        -0.002886422508767076
+      ],
+      "observation_time": "2020-02-05T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-06T16:00:00+00:00",
+      "excess_returns": [
+        -0.006745931012636531,
+        -0.005674439517843584
+      ],
+      "observation_time": "2020-02-06T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-07T16:00:00+00:00",
+      "excess_returns": [
+        -0.004205478199943468,
+        -0.006967974816668286
+      ],
+      "observation_time": "2020-02-07T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-10T16:00:00+00:00",
+      "excess_returns": [
+        5.836879928600229e-05,
+        -0.006346642073501346
+      ],
+      "observation_time": "2020-02-10T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-11T16:00:00+00:00",
+      "excess_returns": [
+        0.004186967788684375,
+        -0.004012590753233374
+      ],
+      "observation_time": "2020-02-11T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-12T16:00:00+00:00",
+      "excess_returns": [
+        0.0063883936403991495,
+        -0.0007212204605219959
+      ],
+      "observation_time": "2020-02-12T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-13T16:00:00+00:00",
+      "excess_returns": [
+        0.005775889316642299,
+        0.0024773465707368875
+      ],
+      "observation_time": "2020-02-13T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-14T16:00:00+00:00",
+      "excess_returns": [
+        0.0027806371243777623,
+        0.004596202117681118
+      ],
+      "observation_time": "2020-02-14T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-17T16:00:00+00:00",
+      "excess_returns": [
+        -0.001055159045370032,
+        0.005044755295930314
+      ],
+      "observation_time": "2020-02-17T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-18T16:00:00+00:00",
+      "excess_returns": [
+        -0.0038074448835028435,
+        0.003821680846622821
+      ],
+      "observation_time": "2020-02-18T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-19T16:00:00+00:00",
+      "excess_returns": [
+        -0.004078688684842737,
+        0.0015015035918454994
+      ],
+      "observation_time": "2020-02-19T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-20T16:00:00+00:00",
+      "excess_returns": [
+        -0.0016581344405222913,
+        -0.0009792547811780018
+      ],
+      "observation_time": "2020-02-20T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-21T16:00:00+00:00",
+      "excess_returns": [
+        0.002376678032186634,
+        -0.0026604864144376193
+      ],
+      "observation_time": "2020-02-21T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-24T16:00:00+00:00",
+      "excess_returns": [
+        0.006164941569654938,
+        -0.0029022433306245595
+      ],
+      "observation_time": "2020-02-24T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-25T16:00:00+00:00",
+      "excess_returns": [
+        0.007936686573037227,
+        -0.0016129923296785112
+      ],
+      "observation_time": "2020-02-25T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-26T16:00:00+00:00",
+      "excess_returns": [
+        0.006844887764230653,
+        0.0007177773462171223
+      ],
+      "observation_time": "2020-02-26T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-27T16:00:00+00:00",
+      "excess_returns": [
+        0.0033642297105468642,
+        0.003194040872685855
+      ],
+      "observation_time": "2020-02-27T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-02-28T16:00:00+00:00",
+      "excess_returns": [
+        -0.0009310259645888531,
+        0.004833553822875111
+      ],
+      "observation_time": "2020-02-28T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-02T16:00:00+00:00",
+      "excess_returns": [
+        -0.004105631418127583,
+        0.004921448812513379
+      ],
+      "observation_time": "2020-03-02T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-03T16:00:00+00:00",
+      "excess_returns": [
+        -0.004771082814289084,
+        0.0032726560388391477
+      ],
+      "observation_time": "2020-03-03T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-04T16:00:00+00:00",
+      "excess_returns": [
+        -0.0027356407827220037,
+        0.00031034250240791206
+      ],
+      "observation_time": "2020-03-04T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-05T16:00:00+00:00",
+      "excess_returns": [
+        0.0009089867583043484,
+        -0.003068262896772423
+      ],
+      "observation_time": "2020-03-05T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-06T16:00:00+00:00",
+      "excess_returns": [
+        0.00430496693167246,
+        -0.005793006504163769
+      ],
+      "observation_time": "2020-03-06T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-09T16:00:00+00:00",
+      "excess_returns": [
+        0.00570625288994212,
+        -0.0069848113218932036
+      ],
+      "observation_time": "2020-03-09T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-10T16:00:00+00:00",
+      "excess_returns": [
+        0.0043040687578406915,
+        -0.006256264967199508
+      ],
+      "observation_time": "2020-03-10T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-11T16:00:00+00:00",
+      "excess_returns": [
+        0.0006116063263221344,
+        -0.0038443706861690185
+      ],
+      "observation_time": "2020-03-11T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-12T16:00:00+00:00",
+      "excess_returns": [
+        -0.003773119822346554,
+        -0.0005293184308763136
+      ],
+      "observation_time": "2020-03-12T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-13T16:00:00+00:00",
+      "excess_returns": [
+        -0.006914847403396688,
+        0.0026324880300586944
+      ],
+      "observation_time": "2020-03-13T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-16T16:00:00+00:00",
+      "excess_returns": [
+        -0.007447590697363439,
+        0.004668384199562417
+      ],
+      "observation_time": "2020-03-16T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-17T16:00:00+00:00",
+      "excess_returns": [
+        -0.005213866983336742,
+        0.005017447181906701
+      ],
+      "observation_time": "2020-03-17T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-18T16:00:00+00:00",
+      "excess_returns": [
+        -0.0013360797341997119,
+        0.0037130186404702066
+      ],
+      "observation_time": "2020-03-18T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-19T16:00:00+00:00",
+      "excess_returns": [
+        0.0023134366948994404,
+        0.0013571869486229489
+      ],
+      "observation_time": "2020-03-19T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-20T16:00:00+00:00",
+      "excess_returns": [
+        0.003994404901040591,
+        -0.001102618323843707
+      ],
+      "observation_time": "2020-03-20T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-23T16:00:00+00:00",
+      "excess_returns": [
+        0.0029177717760835104,
+        -0.0027157093321000508
+      ],
+      "observation_time": "2020-03-23T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-24T16:00:00+00:00",
+      "excess_returns": [
+        -0.00038323167011424593,
+        -0.002868407695422146
+      ],
+      "observation_time": "2020-03-24T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    },
+    {
+      "available_at": "2020-03-25T16:00:00+00:00",
+      "excess_returns": [
+        -0.0043046519648306004,
+        -0.0015029023770864282
+      ],
+      "observation_time": "2020-03-25T16:00:00+00:00",
+      "source": "synthetic_daily_excess_fixture"
+    }
+  ],
+  "universe": {
+    "asset_ids": [
+      "SYNTH_A",
+      "SYNTH_B"
+    ],
+    "available_at": "2020-01-02T16:00:00+00:00",
+    "benchmark_weights": [
+      0.6,
+      0.4
+    ],
+    "currency": "EUR",
+    "source": "chosen synthetic reference, not observed market cap"
+  },
+  "views": []
+}

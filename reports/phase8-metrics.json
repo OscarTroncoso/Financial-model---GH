@@ -1,0 +1,3270 @@
+[
+  {
+    "decisions": 24,
+    "fold": 1,
+    "model": "no_trade",
+    "performance": {
+      "hmm": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 3.2881504156411383,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 3.2881504156411383
+      },
+      "rule": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 3.2881504156411383,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 3.2881504156411383
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020200959613625433,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00032881504156323516,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2881504156411383,
+      "sharpe_zero_rate": 23.811317829113822,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 1,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 5.270255275757238,
+            "probabilities": {
+              "variance_rank_0": 0.005481536057445604,
+              "variance_rank_1": 0.9945184639425544
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -2.163861664190868,
+            "probabilities": {
+              "variance_rank_0": 5.480593487005715e-09,
+              "variance_rank_1": 0.9999999945194067
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-24T20:00:00+00:00",
+            "entry_time": "2020-01-24T20:30:00+00:00",
+            "net_pnl_usd": 0.15814309170351076,
+            "probabilities": {
+              "variance_rank_0": 0.04803697379344716,
+              "variance_rank_1": 0.9519630262065528
+            },
+            "regime_id": "48b0b43fba62503d674955d905d2147f325fb6293407d9f64afeadd424cbb766",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": -2.1502705063715633,
+            "probabilities": {
+              "variance_rank_0": 0.046222550257741114,
+              "variance_rank_1": 0.9537774497422589
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": 2.1122408735786076,
+            "probabilities": {
+              "variance_rank_0": 0.990974203340936,
+              "variance_rank_1": 0.009025796659063778
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-27T20:00:00+00:00",
+            "entry_time": "2020-01-27T20:30:00+00:00",
+            "net_pnl_usd": -0.2704336101264446,
+            "probabilities": {
+              "variance_rank_0": 0.9613991922255696,
+              "variance_rank_1": 0.03860080777443046
+            },
+            "regime_id": "42a1c9bc5a0ad521ebb40459363ca45b688c5713321756db94ab7790942daa32",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 3.75,
+            "carry_usd": -0.020307393302690047,
+            "costs_usd": 0.5670888728593241,
+            "expectancy_usd": 0.9209036317260815,
+            "gross_pnl_usd": 2.4292035296141767,
+            "hit_rate": 0.5,
+            "holding_hours": 7.5,
+            "net_pnl_usd": 1.841807263452163,
+            "trades": 2,
+            "wins": 1
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 28.375,
+            "carry_usd": 0.06431373707791023,
+            "costs_usd": 1.1932875296064291,
+            "expectancy_usd": 0.27856654922457946,
+            "gross_pnl_usd": 2.2432399894268373,
+            "hit_rate": 0.5,
+            "holding_hours": 113.5,
+            "net_pnl_usd": 1.1142661968983179,
+            "trades": 4,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.245545287449617,
+        "trade_net_pnl_usd": 2.956073460350481,
+        "unallocated_safe_income_usd": 3.289471827099136
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 5.270255275757238,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -2.163861664190868,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-24T20:00:00+00:00",
+            "entry_time": "2020-01-24T20:30:00+00:00",
+            "net_pnl_usd": 0.15814309170351076,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "48b0b43fba62503d674955d905d2147f325fb6293407d9f64afeadd424cbb766",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": -2.1502705063715633,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": 2.1122408735786076,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-27T20:00:00+00:00",
+            "entry_time": "2020-01-27T20:30:00+00:00",
+            "net_pnl_usd": -0.2704336101264446,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "42a1c9bc5a0ad521ebb40459363ca45b688c5713321756db94ab7790942daa32",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 29.0,
+            "carry_usd": 0.03284261812169769,
+            "costs_usd": 0.5967848487674292,
+            "expectancy_usd": 1.553196805783185,
+            "gross_pnl_usd": 3.6703358422121024,
+            "hit_rate": 0.5,
+            "holding_hours": 58.0,
+            "net_pnl_usd": 3.10639361156637,
+            "trades": 2,
+            "wins": 1
+          },
+          "sideways_medium": {
+            "average_holding_hours": 27.75,
+            "carry_usd": 0.03147111895621253,
+            "costs_usd": 0.5965026808389999,
+            "expectancy_usd": -0.9960637073340263,
+            "gross_pnl_usd": -1.427095852785265,
+            "hit_rate": 0.5,
+            "holding_hours": 55.5,
+            "net_pnl_usd": -1.9921274146680525,
+            "trades": 2,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 3.75,
+            "carry_usd": -0.020307393302690047,
+            "costs_usd": 0.5670888728593241,
+            "expectancy_usd": 0.9209036317260815,
+            "gross_pnl_usd": 2.4292035296141767,
+            "hit_rate": 0.5,
+            "holding_hours": 7.5,
+            "net_pnl_usd": 1.841807263452163,
+            "trades": 2,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.245545287449616,
+        "trade_net_pnl_usd": 2.9560734603504804,
+        "unallocated_safe_income_usd": 3.289471827099136
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 20.166666666666668,
+      "average_loss_usd": -1.5281885935629587,
+      "average_win_usd": 2.5135464136797854,
+      "cagr": 0.0387124052046212,
+      "calmar": 64.66986072359096,
+      "carry": 0.04400634377522017,
+      "commission": 0.5867921341552511,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.0001760376402465753,
+      "costs": 1.760376402465753,
+      "daily_observations": 4,
+      "expectancy_usd": 0.49267891005841347,
+      "exposure_time": 0.8402777777777778,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.000598615874094488,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006245545287446586,
+      "price_pnl": 4.672443519041019,
+      "profit_factor": 1.6447881002824878,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.289471827099136,
+      "sharpe_zero_rate": 5.01046067152523,
+      "slippage": 0.5867921341552511,
+      "slippage_usd": 0.5867921341552511,
+      "sortino_zero_mar": 9.90739651049785,
+      "spread": 0.5867921341552511,
+      "turnover_initial_nav": 1.173584268310502,
+      "turnover_usd": 11735.84268310502,
+      "win_loss_ratio": 1.6447881002824876,
+      "worst_trade_usd": -2.163861664190868
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 1,
+    "model": "mean_reversion",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": -3.0543626733264366,
+            "probabilities": {
+              "variance_rank_0": 4.320557135644674e-06,
+              "variance_rank_1": 0.9999956794428644
+            },
+            "regime_id": "3885dcde8b62330cf214b292c3db7869ea74143c4bb8f253d766263e6b341bcd",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -0.1301668789135164,
+            "probabilities": {
+              "variance_rank_0": 5.480593487005715e-09,
+              "variance_rank_1": 0.9999999945194067
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": -1.917672842510832,
+            "probabilities": {
+              "variance_rank_0": 0.990974203340936,
+              "variance_rank_1": 0.009025796659063778
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-27T16:00:00+00:00",
+            "entry_time": "2020-01-27T16:30:00+00:00",
+            "net_pnl_usd": -1.3576322389585134,
+            "probabilities": {
+              "variance_rank_0": 0.9940753154615255,
+              "variance_rank_1": 0.0059246845384745206
+            },
+            "regime_id": "3a6d1c98d959d184aac19773d7d3aa72862fde3218f850459ddca7933a04f5c6",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 5.0,
+            "carry_usd": 0.005237463143701616,
+            "costs_usd": 0.5668049357570434,
+            "expectancy_usd": -1.6376525407346727,
+            "gross_pnl_usd": -2.713737608856004,
+            "hit_rate": 0.0,
+            "holding_hours": 10.0,
+            "net_pnl_usd": -3.2753050814693454,
+            "trades": 2,
+            "wins": 0
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 10.25,
+            "carry_usd": -0.05806942132181131,
+            "costs_usd": 0.5964516934955931,
+            "expectancy_usd": -1.5922647761199764,
+            "gross_pnl_usd": -2.5300084374225484,
+            "hit_rate": 0.0,
+            "holding_hours": 20.5,
+            "net_pnl_usd": -3.184529552239953,
+            "trades": 2,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -3.1727354894704733,
+        "trade_net_pnl_usd": -6.459834633709298,
+        "unallocated_safe_income_usd": 3.287099144238825
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T08:00:00+00:00",
+            "entry_time": "2020-01-22T08:30:00+00:00",
+            "net_pnl_usd": -3.0543626733264366,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "3885dcde8b62330cf214b292c3db7869ea74143c4bb8f253d766263e6b341bcd",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -0.1301668789135164,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": -1.917672842510832,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-27T16:00:00+00:00",
+            "entry_time": "2020-01-27T16:30:00+00:00",
+            "net_pnl_usd": -1.3576322389585134,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3a6d1c98d959d184aac19773d7d3aa72862fde3218f850459ddca7933a04f5c6",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.25,
+            "carry_usd": -0.05806942132181131,
+            "costs_usd": 0.5964516934955931,
+            "expectancy_usd": -1.5922647761199764,
+            "gross_pnl_usd": -2.5300084374225484,
+            "hit_rate": 0.0,
+            "holding_hours": 20.5,
+            "net_pnl_usd": -3.184529552239953,
+            "trades": 2,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 5.0,
+            "carry_usd": 0.005237463143701616,
+            "costs_usd": 0.5668049357570434,
+            "expectancy_usd": -1.6376525407346727,
+            "gross_pnl_usd": -2.713737608856004,
+            "hit_rate": 0.0,
+            "holding_hours": 10.0,
+            "net_pnl_usd": -3.2753050814693454,
+            "trades": 2,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -3.1727354894704733,
+        "trade_net_pnl_usd": -6.459834633709298,
+        "unallocated_safe_income_usd": 3.287099144238825
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 7.625,
+      "average_loss_usd": -1.6149586584273246,
+      "average_win_usd": null,
+      "cagr": -0.019118743461142684,
+      "calmar": -45.46967236256121,
+      "carry": -0.05283195817810972,
+      "commission": 0.38775220975087876,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011632566292526366,
+      "costs": 1.1632566292526365,
+      "daily_observations": 4,
+      "expectancy_usd": -1.6149586584273246,
+      "exposure_time": 0.21180555555555555,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.00042047242629539294,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.00031727354894794946,
+      "price_pnl": -5.243746046278552,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.287099144238825,
+      "sharpe_zero_rate": -5.168968006626333,
+      "slippage": 0.38775220975087876,
+      "slippage_usd": 0.38775220975087876,
+      "sortino_zero_mar": -6.090977041657982,
+      "spread": 0.38775220975087876,
+      "turnover_initial_nav": 0.7755044195017575,
+      "turnover_usd": 7755.0441950175755,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.0543626733264366
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 1,
+    "model": "rate_differential",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 5.270255275757238,
+            "probabilities": {
+              "variance_rank_0": 0.005481536057445604,
+              "variance_rank_1": 0.9945184639425544
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": 3.4787950042514106,
+            "probabilities": {
+              "variance_rank_0": 5.480593487005715e-09,
+              "variance_rank_1": 0.9999999945194067
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": 5.190712321611314,
+            "probabilities": {
+              "variance_rank_0": 0.046222550257741114,
+              "variance_rank_1": 0.9537774497422589
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T16:00:00+00:00",
+            "entry_time": "2020-01-27T16:30:00+00:00",
+            "net_pnl_usd": 0.7436183271459924,
+            "probabilities": {
+              "variance_rank_0": 0.9940753154615255,
+              "variance_rank_1": 0.0059246845384745206
+            },
+            "regime_id": "3a6d1c98d959d184aac19773d7d3aa72862fde3218f850459ddca7933a04f5c6",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-27T20:00:00+00:00",
+            "entry_time": "2020-01-27T20:30:00+00:00",
+            "net_pnl_usd": -0.2704336101264446,
+            "probabilities": {
+              "variance_rank_0": 0.9613991922255696,
+              "variance_rank_1": 0.03860080777443046
+            },
+            "regime_id": "42a1c9bc5a0ad521ebb40459363ca45b688c5713321756db94ab7790942daa32",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 3.25,
+            "carry_usd": -0.017470279014270645,
+            "costs_usd": 0.5676102911068621,
+            "expectancy_usd": 0.2365923585097739,
+            "gross_pnl_usd": 1.0582652871406806,
+            "hit_rate": 0.5,
+            "holding_hours": 6.5,
+            "net_pnl_usd": 0.4731847170195478,
+            "trades": 2,
+            "wins": 1
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 17.166666666666668,
+            "carry_usd": -0.003219773864620166,
+            "costs_usd": 0.8949147201622625,
+            "expectancy_usd": 4.646587533873322,
+            "gross_pnl_usd": 14.837897095646845,
+            "hit_rate": 1.0,
+            "holding_hours": 51.5,
+            "net_pnl_usd": 13.939762601619964,
+            "trades": 3,
+            "wins": 3
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 17.703721097314972,
+        "trade_net_pnl_usd": 14.412947318639512,
+        "unallocated_safe_income_usd": 3.2907737786754603
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 5.270255275757238,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": 3.4787950042514106,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": 5.190712321611314,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-27T16:00:00+00:00",
+            "entry_time": "2020-01-27T16:30:00+00:00",
+            "net_pnl_usd": 0.7436183271459924,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3a6d1c98d959d184aac19773d7d3aa72862fde3218f850459ddca7933a04f5c6",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-27T20:00:00+00:00",
+            "entry_time": "2020-01-27T20:30:00+00:00",
+            "net_pnl_usd": -0.2704336101264446,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "42a1c9bc5a0ad521ebb40459363ca45b688c5713321756db94ab7790942daa32",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 21.0,
+            "carry_usd": 0.02378824929547805,
+            "costs_usd": 0.5959372192562657,
+            "expectancy_usd": 4.374525140004325,
+            "gross_pnl_usd": 9.321199249969435,
+            "hit_rate": 1.0,
+            "holding_hours": 42.0,
+            "net_pnl_usd": 8.74905028000865,
+            "trades": 2,
+            "wins": 2
+          },
+          "sideways_medium": {
+            "average_holding_hours": 9.5,
+            "carry_usd": -0.027008023160098215,
+            "costs_usd": 0.2989775009059967,
+            "expectancy_usd": 5.190712321611314,
+            "gross_pnl_usd": 5.51669784567741,
+            "hit_rate": 1.0,
+            "holding_hours": 9.5,
+            "net_pnl_usd": 5.190712321611314,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 3.25,
+            "carry_usd": -0.017470279014270645,
+            "costs_usd": 0.5676102911068621,
+            "expectancy_usd": 0.2365923585097739,
+            "gross_pnl_usd": 1.0582652871406806,
+            "hit_rate": 0.5,
+            "holding_hours": 6.5,
+            "net_pnl_usd": 0.4731847170195478,
+            "trades": 2,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 17.703721097314972,
+        "trade_net_pnl_usd": 14.412947318639512,
+        "unallocated_safe_income_usd": 3.2907737786754603
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 11.6,
+      "average_loss_usd": -0.2704336101264446,
+      "average_win_usd": 3.6708452321914886,
+      "cagr": 0.11360490653008493,
+      "calmar": 895.0898347270627,
+      "carry": -0.020690052878890808,
+      "commission": 0.48750833708970814,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.00014625250112691246,
+      "costs": 1.4625250112691246,
+      "daily_observations": 4,
+      "expectancy_usd": 2.882589463727902,
+      "exposure_time": 0.4027777777777778,
+      "gap_stops": 0,
+      "hit_rate": 0.8,
+      "maximum_drawdown": 0.00012692011697879035,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0017703721097310776,
+      "price_pnl": 15.89616238278753,
+      "profit_factor": 54.29569542743062,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.2907737786754603,
+      "sharpe_zero_rate": 21.541199160171438,
+      "slippage": 0.48750833708970814,
+      "slippage_usd": 0.48750833708970814,
+      "sortino_zero_mar": null,
+      "spread": 0.48750833708970814,
+      "turnover_initial_nav": 0.9750166741794164,
+      "turnover_usd": 9750.166741794164,
+      "win_loss_ratio": 13.573923856857656,
+      "worst_trade_usd": -0.2704336101264446
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 1,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 2.2940392662845777,
+            "probabilities": {
+              "variance_rank_0": 0.005481536057445604,
+              "variance_rank_1": 0.9945184639425544
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -4.845464201910643,
+            "probabilities": {
+              "variance_rank_0": 5.480593487005715e-09,
+              "variance_rank_1": 0.9999999945194067
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-24T20:00:00+00:00",
+            "entry_time": "2020-01-24T20:30:00+00:00",
+            "net_pnl_usd": -2.5245280171908133,
+            "probabilities": {
+              "variance_rank_0": 0.04803697379344716,
+              "variance_rank_1": 0.9519630262065528
+            },
+            "regime_id": "48b0b43fba62503d674955d905d2147f325fb6293407d9f64afeadd424cbb766",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": -4.836123525028238,
+            "probabilities": {
+              "variance_rank_0": 0.046222550257741114,
+              "variance_rank_1": 0.9537774497422589
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": 0.5522114503355653,
+            "probabilities": {
+              "variance_rank_0": 0.990974203340936,
+              "variance_rank_1": 0.009025796659063778
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 11.5,
+            "carry_usd": -0.02920157887429444,
+            "costs_usd": 2.667233442476241,
+            "expectancy_usd": 0.5522114503355653,
+            "gross_pnl_usd": 3.2486464716861008,
+            "hit_rate": 1.0,
+            "holding_hours": 11.5,
+            "net_pnl_usd": 0.5522114503355653,
+            "trades": 1,
+            "wins": 1
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 28.375,
+            "carry_usd": 0.06368171787596355,
+            "costs_usd": 11.600843061349837,
+            "expectancy_usd": -2.4780191194612793,
+            "gross_pnl_usd": 1.6250848656287564,
+            "hit_rate": 0.25,
+            "holding_hours": 113.5,
+            "net_pnl_usd": -9.912076477845117,
+            "trades": 4,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -6.072371015529245,
+        "trade_net_pnl_usd": -9.359865027509551,
+        "unallocated_safe_income_usd": 3.287494011980306
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-22T04:00:00+00:00",
+            "entry_time": "2020-01-22T04:30:00+00:00",
+            "net_pnl_usd": 2.2940392662845777,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "d54c7830f36349bf4af84a98b70bc17f9fd39596fe01238304145858836916d6",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-22T16:00:00+00:00",
+            "entry_time": "2020-01-22T16:30:00+00:00",
+            "net_pnl_usd": -4.845464201910643,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "f10373dd282e590d4f9d41318379bee8bc9d13a19a6cd917afdb172f2a842566",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-24T20:00:00+00:00",
+            "entry_time": "2020-01-24T20:30:00+00:00",
+            "net_pnl_usd": -2.5245280171908133,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "48b0b43fba62503d674955d905d2147f325fb6293407d9f64afeadd424cbb766",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-27T04:00:00+00:00",
+            "entry_time": "2020-01-27T04:30:00+00:00",
+            "net_pnl_usd": -4.836123525028238,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "05ae5a5e6674ffed0021cc8b2441d17f453693b31845f03457c24f4e7df293af",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-27T12:00:00+00:00",
+            "entry_time": "2020-01-27T12:30:00+00:00",
+            "net_pnl_usd": 0.5522114503355653,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "6c71ed18d4a734700fb8ef73ef9f01ab32302ae7d7e08f371dce167eedf455b8",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 29.0,
+            "carry_usd": 0.03221059891975102,
+            "costs_usd": 5.635816252959838,
+            "expectancy_usd": -1.2757124678130325,
+            "gross_pnl_usd": 3.0521807184140215,
+            "hit_rate": 0.5,
+            "holding_hours": 58.0,
+            "net_pnl_usd": -2.551424935626065,
+            "trades": 2,
+            "wins": 1
+          },
+          "sideways_medium": {
+            "average_holding_hours": 27.75,
+            "carry_usd": 0.03147111895621253,
+            "costs_usd": 5.965026808389998,
+            "expectancy_usd": -3.680325771109526,
+            "gross_pnl_usd": -1.427095852785265,
+            "hit_rate": 0.0,
+            "holding_hours": 55.5,
+            "net_pnl_usd": -7.360651542219052,
+            "trades": 2,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 11.5,
+            "carry_usd": -0.02920157887429444,
+            "costs_usd": 2.667233442476241,
+            "expectancy_usd": 0.5522114503355653,
+            "gross_pnl_usd": 3.2486464716861008,
+            "hit_rate": 1.0,
+            "holding_hours": 11.5,
+            "net_pnl_usd": 0.5522114503355653,
+            "trades": 1,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -6.072371015529245,
+        "trade_net_pnl_usd": -9.359865027509551,
+        "unallocated_safe_income_usd": 3.287494011980306
+      }
+    },
+    "profile": "high_cost",
+    "risk_metrics": {
+      "average_holding_hours": 25.0,
+      "average_loss_usd": -4.068705248043232,
+      "average_win_usd": 1.4231253583100716,
+      "cagr": -0.03627710334931016,
+      "calmar": -26.60947849860729,
+      "carry": 0.03448013900166913,
+      "commission": 4.75602550127536,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.0014268076503826078,
+      "costs": 14.268076503826078,
+      "daily_observations": 4,
+      "expectancy_usd": -1.8719730055019104,
+      "exposure_time": 0.8680555555555556,
+      "gap_stops": 0,
+      "hit_rate": 0.4,
+      "maximum_drawdown": 0.001363315081549188,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0006072371015525269,
+      "price_pnl": 4.87373133731486,
+      "profit_factor": 0.23318234697135287,
+      "risk_budget_breaches": 0,
+      "safe_income": 3.287494011980306,
+      "sharpe_zero_rate": -4.567198482496256,
+      "slippage": 4.75602550127536,
+      "slippage_usd": 4.75602550127536,
+      "sortino_zero_mar": -5.526873516921591,
+      "spread": 4.75602550127536,
+      "turnover_initial_nav": 0.9512051002550718,
+      "turnover_usd": 9512.051002550717,
+      "win_loss_ratio": 0.34977352045702925,
+      "worst_trade_usd": -4.845464201910643
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 2,
+    "model": "no_trade",
+    "performance": {
+      "hmm": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 2.1920197833361157,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 2.1920197833361157
+      },
+      "rule": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 2.1920197833361157,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 2.1920197833361157
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020201328380628054,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00021920197833358301,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1920197833361157,
+      "sharpe_zero_rate": 1813449375606.2222,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 2,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 4.657118287985709,
+            "probabilities": {
+              "variance_rank_0": 0.5337944844735297,
+              "variance_rank_1": 0.46620551552647016
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -2.760317124218605,
+            "probabilities": {
+              "variance_rank_0": 0.03801201229189755,
+              "variance_rank_1": 0.9619879877081025
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -2.809071525461134,
+            "probabilities": {
+              "variance_rank_0": 0.9868728466680226,
+              "variance_rank_1": 0.013127153331977441
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -2.723579719433831,
+            "probabilities": {
+              "variance_rank_0": 0.9990594236413881,
+              "variance_rank_1": 0.0009405763586118086
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T00:00:00+00:00",
+            "entry_time": "2020-01-31T00:30:00+00:00",
+            "net_pnl_usd": 5.28553591428483,
+            "probabilities": {
+              "variance_rank_0": 0.8501762734393974,
+              "variance_rank_1": 0.14982372656060253
+            },
+            "regime_id": "0a352d1079520cb8e8cd3d6ad3a8cf5d37587906310a4c8a93bf1ba84cce10cf",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": 0.4753819633484432,
+            "probabilities": {
+              "variance_rank_0": 0.9983147093886185,
+              "variance_rank_1": 0.0016852906113815676
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 13.3,
+            "carry_usd": -0.10231429984040742,
+            "costs_usd": 1.3968903336890919,
+            "expectancy_usd": 0.9770769841448035,
+            "gross_pnl_usd": 6.384589554253517,
+            "hit_rate": 0.6,
+            "holding_hours": 66.5,
+            "net_pnl_usd": 4.885384920724017,
+            "trades": 5,
+            "wins": 3
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 9.0,
+            "carry_usd": -0.0229757962147542,
+            "costs_usd": 0.26828390485302844,
+            "expectancy_usd": -2.760317124218605,
+            "gross_pnl_usd": -2.469057423150822,
+            "hit_rate": 0.0,
+            "holding_hours": 9.0,
+            "net_pnl_usd": -2.760317124218605,
+            "trades": 1,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 4.317214038585683,
+        "trade_net_pnl_usd": 2.1250677965054123,
+        "unallocated_safe_income_usd": 2.1921462420802706
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 4.657118287985709,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -2.760317124218605,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -2.809071525461134,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -2.723579719433831,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-31T00:00:00+00:00",
+            "entry_time": "2020-01-31T00:30:00+00:00",
+            "net_pnl_usd": 5.28553591428483,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "0a352d1079520cb8e8cd3d6ad3a8cf5d37587906310a4c8a93bf1ba84cce10cf",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": 0.4753819633484432,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.75,
+            "carry_usd": 0.012209032784114384,
+            "costs_usd": 0.5953801919593605,
+            "expectancy_usd": 2.880458938816637,
+            "gross_pnl_usd": 6.34408903680852,
+            "hit_rate": 1.0,
+            "holding_hours": 21.5,
+            "net_pnl_usd": 5.760917877633274,
+            "trades": 2,
+            "wins": 2
+          },
+          "sideways_medium": {
+            "average_holding_hours": 5.5,
+            "carry_usd": -0.013937536740906392,
+            "costs_usd": 0.2663984557347806,
+            "expectancy_usd": -2.723579719433831,
+            "gross_pnl_usd": -2.443243726958144,
+            "hit_rate": 0.0,
+            "holding_hours": 5.5,
+            "net_pnl_usd": -2.723579719433831,
+            "trades": 1,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 16.166666666666668,
+            "carry_usd": -0.12356159209836962,
+            "costs_usd": 0.8033955908479791,
+            "expectancy_usd": -0.3040901205646767,
+            "gross_pnl_usd": 0.014686821252318794,
+            "hit_rate": 0.3333333333333333,
+            "holding_hours": 48.5,
+            "net_pnl_usd": -0.9122703616940302,
+            "trades": 3,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 4.317214038585683,
+        "trade_net_pnl_usd": 2.1250677965054123,
+        "unallocated_safe_income_usd": 2.1921462420802706
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -2.7643227897045235,
+      "average_win_usd": 3.472678721872994,
+      "cagr": 0.040171992420571866,
+      "calmar": 53.2115863719854,
+      "carry": -0.12529009605516156,
+      "commission": 0.5550580795140401,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.00016651742385421201,
+      "costs": 1.6651742385421202,
+      "daily_observations": 4,
+      "expectancy_usd": 0.35417796608423535,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0007549482201064661,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00043172140385761004,
+      "price_pnl": 3.9155321311026947,
+      "profit_factor": 1.2562493551066758,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1921462420802706,
+      "sharpe_zero_rate": 2.9633369076551532,
+      "slippage": 0.5550580795140401,
+      "slippage_usd": 0.5550580795140401,
+      "sortino_zero_mar": 5.546472539871611,
+      "spread": 0.5550580795140401,
+      "turnover_initial_nav": 1.1101161590280801,
+      "turnover_usd": 11101.1615902808,
+      "win_loss_ratio": 1.2562493551066756,
+      "worst_trade_usd": -2.809071525461134
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 2,
+    "model": "mean_reversion",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": -2.745558269508871,
+            "probabilities": {
+              "variance_rank_0": 0.5337944844735297,
+              "variance_rank_1": 0.46620551552647016
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-28T16:00:00+00:00",
+            "entry_time": "2020-01-28T16:30:00+00:00",
+            "net_pnl_usd": -1.61755110633912,
+            "probabilities": {
+              "variance_rank_0": 0.003653135909815981,
+              "variance_rank_1": 0.9963468640901841
+            },
+            "regime_id": "597f393bc6bc4ca5dbfff285583bc0ebbe9ce826d3a074cc7512821146d2a3b8",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-30T16:00:00+00:00",
+            "entry_time": "2020-01-30T16:30:00+00:00",
+            "net_pnl_usd": -3.131381526427021,
+            "probabilities": {
+              "variance_rank_0": 0.9986865212542446,
+              "variance_rank_1": 0.0013134787457552996
+            },
+            "regime_id": "f21ce73dbcaf49864051fa3dfd58465dbe55e9618af78b28aaf39d525801424c",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T12:00:00+00:00",
+            "entry_time": "2020-01-31T12:30:00+00:00",
+            "net_pnl_usd": -3.0445529426258906,
+            "probabilities": {
+              "variance_rank_0": 0.9878074504982838,
+              "variance_rank_1": 0.012192549501716223
+            },
+            "regime_id": "a9824617130af0a7507cb8b7e7e58ac8c10c49836e9b2cbee2950f103af8376e",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": -1.0774139889694667,
+            "probabilities": {
+              "variance_rank_0": 0.9983147093886185,
+              "variance_rank_1": 0.0016852906113815676
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 9.5,
+            "carry_usd": -0.07280907100208263,
+            "costs_usd": 1.1616585878085246,
+            "expectancy_usd": -2.499726681882812,
+            "gross_pnl_usd": -8.764439068720641,
+            "hit_rate": 0.0,
+            "holding_hours": 38.0,
+            "net_pnl_usd": -9.998906727531248,
+            "trades": 4,
+            "wins": 0
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 12.0,
+            "carry_usd": 0.0061295668331966735,
+            "costs_usd": 0.26821470473599635,
+            "expectancy_usd": -1.61755110633912,
+            "gross_pnl_usd": -1.3554659684363202,
+            "hit_rate": 0.0,
+            "holding_hours": 12.0,
+            "net_pnl_usd": -1.61755110633912,
+            "trades": 1,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -9.425463169477146,
+        "trade_net_pnl_usd": -11.616457833870367,
+        "unallocated_safe_income_usd": 2.190994664393221
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": -2.745558269508871,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-28T16:00:00+00:00",
+            "entry_time": "2020-01-28T16:30:00+00:00",
+            "net_pnl_usd": -1.61755110633912,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "597f393bc6bc4ca5dbfff285583bc0ebbe9ce826d3a074cc7512821146d2a3b8",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-30T16:00:00+00:00",
+            "entry_time": "2020-01-30T16:30:00+00:00",
+            "net_pnl_usd": -3.131381526427021,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "f21ce73dbcaf49864051fa3dfd58465dbe55e9618af78b28aaf39d525801424c",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-31T12:00:00+00:00",
+            "entry_time": "2020-01-31T12:30:00+00:00",
+            "net_pnl_usd": -3.0445529426258906,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "a9824617130af0a7507cb8b7e7e58ac8c10c49836e9b2cbee2950f103af8376e",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": -1.0774139889694667,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 9.166666666666666,
+            "carry_usd": -0.07814784512025173,
+            "costs_usd": 0.8942243108295657,
+            "expectancy_usd": -2.417782819340793,
+            "gross_pnl_usd": -6.280976302072561,
+            "hit_rate": 0.0,
+            "holding_hours": 27.5,
+            "net_pnl_usd": -7.253348458022378,
+            "trades": 3,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 11.25,
+            "carry_usd": 0.011468340951365784,
+            "costs_usd": 0.5356489817149552,
+            "expectancy_usd": -2.1815546879239953,
+            "gross_pnl_usd": -3.8389287350844015,
+            "hit_rate": 0.0,
+            "holding_hours": 22.5,
+            "net_pnl_usd": -4.363109375847991,
+            "trades": 2,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -9.425463169477148,
+        "trade_net_pnl_usd": -11.616457833870369,
+        "unallocated_safe_income_usd": 2.190994664393221
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 10.0,
+      "average_loss_usd": -2.3232915667740737,
+      "average_win_usd": null,
+      "cagr": -0.08244972954269936,
+      "calmar": -86.53318309593028,
+      "carry": -0.06667950416888595,
+      "commission": 0.4766244308481736,
+      "completed_trades": 5,
+      "cost_burden_initial_nav": 0.0001429873292544521,
+      "costs": 1.429873292544521,
+      "daily_observations": 4,
+      "expectancy_usd": -2.3232915667740737,
+      "exposure_time": 0.5208333333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.0009528105472705883,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0009425463169487891,
+      "price_pnl": -10.119905037156961,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190994664393221,
+      "sharpe_zero_rate": -11.741290326775262,
+      "slippage": 0.4766244308481736,
+      "slippage_usd": 0.4766244308481736,
+      "sortino_zero_mar": -10.457415028615152,
+      "spread": 0.4766244308481736,
+      "turnover_initial_nav": 0.9532488616963471,
+      "turnover_usd": 9532.488616963472,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.131381526427021
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 2,
+    "model": "rate_differential",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 4.657118287985709,
+            "probabilities": {
+              "variance_rank_0": 0.5337944844735297,
+              "variance_rank_1": 0.46620551552647016
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -2.760317124218605,
+            "probabilities": {
+              "variance_rank_0": 0.03801201229189755,
+              "variance_rank_1": 0.9619879877081025
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -2.809071525461134,
+            "probabilities": {
+              "variance_rank_0": 0.9868728466680226,
+              "variance_rank_1": 0.013127153331977441
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -2.723579719433831,
+            "probabilities": {
+              "variance_rank_0": 0.9990594236413881,
+              "variance_rank_1": 0.0009405763586118086
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-30T20:00:00+00:00",
+            "entry_time": "2020-01-30T20:30:00+00:00",
+            "net_pnl_usd": -3.136711377080803,
+            "probabilities": {
+              "variance_rank_0": 0.9863955411965638,
+              "variance_rank_1": 0.013604458803436184
+            },
+            "regime_id": "6dcf5763677223d7b6ba346c3fda8e6fa0c6f5ea7f129e4ad96f690f49d21bd5",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T16:00:00+00:00",
+            "entry_time": "2020-01-31T16:30:00+00:00",
+            "net_pnl_usd": -3.0341821201970474,
+            "probabilities": {
+              "variance_rank_0": 0.9989513717985337,
+              "variance_rank_1": 0.0010486282014665147
+            },
+            "regime_id": "4b016954cb671e2ba99844f291f5d290e7d746787e264a7ecc73c19d8bba7f9d",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 13.7,
+            "carry_usd": -0.18128094350703505,
+            "costs_usd": 1.3976169649854606,
+            "expectancy_usd": -1.4092852908374214,
+            "gross_pnl_usd": -5.467528545694611,
+            "hit_rate": 0.2,
+            "holding_hours": 68.5,
+            "net_pnl_usd": -7.046426454187107,
+            "trades": 5,
+            "wins": 1
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 9.0,
+            "carry_usd": -0.0229757962147542,
+            "costs_usd": 0.26828390485302844,
+            "expectancy_usd": -2.760317124218605,
+            "gross_pnl_usd": -2.469057423150822,
+            "hit_rate": 0.0,
+            "holding_hours": 9.0,
+            "net_pnl_usd": -2.760317124218605,
+            "trades": 1,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -7.614838307778688,
+        "trade_net_pnl_usd": -9.806743578405712,
+        "unallocated_safe_income_usd": 2.191905270627024
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 4.657118287985709,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -2.760317124218605,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -2.809071525461134,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -2.723579719433831,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-30T20:00:00+00:00",
+            "entry_time": "2020-01-30T20:30:00+00:00",
+            "net_pnl_usd": -3.136711377080803,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "6dcf5763677223d7b6ba346c3fda8e6fa0c6f5ea7f129e4ad96f690f49d21bd5",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-31T16:00:00+00:00",
+            "entry_time": "2020-01-31T16:30:00+00:00",
+            "net_pnl_usd": -3.0341821201970474,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "4b016954cb671e2ba99844f291f5d290e7d746787e264a7ecc73c19d8bba7f9d",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 11.75,
+            "carry_usd": -0.06675761088251324,
+            "costs_usd": 0.5961068232557292,
+            "expectancy_usd": -3.085446748638925,
+            "gross_pnl_usd": -5.508029063139608,
+            "hit_rate": 0.0,
+            "holding_hours": 23.5,
+            "net_pnl_usd": -6.17089349727785,
+            "trades": 2,
+            "wins": 0
+          },
+          "sideways_medium": {
+            "average_holding_hours": 5.5,
+            "carry_usd": -0.013937536740906392,
+            "costs_usd": 0.2663984557347806,
+            "expectancy_usd": -2.723579719433831,
+            "gross_pnl_usd": -2.443243726958144,
+            "hit_rate": 0.0,
+            "holding_hours": 5.5,
+            "net_pnl_usd": -2.723579719433831,
+            "trades": 1,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 16.166666666666668,
+            "carry_usd": -0.12356159209836962,
+            "costs_usd": 0.8033955908479791,
+            "expectancy_usd": -0.3040901205646767,
+            "gross_pnl_usd": 0.014686821252318794,
+            "hit_rate": 0.3333333333333333,
+            "holding_hours": 48.5,
+            "net_pnl_usd": -0.9122703616940302,
+            "trades": 3,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -7.614838307778688,
+        "trade_net_pnl_usd": -9.806743578405712,
+        "unallocated_safe_income_usd": 2.191905270627024
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 12.916666666666666,
+      "average_loss_usd": -2.892772373278284,
+      "average_win_usd": 4.657118287985709,
+      "cagr": -0.06715093866746638,
+      "calmar": -52.22120153355805,
+      "carry": -0.2042567397217892,
+      "commission": 0.555300289946163,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.0001665900869838489,
+      "costs": 1.665900869838489,
+      "daily_observations": 4,
+      "expectancy_usd": -1.6344572630676186,
+      "exposure_time": 0.8072916666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.16666666666666666,
+      "maximum_drawdown": 0.001285894171246027,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0007614838307783423,
+      "price_pnl": -7.936585968845433,
+      "profit_factor": 0.3219830451234536,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.191905270627024,
+      "sharpe_zero_rate": -5.756997278313413,
+      "slippage": 0.555300289946163,
+      "slippage_usd": 0.555300289946163,
+      "sortino_zero_mar": -7.22120624331529,
+      "spread": 0.555300289946163,
+      "turnover_initial_nav": 1.110600579892326,
+      "turnover_usd": 11106.00579892326,
+      "win_loss_ratio": 1.609915225617268,
+      "worst_trade_usd": -3.136711377080803
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 2,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 2.2468571204401044,
+            "probabilities": {
+              "variance_rank_0": 0.5337944844735297,
+              "variance_rank_1": 0.46620551552647016
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -5.174872267895861,
+            "probabilities": {
+              "variance_rank_0": 0.03801201229189755,
+              "variance_rank_1": 0.9619879877081025
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -5.214815531870085,
+            "probabilities": {
+              "variance_rank_0": 0.9868728466680226,
+              "variance_rank_1": 0.013127153331977441
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -5.121165821046857,
+            "probabilities": {
+              "variance_rank_0": 0.9990594236413881,
+              "variance_rank_1": 0.0009405763586118086
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T00:00:00+00:00",
+            "entry_time": "2020-01-31T00:30:00+00:00",
+            "net_pnl_usd": 2.6006532236224804,
+            "probabilities": {
+              "variance_rank_0": 0.8501762734393974,
+              "variance_rank_1": 0.14982372656060253
+            },
+            "regime_id": "0a352d1079520cb8e8cd3d6ad3a8cf5d37587906310a4c8a93bf1ba84cce10cf",
+            "state": "variance_rank_0"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": -2.198157073623451,
+            "probabilities": {
+              "variance_rank_0": 0.9983147093886185,
+              "variance_rank_1": 0.0016852906113815676
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "variance_rank_0"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_0": {
+            "average_holding_hours": 13.3,
+            "carry_usd": -0.10231429984040742,
+            "costs_usd": 13.968903336890918,
+            "expectancy_usd": -1.5373256164955618,
+            "gross_pnl_usd": 6.384589554253517,
+            "hit_rate": 0.4,
+            "holding_hours": 66.5,
+            "net_pnl_usd": -7.686628082477808,
+            "trades": 5,
+            "wins": 2
+          },
+          "variance_rank_1": {
+            "average_holding_hours": 9.0,
+            "carry_usd": -0.0229757962147542,
+            "costs_usd": 2.682839048530284,
+            "expectancy_usd": -5.174872267895861,
+            "gross_pnl_usd": -2.469057423150822,
+            "hit_rate": 0.0,
+            "holding_hours": 9.0,
+            "net_pnl_usd": -5.174872267895861,
+            "trades": 1,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -10.670724323659979,
+        "trade_net_pnl_usd": -12.86150035037367,
+        "unallocated_safe_income_usd": 2.190776026713691
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-01-28T04:00:00+00:00",
+            "entry_time": "2020-01-28T04:30:00+00:00",
+            "net_pnl_usd": 2.2468571204401044,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "a8ade7d7389769b218445ab083157cc2cc7f8c3e5f6c07684064a5953eadc418",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T00:00:00+00:00",
+            "entry_time": "2020-01-29T00:30:00+00:00",
+            "net_pnl_usd": -5.174872267895861,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "2393de0a4197c9134a7d4474d067c0f9db313797fecac7627f211cef445009c4",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-29T12:00:00+00:00",
+            "entry_time": "2020-01-29T12:30:00+00:00",
+            "net_pnl_usd": -5.214815531870085,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "3bed2fed5d6f9b75faad20dafd9a91296016f37c7ddb5e3a5286d920217744ca",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-01-30T12:00:00+00:00",
+            "entry_time": "2020-01-30T12:30:00+00:00",
+            "net_pnl_usd": -5.121165821046857,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "504456b70652985f5acbf45238b5f9088f45e5a5e99d2883cca4f1a4027ade6d",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-01-31T00:00:00+00:00",
+            "entry_time": "2020-01-31T00:30:00+00:00",
+            "net_pnl_usd": 2.6006532236224804,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "0a352d1079520cb8e8cd3d6ad3a8cf5d37587906310a4c8a93bf1ba84cce10cf",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-01-31T20:00:00+00:00",
+            "entry_time": "2020-01-31T20:30:00+00:00",
+            "net_pnl_usd": -2.198157073623451,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "ae38ccf4e89c6f92f7a1b343e9443be78423b1bef48780e7268ff8821b5bb764",
+            "state": "down_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 10.75,
+            "carry_usd": 0.012209032784114384,
+            "costs_usd": 5.953801919593605,
+            "expectancy_usd": 0.2012480749995147,
+            "gross_pnl_usd": 6.34408903680852,
+            "hit_rate": 0.5,
+            "holding_hours": 21.5,
+            "net_pnl_usd": 0.4024961499990294,
+            "trades": 2,
+            "wins": 1
+          },
+          "sideways_medium": {
+            "average_holding_hours": 5.5,
+            "carry_usd": -0.013937536740906392,
+            "costs_usd": 2.6639845573478063,
+            "expectancy_usd": -5.121165821046857,
+            "gross_pnl_usd": -2.443243726958144,
+            "hit_rate": 0.0,
+            "holding_hours": 5.5,
+            "net_pnl_usd": -5.121165821046857,
+            "trades": 1,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 16.166666666666668,
+            "carry_usd": -0.12356159209836962,
+            "costs_usd": 8.03395590847979,
+            "expectancy_usd": -2.714276893108613,
+            "gross_pnl_usd": 0.014686821252318794,
+            "hit_rate": 0.3333333333333333,
+            "holding_hours": 48.5,
+            "net_pnl_usd": -8.14283067932584,
+            "trades": 3,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -10.670724323659977,
+        "trade_net_pnl_usd": -12.861500350373667,
+        "unallocated_safe_income_usd": 2.190776026713691
+      }
+    },
+    "profile": "high_cost",
+    "risk_metrics": {
+      "average_holding_hours": 12.583333333333334,
+      "average_loss_usd": -4.427252673609063,
+      "average_win_usd": 2.423755172031292,
+      "cagr": -0.09282721653903889,
+      "calmar": -53.97743793680669,
+      "carry": -0.12529009605516156,
+      "commission": 5.550580795140401,
+      "completed_trades": 6,
+      "cost_burden_initial_nav": 0.00166517423854212,
+      "costs": 16.6517423854212,
+      "daily_observations": 4,
+      "expectancy_usd": -2.143583391728945,
+      "exposure_time": 0.7864583333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.3333333333333333,
+      "maximum_drawdown": 0.0017197410638073451,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.001067072432365923,
+      "price_pnl": 3.9155321311026947,
+      "profit_factor": 0.27373129011580283,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190776026713691,
+      "sharpe_zero_rate": -7.467977859331793,
+      "slippage": 5.550580795140401,
+      "slippage_usd": 5.550580795140401,
+      "sortino_zero_mar": -7.856477392449982,
+      "spread": 5.550580795140401,
+      "turnover_initial_nav": 1.1101161590280801,
+      "turnover_usd": 11101.1615902808,
+      "win_loss_ratio": 0.5474625802316057,
+      "worst_trade_usd": -5.214815531870085
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 3,
+    "model": "no_trade",
+    "performance": {
+      "hmm": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 2.1920197833361157,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 2.1920197833361157
+      },
+      "rule": {
+        "assignments": [],
+        "attribution": "entry_decision_hard_state",
+        "groups": {},
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 2.1920197833361157,
+        "trade_net_pnl_usd": 0,
+        "unallocated_safe_income_usd": 2.1920197833361157
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": null,
+      "average_loss_usd": null,
+      "average_win_usd": null,
+      "cagr": 0.020201328380628054,
+      "calmar": null,
+      "carry": 0.0,
+      "commission": 0.0,
+      "completed_trades": 0,
+      "cost_burden_initial_nav": 0.0,
+      "costs": 0.0,
+      "daily_observations": 4,
+      "expectancy_usd": null,
+      "exposure_time": 0.0,
+      "gap_stops": 0,
+      "hit_rate": null,
+      "maximum_drawdown": 0.0,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.00021920197833358301,
+      "price_pnl": 0.0,
+      "profit_factor": null,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1920197833361157,
+      "sharpe_zero_rate": 1813449375606.2222,
+      "slippage": 0.0,
+      "slippage_usd": 0.0,
+      "sortino_zero_mar": null,
+      "spread": 0.0,
+      "turnover_initial_nav": 0.0,
+      "turnover_usd": 0.0,
+      "win_loss_ratio": null,
+      "worst_trade_usd": null
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 3,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -3.0135424432605773,
+            "probabilities": {
+              "variance_rank_0": 0.01689824142677586,
+              "variance_rank_1": 0.9831017585732241
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-04T16:00:00+00:00",
+            "entry_time": "2020-02-04T16:30:00+00:00",
+            "net_pnl_usd": -0.39385880497964354,
+            "probabilities": {
+              "variance_rank_0": 1.6267553804203736e-07,
+              "variance_rank_1": 0.999999837324462
+            },
+            "regime_id": "b85e0b99c92d8814cf4b7ec32cca216c0c6605f50ae2e600754ffac365e73119",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T08:00:00+00:00",
+            "entry_time": "2020-02-05T08:30:00+00:00",
+            "net_pnl_usd": 4.135685864002294,
+            "probabilities": {
+              "variance_rank_0": 0.0008570338551558393,
+              "variance_rank_1": 0.9991429661448441
+            },
+            "regime_id": "9c320521d5e0e50f7371765e951ff44a92eb5a39d1cf60616f573b7342af6c42",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T20:00:00+00:00",
+            "entry_time": "2020-02-05T20:30:00+00:00",
+            "net_pnl_usd": 3.6726933493303373,
+            "probabilities": {
+              "variance_rank_0": 9.554683181278213e-09,
+              "variance_rank_1": 0.9999999904453167
+            },
+            "regime_id": "84d118f2d8b661026e85b95cfaf34c86a941758204d2b02e7ea713b54d579a54",
+            "state": "variance_rank_1"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_1": {
+            "average_holding_hours": 19.75,
+            "carry_usd": -0.06647678398547868,
+            "costs_usd": 1.163443059732919,
+            "expectancy_usd": 1.1002444912731026,
+            "gross_pnl_usd": 5.630897808810809,
+            "hit_rate": 0.5,
+            "holding_hours": 79.0,
+            "net_pnl_usd": 4.400977965092411,
+            "trades": 4,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.592884740157746,
+        "trade_net_pnl_usd": 4.400977965092411,
+        "unallocated_safe_income_usd": 2.1919067750653363
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -3.0135424432605773,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T16:00:00+00:00",
+            "entry_time": "2020-02-04T16:30:00+00:00",
+            "net_pnl_usd": -0.39385880497964354,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "b85e0b99c92d8814cf4b7ec32cca216c0c6605f50ae2e600754ffac365e73119",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-02-05T08:00:00+00:00",
+            "entry_time": "2020-02-05T08:30:00+00:00",
+            "net_pnl_usd": 4.135685864002294,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "9c320521d5e0e50f7371765e951ff44a92eb5a39d1cf60616f573b7342af6c42",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-02-05T20:00:00+00:00",
+            "entry_time": "2020-02-05T20:30:00+00:00",
+            "net_pnl_usd": 3.6726933493303373,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "84d118f2d8b661026e85b95cfaf34c86a941758204d2b02e7ea713b54d579a54",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 32.0,
+            "carry_usd": 0.018094028299465038,
+            "costs_usd": 0.2975177829649649,
+            "expectancy_usd": -3.0135424432605773,
+            "gross_pnl_usd": -2.7341186885950775,
+            "hit_rate": 0.0,
+            "holding_hours": 32.0,
+            "net_pnl_usd": -3.0135424432605773,
+            "trades": 1,
+            "wins": 0
+          },
+          "sideways_medium": {
+            "average_holding_hours": 9.75,
+            "carry_usd": -0.014537125627144766,
+            "costs_usd": 0.5979056426640437,
+            "expectancy_usd": 1.8709135295113253,
+            "gross_pnl_usd": 4.354269827313839,
+            "hit_rate": 0.5,
+            "holding_hours": 19.5,
+            "net_pnl_usd": 3.7418270590226506,
+            "trades": 2,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 27.5,
+            "carry_usd": -0.07003368665779895,
+            "costs_usd": 0.2680196341039106,
+            "expectancy_usd": 3.6726933493303373,
+            "gross_pnl_usd": 4.010746670092047,
+            "hit_rate": 1.0,
+            "holding_hours": 27.5,
+            "net_pnl_usd": 3.6726933493303373,
+            "trades": 1,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": 6.592884740157746,
+        "trade_net_pnl_usd": 4.400977965092411,
+        "unallocated_safe_income_usd": 2.1919067750653363
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 19.75,
+      "average_loss_usd": -1.7037006241201105,
+      "average_win_usd": 3.904189606666316,
+      "cagr": 0.06198548014299121,
+      "calmar": 130.65946648268348,
+      "carry": -0.0664767839854787,
+      "commission": 0.3878143532443064,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.0001163443059732919,
+      "costs": 1.163443059732919,
+      "daily_observations": 4,
+      "expectancy_usd": 1.1002444912731026,
+      "exposure_time": 0.8229166666666666,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0004744048159052161,
+      "modeled_risk_limits_pass": true,
+      "net_return": 0.0006592884740150851,
+      "price_pnl": 5.630897808810809,
+      "profit_factor": 2.2915936939816905,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1919067750653363,
+      "sharpe_zero_rate": 6.234593416747872,
+      "slippage": 0.3878143532443064,
+      "slippage_usd": 0.3878143532443064,
+      "sortino_zero_mar": 12.425976485426458,
+      "spread": 0.3878143532443064,
+      "turnover_initial_nav": 0.7756287064886128,
+      "turnover_usd": 7756.287064886128,
+      "win_loss_ratio": 2.2915936939816905,
+      "worst_trade_usd": -3.0135424432605773
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 3,
+    "model": "mean_reversion",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": 0.7752154256856498,
+            "probabilities": {
+              "variance_rank_0": 0.01689824142677586,
+              "variance_rank_1": 0.9831017585732241
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T12:00:00+00:00",
+            "entry_time": "2020-02-05T12:30:00+00:00",
+            "net_pnl_usd": -2.6810843017535797,
+            "probabilities": {
+              "variance_rank_0": 1.832976401390023e-07,
+              "variance_rank_1": 0.9999998167023599
+            },
+            "regime_id": "c6d98681c1224d348c63d99c861369fcd12d8122df069b2c7f55cb0836d2a4c7",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T20:00:00+00:00",
+            "entry_time": "2020-02-05T20:30:00+00:00",
+            "net_pnl_usd": -0.2837821333039982,
+            "probabilities": {
+              "variance_rank_0": 9.554683181278213e-09,
+              "variance_rank_1": 0.9999999904453167
+            },
+            "regime_id": "84d118f2d8b661026e85b95cfaf34c86a941758204d2b02e7ea713b54d579a54",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-06T20:00:00+00:00",
+            "entry_time": "2020-02-06T20:30:00+00:00",
+            "net_pnl_usd": -1.4315612098614636,
+            "probabilities": {
+              "variance_rank_0": 2.8417386228537166e-07,
+              "variance_rank_1": 0.9999997158261378
+            },
+            "regime_id": "07ee384b60f124d6e76122a93d28bf50034ab4f1136c811330b1188a3711136e",
+            "state": "variance_rank_1"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_1": {
+            "average_holding_hours": 6.75,
+            "carry_usd": 0.0006157076380876984,
+            "costs_usd": 1.1328590914858276,
+            "expectancy_usd": -0.9053030548083479,
+            "gross_pnl_usd": -2.488968835385652,
+            "hit_rate": 0.25,
+            "holding_hours": 27.0,
+            "net_pnl_usd": -3.6212122192333918,
+            "trades": 4,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -1.4292694886820771,
+        "trade_net_pnl_usd": -3.6212122192333918,
+        "unallocated_safe_income_usd": 2.1919427305513146
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": 0.7752154256856498,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-05T12:00:00+00:00",
+            "entry_time": "2020-02-05T12:30:00+00:00",
+            "net_pnl_usd": -2.6810843017535797,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "c6d98681c1224d348c63d99c861369fcd12d8122df069b2c7f55cb0836d2a4c7",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-02-05T20:00:00+00:00",
+            "entry_time": "2020-02-05T20:30:00+00:00",
+            "net_pnl_usd": -0.2837821333039982,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "84d118f2d8b661026e85b95cfaf34c86a941758204d2b02e7ea713b54d579a54",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-02-06T20:00:00+00:00",
+            "entry_time": "2020-02-06T20:30:00+00:00",
+            "net_pnl_usd": -1.4315612098614636,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "07ee384b60f124d6e76122a93d28bf50034ab4f1136c811330b1188a3711136e",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 4.0,
+            "carry_usd": -0.011310926194334592,
+            "costs_usd": 0.29727023464965513,
+            "expectancy_usd": 0.7752154256856498,
+            "gross_pnl_usd": 1.0837965865296395,
+            "hit_rate": 1.0,
+            "holding_hours": 4.0,
+            "net_pnl_usd": 0.7752154256856498,
+            "trades": 1,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 7.666666666666667,
+            "carry_usd": 0.011926633832422292,
+            "costs_usd": 0.8355888568361725,
+            "expectancy_usd": -1.4654758816396807,
+            "gross_pnl_usd": -3.5727654219152916,
+            "hit_rate": 0.0,
+            "holding_hours": 23.0,
+            "net_pnl_usd": -4.396427644919042,
+            "trades": 3,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -1.4292694886820776,
+        "trade_net_pnl_usd": -3.621212219233392,
+        "unallocated_safe_income_usd": 2.1919427305513146
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 6.75,
+      "average_loss_usd": -1.4654758816396805,
+      "average_win_usd": 0.7752154256856498,
+      "cagr": -0.012958324680746843,
+      "calmar": -36.144141102181614,
+      "carry": 0.0006157076380876991,
+      "commission": 0.3776196971619426,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011328590914858276,
+      "costs": 1.1328590914858276,
+      "daily_observations": 4,
+      "expectancy_usd": -0.9053030548083479,
+      "exposure_time": 0.28125,
+      "gap_stops": 0,
+      "hit_rate": 0.25,
+      "maximum_drawdown": 0.0003585179861962384,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0001429269488691931,
+      "price_pnl": -2.488968835385652,
+      "profit_factor": 0.17632848491924288,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1919427305513146,
+      "sharpe_zero_rate": -2.9853408061622937,
+      "slippage": 0.3776196971619426,
+      "slippage_usd": 0.3776196971619426,
+      "sortino_zero_mar": -3.7222862673872923,
+      "spread": 0.3776196971619426,
+      "turnover_initial_nav": 0.7552393943238851,
+      "turnover_usd": 7552.393943238851,
+      "win_loss_ratio": 0.5289854547577287,
+      "worst_trade_usd": -2.6810843017535797
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 3,
+    "model": "rate_differential",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -1.746274368833816,
+            "probabilities": {
+              "variance_rank_0": 0.01689824142677586,
+              "variance_rank_1": 0.9831017585732241
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T00:00:00+00:00",
+            "entry_time": "2020-02-05T00:30:00+00:00",
+            "net_pnl_usd": -3.0731182805944135,
+            "probabilities": {
+              "variance_rank_0": 0.03438318103916935,
+              "variance_rank_1": 0.9656168189608306
+            },
+            "regime_id": "5cf31566274990acd8e37776af9f886adcfd8957ac18af1e4db6eddab644aaa7",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T16:00:00+00:00",
+            "entry_time": "2020-02-05T16:30:00+00:00",
+            "net_pnl_usd": -2.7032660375399953,
+            "probabilities": {
+              "variance_rank_0": 5.629711019173563e-10,
+              "variance_rank_1": 0.999999999437029
+            },
+            "regime_id": "2c9eec9bcdbd47c0b959e2cb9a2b8ca3cb729f31e7ac31a4da05e62552b2c4ca",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-06T00:00:00+00:00",
+            "entry_time": "2020-02-06T00:30:00+00:00",
+            "net_pnl_usd": -2.737837647652139,
+            "probabilities": {
+              "variance_rank_0": 4.7514259093784506e-05,
+              "variance_rank_1": 0.9999524857409062
+            },
+            "regime_id": "1b6dc69fea9afdb1649562b91f6c963d25d327778388b9e7e94bd4bed3ef319f",
+            "state": "variance_rank_1"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_1": {
+            "average_holding_hours": 14.75,
+            "carry_usd": -0.03596575002783372,
+            "costs_usd": 1.1311275073283236,
+            "expectancy_usd": -2.565124083655091,
+            "gross_pnl_usd": -9.093403077264206,
+            "hit_rate": 0.0,
+            "holding_hours": 59.0,
+            "net_pnl_usd": -10.260496334620363,
+            "trades": 4,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -8.069203931843777,
+        "trade_net_pnl_usd": -10.260496334620363,
+        "unallocated_safe_income_usd": 2.1912924027765865
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -1.746274368833816,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-05T00:00:00+00:00",
+            "entry_time": "2020-02-05T00:30:00+00:00",
+            "net_pnl_usd": -3.0731182805944135,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "5cf31566274990acd8e37776af9f886adcfd8957ac18af1e4db6eddab644aaa7",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-02-05T16:00:00+00:00",
+            "entry_time": "2020-02-05T16:30:00+00:00",
+            "net_pnl_usd": -2.7032660375399953,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "2c9eec9bcdbd47c0b959e2cb9a2b8ca3cb729f31e7ac31a4da05e62552b2c4ca",
+            "state": "up_medium"
+          },
+          {
+            "decision_time": "2020-02-06T00:00:00+00:00",
+            "entry_time": "2020-02-06T00:30:00+00:00",
+            "net_pnl_usd": -2.737837647652139,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "1b6dc69fea9afdb1649562b91f6c963d25d327778388b9e7e94bd4bed3ef319f",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 20.0,
+            "carry_usd": -0.05655978044498031,
+            "costs_usd": 0.2968987427848351,
+            "expectancy_usd": -1.746274368833816,
+            "gross_pnl_usd": -1.3928158456040007,
+            "hit_rate": 0.0,
+            "holding_hours": 20.0,
+            "net_pnl_usd": -1.746274368833816,
+            "trades": 1,
+            "wins": 0
+          },
+          "up_medium": {
+            "average_holding_hours": 13.0,
+            "carry_usd": 0.02059403041714658,
+            "costs_usd": 0.8342287645434887,
+            "expectancy_usd": -2.8380739885955157,
+            "gross_pnl_usd": -7.700587231660205,
+            "hit_rate": 0.0,
+            "holding_hours": 39.0,
+            "net_pnl_usd": -8.514221965786547,
+            "trades": 3,
+            "wins": 0
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -8.069203931843777,
+        "trade_net_pnl_usd": -10.260496334620363,
+        "unallocated_safe_income_usd": 2.1912924027765865
+      }
+    },
+    "profile": "base",
+    "risk_metrics": {
+      "average_holding_hours": 14.75,
+      "average_loss_usd": -2.565124083655091,
+      "average_win_usd": null,
+      "cagr": -0.07101362746991015,
+      "calmar": -72.1694244215362,
+      "carry": -0.03596575002783374,
+      "commission": 0.37704250244277454,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.00011311275073283236,
+      "costs": 1.1311275073283236,
+      "daily_observations": 4,
+      "expectancy_usd": -2.565124083655091,
+      "exposure_time": 0.6145833333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.0,
+      "maximum_drawdown": 0.0009839849498469722,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.000806920393183419,
+      "price_pnl": -9.093403077264206,
+      "profit_factor": 0.0,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.1912924027765865,
+      "sharpe_zero_rate": -13.490181218255989,
+      "slippage": 0.37704250244277454,
+      "slippage_usd": 0.37704250244277454,
+      "sortino_zero_mar": -11.135871737285798,
+      "spread": 0.37704250244277454,
+      "turnover_initial_nav": 0.7540850048855491,
+      "turnover_usd": 7540.850048855491,
+      "win_loss_ratio": null,
+      "worst_trade_usd": -3.0731182805944135
+    }
+  },
+  {
+    "decisions": 24,
+    "fold": 3,
+    "model": "trend",
+    "performance": {
+      "hmm": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -5.691202489945262,
+            "probabilities": {
+              "variance_rank_0": 0.01689824142677586,
+              "variance_rank_1": 0.9831017585732241
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-04T16:00:00+00:00",
+            "entry_time": "2020-02-04T16:30:00+00:00",
+            "net_pnl_usd": -3.080322426291408,
+            "probabilities": {
+              "variance_rank_0": 1.6267553804203736e-07,
+              "variance_rank_1": 0.999999837324462
+            },
+            "regime_id": "b85e0b99c92d8814cf4b7ec32cca216c0c6605f50ae2e600754ffac365e73119",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T08:00:00+00:00",
+            "entry_time": "2020-02-05T08:30:00+00:00",
+            "net_pnl_usd": 0.7567224350802011,
+            "probabilities": {
+              "variance_rank_0": 0.0008570338551558393,
+              "variance_rank_1": 0.9991429661448441
+            },
+            "regime_id": "9c320521d5e0e50f7371765e951ff44a92eb5a39d1cf60616f573b7342af6c42",
+            "state": "variance_rank_1"
+          },
+          {
+            "decision_time": "2020-02-05T16:00:00+00:00",
+            "entry_time": "2020-02-05T16:30:00+00:00",
+            "net_pnl_usd": 2.130905824784291,
+            "probabilities": {
+              "variance_rank_0": 5.629711019173563e-10,
+              "variance_rank_1": 0.999999999437029
+            },
+            "regime_id": "2c9eec9bcdbd47c0b959e2cb9a2b8ca3cb729f31e7ac31a4da05e62552b2c4ca",
+            "state": "variance_rank_1"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "variance_rank_1": {
+            "average_holding_hours": 19.625,
+            "carry_usd": -0.06484982874803163,
+            "costs_usd": 11.62877720819803,
+            "expectancy_usd": -1.4709741640930445,
+            "gross_pnl_usd": 5.809730380573885,
+            "hit_rate": 0.5,
+            "holding_hours": 78.5,
+            "net_pnl_usd": -5.883896656372178,
+            "trades": 4,
+            "wins": 2
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -3.6929990527942658,
+        "trade_net_pnl_usd": -5.883896656372178,
+        "unallocated_safe_income_usd": 2.190897603577912
+      },
+      "rule": {
+        "assignments": [
+          {
+            "decision_time": "2020-02-03T04:00:00+00:00",
+            "entry_time": "2020-02-03T04:30:00+00:00",
+            "net_pnl_usd": -5.691202489945262,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 1.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "a4e2eb23c787f82c1f371c607987b9dd5d41870257e9bf00ff465500d19a583f",
+            "state": "down_medium"
+          },
+          {
+            "decision_time": "2020-02-04T16:00:00+00:00",
+            "entry_time": "2020-02-04T16:30:00+00:00",
+            "net_pnl_usd": -3.080322426291408,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "b85e0b99c92d8814cf4b7ec32cca216c0c6605f50ae2e600754ffac365e73119",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-02-05T08:00:00+00:00",
+            "entry_time": "2020-02-05T08:30:00+00:00",
+            "net_pnl_usd": 0.7567224350802011,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 1.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 0.0
+            },
+            "regime_id": "9c320521d5e0e50f7371765e951ff44a92eb5a39d1cf60616f573b7342af6c42",
+            "state": "sideways_medium"
+          },
+          {
+            "decision_time": "2020-02-05T16:00:00+00:00",
+            "entry_time": "2020-02-05T16:30:00+00:00",
+            "net_pnl_usd": 2.130905824784291,
+            "probabilities": {
+              "down_high": 0.0,
+              "down_low": 0.0,
+              "down_medium": 0.0,
+              "sideways_high": 0.0,
+              "sideways_low": 0.0,
+              "sideways_medium": 0.0,
+              "up_high": 0.0,
+              "up_low": 0.0,
+              "up_medium": 1.0
+            },
+            "regime_id": "2c9eec9bcdbd47c0b959e2cb9a2b8ca3cb729f31e7ac31a4da05e62552b2c4ca",
+            "state": "up_medium"
+          }
+        ],
+        "attribution": "entry_decision_hard_state",
+        "groups": {
+          "down_medium": {
+            "average_holding_hours": 32.0,
+            "carry_usd": 0.018094028299465038,
+            "costs_usd": 2.975177829649649,
+            "expectancy_usd": -5.691202489945262,
+            "gross_pnl_usd": -2.7341186885950775,
+            "hit_rate": 0.0,
+            "holding_hours": 32.0,
+            "net_pnl_usd": -5.691202489945262,
+            "trades": 1,
+            "wins": 0
+          },
+          "sideways_medium": {
+            "average_holding_hours": 9.25,
+            "carry_usd": -0.011683971372228095,
+            "costs_usd": 5.9780241841459265,
+            "expectancy_usd": -1.1617999956056035,
+            "gross_pnl_usd": 3.666108164306947,
+            "hit_rate": 0.5,
+            "holding_hours": 18.5,
+            "net_pnl_usd": -2.323599991211207,
+            "trades": 2,
+            "wins": 1
+          },
+          "up_medium": {
+            "average_holding_hours": 28.0,
+            "carry_usd": -0.07125988567526859,
+            "costs_usd": 2.675575194402456,
+            "expectancy_usd": 2.130905824784291,
+            "gross_pnl_usd": 4.877740904862016,
+            "hit_rate": 1.0,
+            "holding_hours": 28.0,
+            "net_pnl_usd": 2.130905824784291,
+            "trades": 1,
+            "wins": 1
+          }
+        },
+        "risk_limits_unchanged": true,
+        "total_nav_change_usd": -3.6929990527942658,
+        "trade_net_pnl_usd": -5.883896656372178,
+        "unallocated_safe_income_usd": 2.190897603577912
+      }
+    },
+    "profile": "high_cost",
+    "risk_metrics": {
+      "average_holding_hours": 19.625,
+      "average_loss_usd": -4.385762458118335,
+      "average_win_usd": 1.443814129932246,
+      "cagr": -0.033143160335260435,
+      "calmar": -35.329372586407246,
+      "carry": -0.06484982874803163,
+      "commission": 3.8762590693993437,
+      "completed_trades": 4,
+      "cost_burden_initial_nav": 0.001162877720819803,
+      "costs": 11.62877720819803,
+      "daily_observations": 4,
+      "expectancy_usd": -1.4709741640930445,
+      "exposure_time": 0.8177083333333334,
+      "gap_stops": 0,
+      "hit_rate": 0.5,
+      "maximum_drawdown": 0.0009381191317281434,
+      "modeled_risk_limits_pass": true,
+      "net_return": -0.0003692999052784529,
+      "price_pnl": 5.809730380573885,
+      "profit_factor": 0.3292048175704662,
+      "risk_budget_breaches": 0,
+      "safe_income": 2.190897603577912,
+      "sharpe_zero_rate": -3.650950660637888,
+      "slippage": 3.8762590693993437,
+      "slippage_usd": 3.8762590693993437,
+      "sortino_zero_mar": -4.248202339517532,
+      "spread": 3.8762590693993437,
+      "turnover_initial_nav": 0.7752518138798687,
+      "turnover_usd": 7752.518138798688,
+      "win_loss_ratio": 0.3292048175704662,
+      "worst_trade_usd": -5.691202489945262
+    }
+  }
+]

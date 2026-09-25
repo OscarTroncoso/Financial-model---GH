@@ -1,0 +1,13 @@
+{
+  "rule_window": 12,
+  "trend_threshold": 0.4,
+  "low_volatility": 0.001,
+  "high_volatility": 0.003,
+  "training_window": 60,
+  "states": 2,
+  "max_iterations": 200,
+  "tolerance": 1e-05,
+  "variance_floor": 0.0001,
+  "maximum_age_minutes": 300,
+  "maximum_gap_hours": 76
+}
